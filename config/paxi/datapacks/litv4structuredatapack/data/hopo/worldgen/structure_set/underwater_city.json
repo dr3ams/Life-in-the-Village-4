@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "hopo:underwater/underwater_city",
+			"weight": 10
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 77777777,
+		"exclusion_zone": {
+			"other_set": "minecraft:ocean_monuments",
+			"chunk_count": 10
+		},
+		"spacing": 75,
+		"separation": 50
+	}
+}
