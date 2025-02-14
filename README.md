@@ -1,4 +1,11 @@
 ![BH_LitV4_header](https://github.com/user-attachments/assets/4edbd944-daaa-40a9-ae83-3c515f5e07e0)
+[![1](https://img.shields.io/discord/512339624627011586?color=blue&label=discord&logo=discord&style=for-the-badge)](https://discord.gg/CG6HjQjW5c) [![2](https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Dreams01&type=patrons&style=for-the-badge)](https://www.patreon.com/Dreams01) [![3](https://img.shields.io/badge/Rent%20-a%20server-cyan?style=for-the-badge&logo=Codeforces&logoColor=cyan)](https://bisecthosting.com/xdreamz) [![4](https://img.shields.io/badge/My-projects-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/dreams01/projects)
+
+Modpack is continuation of my previous pack [**Life in the village 3**](https://www.curseforge.com/minecraft/modpacks/life-in-the-village-3) but for newer versions of Minecraft. (1.20.1)
+
+[**Latest version is available on modpack's curseforge page!**](https://www.curseforge.com/minecraft/modpacks/life-in-the-village-4)
+
+
 This pack is based around town-building mod - Minecolonies with useful additions and content extensions. Build your own thriving town, impregnable fortress, nordic settlement or even small fishing village. Don't want to bother with enemies and farm peacefully? We got it covered too! On other hand it's so called Vanilla+ modpack that will enhance your 'close-to-vanilla' gameplay and add some new features(like new NPCs that will work for you, new terrain features, biomes, mineshafts, decorations(see features list for details)) to explore and interact with, so you wont be overwhelmed with a lot of new and unusual stuff.
 
 MineColonies is an interactive building mod that allows you to create your own thriving town within Minecraft. It lets your leadership skills soar by providing you with everything you need to build your kingdom. MineColonies gives you the flexibility to create a colony as unique as every player. With so many options, you’ll create a different colony every time, adapt to any biome, build inside a mountain, on top of one, under the ocean, or in the sky.
