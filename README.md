@@ -43,3 +43,13 @@ MineColonies is an interactive building mod that allows you to create your own t
 - collectible cards which will enhance your character on completing full sets
 - extended movement with wall jump, fence jump, double jump enchants.
 - player companions with different types like collector, follower, guard
+
+
+<details>
+  <summary>Modlist</summary>
+  
+1. 1
+2. 2
+3. 3
+  
+</details>
