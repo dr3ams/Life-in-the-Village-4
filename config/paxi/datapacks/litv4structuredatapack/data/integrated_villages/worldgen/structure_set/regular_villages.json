@@ -1,0 +1,54 @@
+{
+  "structures": [
+    {
+      "structure": "integrated_villages:tavern_village",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_villages:pirate_village",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_villages:mediterranean_village",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_villages:kutcha_village",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_villages:oasis_village",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_villages:mossy_mounds",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_villages:cabin_village",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_villages:quark/minka_village",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_villages:marketstead_village",
+      "weight": 1
+    },
+    {
+      "structure": "integrated_villages:clockwork_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "integrated_api:advanced_random_spread",
+    "salt": 1982700828,
+    "spacing": 110,
+    "separation": 60,
+    "super_exclusion_zone": {
+      "chunk_count": 20,
+      "other_set": "#integrated_villages:village_avoid"
+    }
+  }
+}

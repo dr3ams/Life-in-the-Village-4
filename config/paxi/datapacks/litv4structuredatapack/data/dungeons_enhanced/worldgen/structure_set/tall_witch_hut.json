@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "frequency": 0,
+    "offset": 16,
+    "salt": 2060711611,
+    "spacing": 21,
+    "structure": "dungeons_enhanced:tall_witch_hut"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:tall_witch_hut",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "stoneholm:underground_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 8699777,
+
+    "spacing": 47,
+    "separation": 32,
+    "type": "minecraft:random_spread"
+  }
+}

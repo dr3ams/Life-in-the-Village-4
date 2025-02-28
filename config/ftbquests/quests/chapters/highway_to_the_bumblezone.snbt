@@ -1,0 +1,1596 @@
+{
+	autofocus_id: "17777CD49B8B6F41"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "highway_to_the_bumblezone"
+	group: "6454BAEA71CB61DD"
+	icon: "the_bumblezone:beehemoth_spawn_egg"
+	id: "76389659C6680826"
+	images: [{
+		height: 4.006144393241168d
+		image: "litv3:textures/misc/rad_bee.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -6.5d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"  The Bumblezone is a dimension filled with Honeycomb Blocks, Honey Blocks, Honey Crystals, Sugar Water, and many new bee-related blocks! Explore the many biomes and structures to your heart's content. Just don't anger the Hive..."
+				""
+				" Entering the dimension is super easy! Just throw an Enderpearl at any Bee Nest or Beehive (even modded ones work!) to enter inside it and spawn into the dimension. You can also make yourself (riding a mob or vehicle) or any mob enter the dimension by using a piston to push the player or mob into a Beehive or Bee Nest block."
+				""
+				"To teleport out of the dimension, you can either dig down and fall below Y = 0 or climb your way to above Y = 256."
+			]
+			icon: "minecraft:honeycomb"
+			id: "17777CD49B8B6F41"
+			size: 2.0d
+			tasks: [
+				{
+					dimension: "the_bumblezone:the_bumblezone"
+					id: "03C664A54AB9519A"
+					type: "dimension"
+				}
+				{
+					id: "6ED6A250C59F80CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			title: "♪ Highway to the Bumble Zone ♫"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			description: ["i was sick while making this chapter, so sucking on hard candy while exploring the sugar dimension was very immersing"]
+			id: "5E4C69CC15CADF88"
+			rewards: [{
+				count: 8
+				id: "120E8D19EF612A9B"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59B034778B633DD3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "the_bumblezone:honey_crystal_shards"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E4C69CC15CADF88"]
+			description: ["Seriously, it's terrible. Don't even bother trying to upgrade it. It doesn't get any better."]
+			id: "3E69CC75B111D4A4"
+			rewards: [{
+				count: 7
+				id: "1EC95F3DA218FE10"
+				item: "the_bumblezone:honey_crystal_shards"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52042FF627E24425"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "the_bumblezone:honey_crystal_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "The Worst Shield"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "3BFBB0CC1C2BE735"
+			rewards: [{
+				id: "3A51689185FECAA1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "323F6FE496B9FA0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "the_bumblezone:beehive_beeswax"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E4C69CC15CADF88"]
+			id: "308701D3BB09B731"
+			rewards: [{
+				id: "7D985DB31FCD54E6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5218B252205231CE"
+				item: "the_bumblezone:glistering_honey_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["308701D3BB09B731"]
+			description: [
+				"This magical flower can only be found in certain structures. It can only survive on crystal blocks, like crystallized honey or amethyst. It can be picked up and moved without needing Silk Touch, and saves its Tier and experience when moved."
+				""
+				"When fed items or levels, the flower grows, up to 7 blocks, or tiers, high. ANY item can be used. Honey. Planks. Dirt. Rotten flesh. Some items are worth more than others, using a point system I don't understand, but you can easily fuel this thing with vast quantities of trash. As the flower gets taller, you need more items to make it grow another tier."
+				""
+				"The top slot of the flower's UI is for books or enchanted books. Put one in, and you can spend tiers to enchant books with almost any enchantment you want! At the highest tier, 7, you can even buy treasure enchantments! The highest level of book you can buy may not be the highest level an enchantment can be at. If the highest level &ois&r available, there will be a little star next to the enchantment's level."
+				""
+				"Basically, this thing is rare but OP as hell. Turn your vast hoard of random garbage into high level enchantments!"
+			]
+			id: "76253B8D309F08B1"
+			rewards: [{
+				count: 16
+				id: "44FAFEFF034BAC53"
+				item: "the_bumblezone:honey_crystal_shards"
+				type: "item"
+			}]
+			subtitle: "Honey Enchanting"
+			tasks: [{
+				id: "37F2275090890EA7"
+				item: "the_bumblezone:crystalline_flower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BFBB0CC1C2BE735"]
+			id: "3F669E0A5933A36E"
+			rewards: [{
+				id: "08CCC5BAD3FD32B6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0B0333FD3B3E6B05"
+				item: "minecraft:bee_nest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F669E0A5933A36E"]
+			id: "141EC4ED45517ECB"
+			rewards: [{
+				id: "6C884E8532C77F75"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft 6 beehives or bee nests"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market"
+				criterion: ""
+				id: "11B5307AC6E60AED"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76253B8D309F08B1"]
+			id: "3FCE5DF50001B712"
+			subtitle: "Enchant a book with an enchantment that costs 5 or more tiers"
+			tasks: [{
+				advancement: "the_bumblezone:crystalline_flower/enchant_crystalline_flower"
+				criterion: ""
+				id: "6FE07927427BE35B"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "0E0CFD4D8078AA9C"
+			rewards: [{
+				count: 16
+				id: "7F87736BCE9D3066"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "416E34015E31F5C9"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E0CFD4D8078AA9C"]
+			id: "42CEB40F9DB55EFD"
+			rewards: [{
+				id: "2CC60F2C600F21F5"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Take honey from the Hive without the Protection of the Hive"
+			tasks: [{
+				advancement: "the_bumblezone:effects/bee_hit_wrath_of_the_hive"
+				criterion: ""
+				id: "35CA483741B24719"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E0CFD4D8078AA9C"]
+			id: "1C3EF09C335A666D"
+			subtitle: "Feed a bee or brood block until you receive the Protetion of the Hive"
+			tasks: [{
+				advancement: "the_bumblezone:effects/getting_protection"
+				criterion: ""
+				id: "1844AD9CD40BAB52"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "152B481D2E28F2AD"
+			rewards: [{
+				id: "5BF9A2C5E8E24DB6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5323958243318716"
+				item: "the_bumblezone:pollen_puff"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["152B481D2E28F2AD"]
+			id: "7AA52AB4F0F5A0BA"
+			rewards: [{
+				id: "0EAD3DA7254B562A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Honey Compass and use it to locate a Cell Maze"
+			tasks: [{
+				id: "7184008314E9B574"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["152B481D2E28F2AD"]
+			id: "3260C4EC442E93EC"
+			rewards: [{
+				id: "2B742DCB9C07FB5D"
+				item: "the_bumblezone:bee_soup"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BB2DC8B02E9A736"
+				item: "the_bumblezone:bee_bread"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1C3EF09C335A666D"
+				"7AA52AB4F0F5A0BA"
+			]
+			description: ["The Cell Maze is full of bee-related loot, but the bees guard it jealously. Make sure you keep the Protection of the Hive while inside, or you'll be under attack from all sides."]
+			id: "2A7822E4D3E74753"
+			rewards: [{
+				id: "17EF64EFEB561892"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Enter a Cell Maze"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_cell_maze"
+				criterion: ""
+				id: "5CA514051C829DFE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "50D42DBEECD976D9"
+			rewards: [{
+				id: "1B1AA67AB0ABD2C1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Attracts bees while you wear it"
+			tasks: [{
+				id: "7AAECD78A3D1387D"
+				item: {
+					Count: 1
+					id: "the_bumblezone:flower_headwear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17777CD49B8B6F41"]
+			id: "7E8B2328DDFEA530"
+			rewards: [{
+				id: "611575A1E220B70F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Find a Honey Comnpass leading to a Throne Pillar"
+			tasks: [{
+				advancement: "the_bumblezone:tools/obtain_throne_honey_compass"
+				criterion: ""
+				id: "3AA81B5E5C9587B9"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["308701D3BB09B731"]
+			id: "75AF7A2371C28F63"
+			rewards: [{
+				id: "329B80D367E95EC9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0EE35EA1B2784519"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:luck"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E8B2328DDFEA530"]
+			id: "28A30A075DA149DC"
+			rewards: [{
+				id: "36AD69C0CA604CE9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Enter the Throne Pillar"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_throne_pillar"
+				criterion: ""
+				id: "5589B35E5E84B59A"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28A30A075DA149DC"]
+			id: "32D4C8324C73452F"
+			rewards: [
+				{
+					id: "5160EE49D69AAF4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "68B046E5A88C298F"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Complete the advancements in the Queen's Desire questline to obtain Royal Jelly"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_beginning"
+				criterion: ""
+				id: "04BF60F582F4C87E"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32D4C8324C73452F"]
+			id: "2042611ED9BD1750"
+			rewards: [
+				{
+					id: "337ED21254237756"
+					item: "the_bumblezone:royal_jelly_block"
+					type: "item"
+				}
+				{
+					id: "09EED77CB14FBEE8"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Slay the Wither with a Stinger Spear"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/peak_inefficiency"
+				criterion: ""
+				id: "6FF9D84046EFA617"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32D4C8324C73452F"]
+			id: "4AB51BF720381796"
+			rewards: [
+				{
+					id: "6B0007BF0B06A756"
+					item: "the_bumblezone:royal_jelly_block"
+					type: "item"
+				}
+				{
+					id: "244CD39428024795"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Slay the Ender Dragon while wearing full Bee Armor"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_great_dragon_slayer"
+				criterion: ""
+				id: "2F7D6BC86EE6B83E"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28A30A075DA149DC"]
+			id: "6271FB2D07ECA712"
+			rewards: [
+				{
+					id: "1596A588C9EFB679"
+					item: "the_bumblezone:buzzing_briefcase"
+					type: "item"
+				}
+				{
+					id: "71348B783B87BA0E"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Trade with the Queen 128 times"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/crazy_trader"
+				criterion: ""
+				id: "076C6FE6DA9CDF83"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E0CFD4D8078AA9C"]
+			id: "3163182C1EB734ED"
+			rewards: [{
+				id: "71154DB010DEF759"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Drink 8 bottles of honey"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/honey_drunk"
+				criterion: ""
+				id: "71596CE04E8F975F"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32D4C8324C73452F"]
+			description: [
+				"Royal jelly can be drunk for a powerful effect, or traded to the Queen for some very good rewards."
+				""
+				"Don't try to steal the royal jelly from the Throne Pillar, trust me, it's not worth it."
+			]
+			id: "1E70E5E66DFFF271"
+			rewards: [
+				{
+					id: "62127D01C222FDC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "501D1195DE9AACFF"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1204938A370691A6"
+				item: "the_bumblezone:royal_jelly_bottle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2042611ED9BD1750"
+				"4AB51BF720381796"
+			]
+			description: [
+				"Consuming this marks you as a friend of the Hive forever. You may enter the Cell Maze, break Honey blocks, and take honey from Honey Slimes without consequence. Also, swimming in honey or royal jelly will grant regeneration."
+				""
+				"Most importantly, though, you are now able to enter Sempiternal Sanctums without recieving debuffs from the Luminescent Wax. Even if you did make it to the final chamber without the Essence of the Bees, you can't do the challenges without it."
+			]
+			id: "3F8CDD2757D4F2E5"
+			rewards: [
+				{
+					id: "5EEF776F98C70390"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D9F47214E784DEC"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Complete all of the Queen's Desire advancements!"
+			tasks: [{
+				id: "63F8F285714F1610"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BFBB0CC1C2BE735"]
+			description: ["Can be found in the Bumblezone, crafted from Honey Comb, or smelted from Beehive Beeswax."]
+			id: "04A144687C154A3A"
+			rewards: [{
+				id: "365DA5799B2FE1E6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1840B1A7A60F85AD"
+				item: "the_bumblezone:carvable_wax"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"04A144687C154A3A"
+				"1E70E5E66DFFF271"
+				"32D4C8324C73452F"
+			]
+			description: ["Almost any potion can be imbued into a potion candle. Once lit, the candle will emit a cloud of potion effect for a minute or so before going out. It can be relit any number of times."]
+			id: "5E6F8E3DDCC2D933"
+			rewards: [{
+				id: "1B685E3127AD4EA2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C5F1D5887B7394A"
+				item: "the_bumblezone:potion_candle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: ["An ancient Elytra course (or Riptide course, if you feel so inclined) with some good loot."]
+			id: "5A94B59F6379E63E"
+			rewards: [
+				{
+					id: "0E7B8F7F3CCEAD27"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "355C141C3B475493"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find some Ancient Hoops"
+			tasks: [{
+				icon: "collectibles:ring_jewelry"
+				id: "4E685A7C9D51181A"
+				structure: "the_bumblezone:ancient_hoops"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28A30A075DA149DC"]
+			id: "4982368FA48385D1"
+			rewards: [
+				{
+					id: "4501D57C526ED68B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "206592DAFB66C29B"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Trade with the Queen for some Windy Air"
+			tasks: [{
+				id: "6F2D816AC80AA765"
+				item: "the_bumblezone:windy_air"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["An ancient, pollen-filled basin with an amethyst pillar in the center."]
+			id: "557FFDE54CC428CB"
+			rewards: [
+				{
+					id: "614F311A972CD8B1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "40A16CF4244AF33F"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find an Ancient Shrine"
+			tasks: [{
+				icon: "the_bumblezone:super_candle_purple"
+				id: "47A1562F27E95F9D"
+				structure: "the_bumblezone:ancient_shrine"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: ["A wax dungeon full of cobwebs, wool, spider spawners, and some loot. It's a good place to complete the Queen's Desire quests to kill spiders and cave spiders."]
+			id: "5AA99061B31B1073"
+			rewards: [
+				{
+					id: "7D9A42C93201D58D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6336383BC7A5CD29"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Battle Cube dungeon"
+			tasks: [{
+				icon: "the_bumblezone:carvable_wax_grate"
+				id: "41A8CD19A53B10CA"
+				structure: "the_bumblezone:battle_cubes"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: ["The bee inside will give you a Bee Cannon :)"]
+			id: "2358071C97880FCF"
+			rewards: [
+				{
+					id: "33A2E21D0B9B1E8F"
+					item: "simplehats:beehat"
+					type: "item"
+				}
+				{
+					id: "4F4ECD287F723646"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1C1BF8E2BF173366"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Bee House"
+			tasks: [{
+				icon: "simplehats:beehat"
+				id: "54EF277A42D65054"
+				structure: "the_bumblezone:bee_house"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			description: ["A simple parkour course made of candles with a few honey cocoons of loot. Of course, we can double jump, and place blocks..."]
+			id: "46BB051650BB2179"
+			rewards: [
+				{
+					id: "36E4E29FC3221E57"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5F077C7779903EA1"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Candle Parkour course"
+			tasks: [{
+				icon: "the_bumblezone:super_candle_red"
+				id: "425E4777AE674734"
+				structure: "the_bumblezone:candle_parkour"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			description: ["A shooting range for crossbows and Crystal Cannons. Mineral blocks pop out of the top of the targets on a hit. You can complete the Queen's Desire quest for firing stingers from a crossbow here."]
+			id: "5CD46DD50DD7D0F5"
+			rewards: [
+				{
+					id: "796C3B28F91A5DE4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "11298ECE9CD21C70"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Cannon Range"
+			tasks: [{
+				icon: "minecraft:target"
+				id: "27D4396625A040A3"
+				structure: "the_bumblezone:cannon_range"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			description: ["it's pretty :)"]
+			id: "482E0B8861900657"
+			rewards: [
+				{
+					id: "37FD924AEC5A8293"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "03AA406F38A6B3FA"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a grove of cherry trees"
+			tasks: [{
+				icon: "minecraft:cherry_sapling"
+				id: "35E7FBC3BCACD4D2"
+				structure: "the_bumblezone:cherry_veteran_tree"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			description: ["Somehow there is a villager here and he is ranchin' slimes. I ain't gonna question it."]
+			id: "7A451149DAE850DF"
+			rewards: [
+				{
+					id: "3B408DABED1F5766"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6854AF5B93B56007"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Honey Slime ranch"
+			tasks: [{
+				icon: "minecraft:honey_block"
+				id: "7F3DD979ABAC0103"
+				structure: "the_bumblezone:honey_slime_ranch"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: ["For some reason there is a disco club in the Bumblezone. You can find a special record here."]
+			id: "51FE59E362FBA2BA"
+			rewards: [
+				{
+					id: "398EFA7C2A12EED4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10044B5ACC81C6E6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Dance Floor"
+			tasks: [{
+				icon: "minecraft:jukebox"
+				id: "6C3BAC92D3AFB2B7"
+				structure: "the_bumblezone:dance_floor"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			description: ["These ancient gazebos hang high above the floor. Some of them have treasure, but be careful, there are traps too."]
+			id: "424982EB2203EE58"
+			rewards: [
+				{
+					id: "285DF5BB23393C80"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4D76CEEEE2464FFA"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find some hanging gazebos"
+			tasks: [{
+				id: "44167090A273F1C8"
+				structure: "the_bumblezone:gazebuzz_cluster"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: ["A huge fountain of honey. Inside, there is raw gold and amethyst."]
+			id: "00871A6CA23DCC02"
+			rewards: [
+				{
+					id: "03462B8EBB2EB3AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "39C9FD0E2FCCD4CF"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a bigger honey fountain"
+			tasks: [{
+				icon: "the_bumblezone:glistering_honey_crystal"
+				id: "0BD3CDEAA67155E2"
+				structure: "the_bumblezone:goliath_honey_fountain"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			description: ["A big fountain of honey and sugar water. Inside, there is a Crystalline Flower."]
+			id: "3E3FA5F01A9DEB12"
+			rewards: [
+				{
+					id: "5D63B9DC56F9B6FB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "57CBC7753911B262"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a honey fountain"
+			tasks: [{
+				icon: "the_bumblezone:honey_crystal"
+				id: "60EABC52BBD5801A"
+				structure: "the_bumblezone:honey_fountain"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			description: ["Huge platforms covered in flowers hang from the roof. It's very pretty. Also, there are several Crystalline Flowers here."]
+			id: "23527A46BB0F4A73"
+			rewards: [
+				{
+					id: "414B675BC9FC2F6B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7D52868501F1BE41"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Hanging Garden"
+			tasks: [{
+				id: "2ED88B9FA8F0D419"
+				structure: "the_bumblezone:hanging_garden"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			description: ["A wax temple with honey slimes and honey cocoons with some loot."]
+			id: "19189338D654C3E7"
+			rewards: [
+				{
+					id: "1D58F14CBFF9E797"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0C41016CF0856E67"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Hive Temple"
+			tasks: [{
+				icon: "the_bumblezone:carvable_wax_bricks"
+				id: "029C5A041A206B48"
+				structure: "the_bumblezone:hive_temple"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			description: ["A cave full of even more honey than usual. There are beehemoths and honey cocoons here."]
+			id: "668ABE710729B3DE"
+			rewards: [
+				{
+					id: "3110F3331035D366"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6FA82D9F68DFBBD7"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Honey Cave"
+			tasks: [{
+				icon: "the_bumblezone:filled_porous_honeycomb_block"
+				id: "5B3B5A18A71700AF"
+				structure: "the_bumblezone:honey_cave_room"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			description: ["A large wax building full of bees. There's some good loot and Crystalline Flowers if you can get to the top."]
+			id: "4F161820465F262D"
+			rewards: [
+				{
+					id: "638F4183401EE4BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4A0E94407B542AB1"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Honitel"
+			tasks: [{
+				icon: "minecraft:red_bed"
+				id: "469533B31546C758"
+				structure: "the_bumblezone:honitel"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			description: ["Bees, frozen in a huge block of ice!"]
+			id: "1604B836D235CA08"
+			rewards: [
+				{
+					id: "69AD24385DA8B6B9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "228A8CA827F8345E"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find an Ice Monolith"
+			tasks: [{
+				icon: "minecraft:ice"
+				id: "58B7E80A65F2BFFB"
+				structure: "the_bumblezone:ice_monolith"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			description: ["A massive, spiky stone fortress full of silverfish and endermites. There are almost a hundred spawners here, so it's a good place to get Spawner Cores. In the center of each of the four stone spikeballs is a piece of Ancient Debris, and at the tip of each spike are a few diamond and emerald ore. Bring a fortune pickaxe here and you could easily walk out with a few hundred diamonds."]
+			id: "60D8F1FBA8863211"
+			rewards: [
+				{
+					id: "0DD72F12BA85697A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4DF2BA40C11862D8"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Mite Fotress"
+			tasks: [{
+				icon: "the_bumblezone:sugar_infused_stone"
+				id: "480F21D10E1978B7"
+				structure: "the_bumblezone:mite_fortress"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			description: ["A huge flower of honey crystals. There are several Crystalline Flowers here."]
+			id: "6E04BFCA939F18EE"
+			rewards: [
+				{
+					id: "66BF1770F729C260"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "28997C2913473BF3"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find an Overgrown Flower"
+			tasks: [{
+				icon: "the_bumblezone:crystalline_flower"
+				id: "4733F87759D25318"
+				structure: "the_bumblezone:overgrown_flower"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			description: ["A huge, hanging, ancient brick structure full of phantoms. At the bottom of the four honey pools is a piece of deepslate diamond ore."]
+			id: "3973C07FBF620DB6"
+			rewards: [
+				{
+					id: "42A1318A2D33DF31"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "30A55317A56A10E6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Phantom Aviary"
+			tasks: [{
+				icon: "the_bumblezone:ancient_wax_bricks"
+				id: "299E450905F56761"
+				structure: "the_bumblezone:phantasm_aviary"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["I never expected to find a pirate ship with sails of wax and crewed by bees, but here we are. There's some good loot here."]
+			id: "3FF3E7CC68397E21"
+			rewards: [
+				{
+					id: "689A074A2318D87B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "771620452CF9EB57"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Pirate Ship"
+			tasks: [{
+				icon: "the_bumblezone:beehive_beeswax"
+				id: "00FA5CF8D8D9B949"
+				structure: "the_bumblezone:pirate_ship"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			description: ["Just a little sugar water stream."]
+			id: "03E055DA952507F3"
+			rewards: [
+				{
+					id: "62A68B1EB74055D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "04BE333EBED3C357"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Pollinated Stream"
+			tasks: [{
+				icon: "the_bumblezone:sugar_water_bucket"
+				id: "71CFEFED00522C2A"
+				structure: "the_bumblezone:pollinated_stream"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			description: ["Just a little shrine for a Stinger Spear."]
+			id: "4E46307728B6629F"
+			rewards: [
+				{
+					id: "5D297EF23B9C4345"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6474838C32039E86"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Stinger Spear Shrine"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:stinger_spear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "621DBD8CE599A4A0"
+				structure: "the_bumblezone:stinger_spear_shrine"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["It's... a subway!? There is a TON of loot here if you can grab it before the wind drags you past."]
+			id: "6CB75A88CEF72A32"
+			rewards: [
+				{
+					id: "4D27016866FB6D44"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "703A3A8298F6B26A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Subway"
+			tasks: [{
+				icon: "the_bumblezone:windy_air"
+				id: "1108781CDFB32448"
+				structure: "the_bumblezone:subway"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3E3FA5F01A9DEB12"
+				"2358071C97880FCF"
+				"4F161820465F262D"
+				"5A94B59F6379E63E"
+				"668ABE710729B3DE"
+				"1604B836D235CA08"
+				"19189338D654C3E7"
+				"00871A6CA23DCC02"
+				"557FFDE54CC428CB"
+				"4E46307728B6629F"
+				"3973C07FBF620DB6"
+				"28A30A075DA149DC"
+				"51FE59E362FBA2BA"
+				"5AA99061B31B1073"
+				"482E0B8861900657"
+				"5CD46DD50DD7D0F5"
+				"3FF3E7CC68397E21"
+				"23527A46BB0F4A73"
+				"03E055DA952507F3"
+				"46BB051650BB2179"
+				"60D8F1FBA8863211"
+				"424982EB2203EE58"
+				"6CB75A88CEF72A32"
+				"7A451149DAE850DF"
+				"6E04BFCA939F18EE"
+			]
+			description: ["You don't actually have to &obeat&r the six Sempiternal Sanctums for this quest, but you do have to visit them."]
+			hide_dependency_lines: true
+			id: "55D2BA70FC1D6603"
+			rewards: [
+				{
+					count: 16
+					id: "6EF492C43233EE99"
+					item: "the_bumblezone:royal_jelly_block"
+					type: "item"
+				}
+				{
+					id: "04A399839D4A9E54"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Visit every stucture in the Bumblezone!"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_all_structures"
+				criterion: ""
+				id: "54DC6706907232EB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F8CDD2757D4F2E5"]
+			description: [
+				"The Sempiternal Sanctums are 6 huge color-coded dungeons. Each one is filled with deadly guardians, traps, and puzzles. The loot is mostly in the form of netherite scraps or ingots. At the bottom of each Sanctum is a gate to a special challenge that rewards an Essence of the same color as the Sanctum."
+				""
+				"I recommend bringing:"
+				"- some Windy Air to help reveal the Windy Air in the dungeon"
+				"- Depth Strider boots"
+				"- mobility: dashes, speed increase, extra jumps, maybe even flight"
+				""
+				"For the &4Red,&r &eYellow,&r and &9Blue&r challenges, I recommend using a few &6Hostility Orbs&r to remove hostility levels from the chunks that make up the room. Those challenges involve fighting, or at least surviving, against an onslaught of mobs, and removing hostility levels from those mobs will make those challenges a lot more doable."
+			]
+			id: "7D397DFEB09C4579"
+			rewards: [{
+				id: "56A452BB2620370B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 2.0d
+			subtitle: "After consuming the Essence of the Bees, enter a Sempiternal Sanctum"
+			tasks: [{
+				advancement: "the_bumblezone:structures/enter_sempiternal_sanctum"
+				criterion: ""
+				id: "2CAB6B1F4B35A2D3"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["Bring fire resistance."]
+			id: "0D3635E426953676"
+			rewards: [
+				{
+					id: "6E478E0EE45A48E9"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "12E512927CCC2DFA"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "5B89487D41FCD0E6"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_raging"
+					tag: {
+						abilityUseRemaining: 28
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["If you can float in the air for the whole 4 minutes you just win."]
+			id: "695BBDE815DF2FAB"
+			rewards: [
+				{
+					id: "65FDB2B111B3471F"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "0F9C27E7BFC2F5BF"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "7081BCAE223B7391"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_knowing"
+					tag: {
+						abilityUseRemaining: 1200
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["Bring water breathing and water mobility."]
+			id: "6EF3CDF593D32C2B"
+			rewards: [
+				{
+					id: "47C9392B3C57FA3F"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "06F79F5B8D0C5A56"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "336C59C452039F2C"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_calming"
+					tag: {
+						abilityUseRemaining: 600
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["You can only beat this guy by standing on the platform and punching his dirt balls back at him. Took me a minute to figure that out myself."]
+			id: "00EAD934C0A931F5"
+			rewards: [
+				{
+					id: "698A743622662127"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "0994173D4EFA92B5"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "1B750EF86B1BB90B"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_life"
+					tag: {
+						abilityUseRemaining: 1000
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["I hope your mobility is &oreally&r good. Also, knockback immunity is very helpful here."]
+			id: "519D24DCF148C17C"
+			rewards: [
+				{
+					id: "512B341390E1D095"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "265282296744768D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "25F90470D3737BB7"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_radiance"
+					tag: {
+						abilityUseRemaining: 4800
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D397DFEB09C4579"]
+			description: ["Technically this is a boss? Not what you'd expect the final boss of the Bumblezone to be, but hey, I'll take it."]
+			id: "50751D78FFE7BD1C"
+			rewards: [
+				{
+					id: "33CDF29D5E8DF8FE"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1BB3DD396F61A49E"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "6F78FC327A191D06"
+				item: {
+					Count: 1
+					id: "the_bumblezone:essence_continuity"
+					tag: {
+						abilityUseRemaining: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04A144687C154A3A"]
+			id: "32D32DA17E287D08"
+			rewards: [{
+				id: "7E2A09C59A5748A6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0E09756A5970EBAB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "the_bumblezone:super_candles"
+					}
+				}
+				title: "Any #the_bumblezone:super_candles"
+				type: "item"
+			}]
+			title: "Super Candle"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: ["This quest chapter was done by @Samielflame"]
+			icon: "kubejs:star"
+			id: "120A73FF3B45774E"
+			rewards: [{
+				id: "6F575FCD3E016B99"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "circle"
+			size: 0.5d
+			tasks: [{
+				id: "29F7B67A646DC1E0"
+				type: "checkmark"
+			}]
+			title: "Credits!"
+			x: 9.0d
+			y: -4.5d
+		}
+	]
+	title: "&eTo the Bumblezone&r"
+}

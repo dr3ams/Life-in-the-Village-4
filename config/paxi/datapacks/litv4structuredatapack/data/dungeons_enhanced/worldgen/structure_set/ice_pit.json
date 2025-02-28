@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "frequency": 0.77,
+    "offset": 27,
+    "salt": 1456719767,
+    "spacing": 34,
+    "structure": "dungeons_enhanced:ice_pit"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:ice_pit",
+      "weight": 1
+    }
+  ]
+}

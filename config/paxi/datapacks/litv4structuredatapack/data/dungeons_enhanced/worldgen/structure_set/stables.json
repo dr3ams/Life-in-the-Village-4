@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "frequency": 0,
+    "offset": 42,
+    "salt": 688530662,
+    "spacing": 53,
+    "structure": "dungeons_enhanced:stables"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:stables",
+      "weight": 1
+    }
+  ]
+}

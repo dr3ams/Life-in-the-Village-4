@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "frequency": 0,
+    "offset": 32,
+    "salt": 277049707,
+    "spacing": 41,
+    "structure": "dungeons_enhanced:druid_circle"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:druid_circle",
+      "weight": 1
+    }
+  ]
+}

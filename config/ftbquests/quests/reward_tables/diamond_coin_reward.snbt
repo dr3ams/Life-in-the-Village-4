@@ -1,0 +1,69 @@
+{
+	id: "0BC9EE62BBE93C0A"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "food_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_4"
+				}
+			}
+		}
+		{ item: "minecraft:diamond_ore" }
+		{ item: "minecraft:emerald_ore" }
+		{ item: "minecraft:mooshroom_spawn_egg" }
+		{ item: "minecraft:villager_spawn_egg" }
+		{ count: 10, item: "kubejs:iron_coin" }
+		{ count: 3, item: "minecraft:emerald" }
+		{ count: 3, item: "minecraft:diamond" }
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "gag:sacred_balm" }
+		{
+			item: {
+				Count: 1
+				id: "gag:time_sand_pouch"
+				tag: { }
+			}
+		}
+		{ count: 64, item: "minecraft:glowstone" }
+		{ count: 10, item: "aquaculture:treasure_chest" }
+		{ count: 4, item: "minecraft:gunpowder" }
+		{ count: 8, item: "minecraft:torch" }
+		{ count: 4, item: "minecraft:lapis_lazuli" }
+		{ count: 2, item: "minecraft:leather" }
+		{ count: 3, item: "spelunkery:mineomite" }
+		{ count: 3, item: "spelunkery:glowstick" }
+		{ item: "waystones:bound_scroll" }
+	]
+	title: "Diamond coin reward"
+}

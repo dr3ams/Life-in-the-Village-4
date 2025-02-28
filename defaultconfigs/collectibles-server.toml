@@ -1,0 +1,40 @@
+
+#General
+[general]
+	#Enables ingame rewards on first spawn for Patreons
+	patreon_rewards = true
+
+#Collectibles
+[collectibles]
+	#How much xp a player should get when he finds a collectible
+	#Range: 0 ~ 1000
+	collectible_xp = 30
+	#How rarely should coin collectibles drop. higher = rarer [1:X]
+	#Range: 1 ~ 100000
+	coin_collectibles_rarity = 2200
+	#How rarely should fragment collectibles drop. higher = rarer [1:X]
+	#Range: 1 ~ 100000
+	fragment_collectibles_rarity = 2200
+	#How rarely should fossil collectibles drop. higher = rarer [1:X]
+	#Range: 1 ~ 100000
+	fossil_collectibles_rarity = 1400
+
+#Loot Bag
+[loot_bag]
+	#How much xp a player should get when he uses a loot bag
+	#Range: 0 ~ 1000
+	epic_loot_bag_xp = 100
+	#A list with all epic loot bag rewards [amount*modid:item]
+	epic_loot_bag_rewards = ["1*minecraft:netherite_ingot", "1*minecraft:nether_star", "1*minecraft:end_crystal", "1*minecraft:elytra", "1*minecraft:totem_of_undying", "1*minecraft:enchanted_golden_apple", "5*minecraft:dragon_breath", "10*minecraft:diamond"]
+	#How many item entries the epic loot bag gives the player
+	#Range: 1 ~ 10
+	epic_loot_bag_item_amount = 1
+	#A list with all loot bag rewards [amount*modid:item]
+	loot_bag_rewards = ["3*minecraft:emerald", "3*minecraft:diamond", "1*minecraft:golden_apple", "1*minecraft:ender_eye"]
+	#How much xp a player should get when he uses a loot bag
+	#Range: 0 ~ 1000
+	loot_bag_xp = 50
+	#How many item entries the loot bag gives the player
+	#Range: 1 ~ 10
+	loot_bag_item_amount = 1
+

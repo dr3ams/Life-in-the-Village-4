@@ -1,0 +1,14 @@
+#Can inlayed floor mats be modified to emit light?
+illumination = true
+#Max transfer rate of inlayed wood floor mats
+#Range: > 0
+energyTransferLimit = 64
+#Allow linked inlayed floor mats to transmit energy wirelessly
+allowWirelessTransfer = true
+#Energy from Creepers
+#Range: > 0
+creeperEnergy = 1
+#Energy from Charged Creepers
+#Range: > 0
+chargedCreeperEnergy = 8
+

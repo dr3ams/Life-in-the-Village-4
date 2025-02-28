@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    " L ",
+    " I "
+  ],
+  "key": {
+    "I": [
+      {
+        "item": "create:cogwheel"
+      }
+    ],
+    "L": [
+      {
+        "item": "create:precision_mechanism"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:industrial_gears"
+  }
+}

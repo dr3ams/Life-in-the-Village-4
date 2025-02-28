@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "vintageimprovements:andesite_sheet"
+    },
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "P": {
+      "tag": "forge:plates/gold"
+    },
+    "S": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "ACA",
+    "SSS"
+  ],
+  "result": {
+    "item": "create:steam_engine"
+  },
+  "show_notification": true
+}

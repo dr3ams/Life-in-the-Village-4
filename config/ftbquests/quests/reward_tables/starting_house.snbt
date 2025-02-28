@@ -1,0 +1,178 @@
+{
+	id: "0ED2819157DCEB12"
+	loot_size: 1
+	order_index: 42
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "dreamsx"
+					canRotate: 1b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "smallhouse"
+					oneUse: 1b
+					size: 7
+					state: 5
+					structureName: "config/capsule/rewards/smallhouse"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "dreamsx"
+					canRotate: 1b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "smallhouse2"
+					oneUse: 1b
+					size: 9
+					state: 5
+					structureName: "config/capsule/rewards/smallhouse2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "dreamsx"
+					canRotate: 1b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "towerhouse"
+					oneUse: 1b
+					size: 13
+					state: 5
+					structureName: "config/capsule/rewards/towerhouse"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "dreamsx"
+					canRotate: 1b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "mushroomhouse"
+					oneUse: 1b
+					size: 9
+					state: 5
+					structureName: "config/capsule/rewards/mushroomhouse"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "dreamsx"
+					canRotate: 1b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "treehouse"
+					oneUse: 1b
+					size: 15
+					state: 5
+					structureName: "config/capsule/rewards/treehouse"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "dreamsx"
+					canRotate: 1b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "minicastle"
+					oneUse: 1b
+					size: 7
+					state: 5
+					structureName: "config/capsule/rewards/minicastle"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "dreamsx"
+					canRotate: 1b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "fencedplot"
+					oneUse: 1b
+					size: 15
+					state: 5
+					structureName: "config/capsule/rewards/fencedplot"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					canRotate: 1b
+					color: 16777215
+					display: {
+						color: 16777215
+					}
+					isReward: 1b
+					label: "cleargrassarea"
+					oneUse: 1b
+					size: 15
+					state: 5
+					structureName: "config/capsule/rewards/cleargrassarea"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "compactxpbottles:x4experiencebottle"
+				tag: {
+					display: {
+						Name: "{\"text\":\"I don't need starting house\"}"
+					}
+				}
+			}
+		}
+	]
+	title: "Starting House"
+}

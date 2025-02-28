@@ -1,0 +1,9 @@
+{
+  "remove": [
+    "#forge:is_water",
+    "#dungeons_enhanced:no_structures"
+  ],
+  "values": [
+	"#minecraft:is_overworld"
+  ]
+}

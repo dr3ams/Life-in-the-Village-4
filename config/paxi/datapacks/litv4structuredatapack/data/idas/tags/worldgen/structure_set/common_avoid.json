@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:villages",
+    "idas:idas_ocean",
+    "idas:idas_rare",
+    "idas:idas_small",
+    "idas:idas_underground_rare",
+	"dungeons_enhanced:watch_tower"
+  ]
+}

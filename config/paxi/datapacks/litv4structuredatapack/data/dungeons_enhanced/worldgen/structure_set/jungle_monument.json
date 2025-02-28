@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "frequency": 0.54,
+    "offset": 36,
+    "salt": 2570869,
+    "spacing": 46,
+    "structure": "dungeons_enhanced:jungle_monument"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:jungle_monument",
+      "weight": 1
+    }
+  ]
+}

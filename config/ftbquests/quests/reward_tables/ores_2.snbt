@@ -1,0 +1,32 @@
+{
+	id: "5D3CF8F3FF7178EE"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Ores 2"
+		string_id: "ores_2"
+	}
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ count: 16, item: "minecraft:redstone" }
+		{ count: 16, item: "minecraft:lapis_lazuli" }
+		{ count: 8, item: "minecraft:raw_iron" }
+		{ count: 8, item: "minecraft:raw_copper" }
+		{ count: 9, item: "minecraft:raw_gold" }
+		{ count: 8, item: "minecraft:iron_ingot" }
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ count: 16, item: "minecraft:amethyst_shard" }
+		{ count: 7, item: "spelunkery:diamond_shard" }
+		{ count: 7, item: "spelunkery:emerald_shard" }
+		{ count: 16, item: "minecraft:coal_ore" }
+		{ count: 3, item: "spelunkery:raw_magnetite" }
+		{ item: "minecraft:netherite_scrap" }
+	]
+	title: "Ores 2"
+	use_title: true
+}

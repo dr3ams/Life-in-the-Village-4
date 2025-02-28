@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "6454BAEA71CB61DD", title: "Exploration" }
+		{ id: "31B2D4582F8C8AC3", title: "Household" }
+		{ id: "3E8AF5589C449D02", title: "Hardware" }
+	]
+}

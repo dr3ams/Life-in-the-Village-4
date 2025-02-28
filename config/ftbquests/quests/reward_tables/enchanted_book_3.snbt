@@ -1,0 +1,112 @@
+{
+	id: "3C3B64EF766A717C"
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 10s
+					}]
+				}
+			}
+			title: "Feather Falling X"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:respiration"
+						lvl: 7s
+					}]
+				}
+			}
+			title: "Respiration VII"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:thorns"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Thorns V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:depth_strider"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Depth Strider V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:punch"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Punch V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:infinity"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Infinity I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 6s
+					}]
+				}
+			}
+			title: "Unbreaking VI"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecolonies:raider_damage_enchant"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Raider Damage V"
+		}
+	]
+	title: "Enchanted Book 3"
+}

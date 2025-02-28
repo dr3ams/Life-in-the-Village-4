@@ -1,0 +1,34 @@
+{
+	id: "212163EC90F7160E"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Ores 1"
+		string_id: "ores_1"
+	}
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 8, item: "minecraft:coal_ore" }
+		{ count: 6, item: "spelunkery:raw_iron_nugget" }
+		{ item: "minecraft:raw_iron" }
+		{ count: 11, item: "spelunkery:raw_gold_nugget" }
+		{ count: 2, item: "minecraft:raw_copper" }
+		{ item: "minecraft:raw_gold" }
+		{ count: 3, item: "spelunkery:rough_emerald_shard" }
+		{ count: 3, item: "spelunkery:rough_diamond_shard" }
+		{ count: 5, item: "spelunkery:rough_cinnabar" }
+		{ count: 24, item: "spelunkery:rough_cinnabar_shard" }
+		{ count: 4, item: "spelunkery:rough_lazurite" }
+		{ count: 19, item: "spelunkery:rough_lazurite_shard" }
+		{ item: "spelunkery:raw_magnetite_nugget", random_bonus: 8 }
+		{ count: 8, item: "minecraft:raw_copper" }
+		{ count: 27, item: "spelunkery:raw_copper_nugget" }
+	]
+	title: "Ores 1"
+	use_title: true
+}

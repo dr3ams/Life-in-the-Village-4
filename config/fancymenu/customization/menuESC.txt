@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=374276%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/r8CP8wrYsH%btnaction_splitter_fm%
+  x = -102
+  width = 98
+  action = addbutton
+  actionid = 9aaf03c0-e839-4da1-8da0-91c0d4a50e551640431230553
+  y = -22
+  label = Get Help
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.patreon.com/Dreams01%btnaction_splitter_fm%
+  x = 4
+  width = 98
+  action = addbutton
+  actionid = 2c665289-0745-4ed9-80c9-73940a8f0dab1640431241754
+  y = -22
+  label = Support the Author
+  height = 20
+}
+

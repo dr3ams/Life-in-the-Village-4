@@ -1,0 +1,1560 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "tinkers_workshop"
+	group: "3E8AF5589C449D02"
+	icon: {
+		Count: 1
+		id: "tconstruct:scorched_anvil"
+		tag: {
+			texture: "create:brass_block"
+		}
+	}
+	id: "7DD3034D8780A70E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This book have much more detailed info about Tinker's Construct mod."]
+			id: "286CB64900B1EBCB"
+			rewards: [
+				{
+					id: "742FE7D2B5B313CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "00000BC5A109651F"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Be sure to read it!"
+			tasks: [{
+				id: "190EA5C9E4CDC4DA"
+				item: {
+					Count: 1
+					id: "tconstruct:materials_and_you"
+					tag: {
+						mantle: {
+							book: {
+								current_page: "intro.partbuilder"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21DBF631B1411130"]
+			id: "1135AB1EFCAE4958"
+			rewards: [{
+				id: "5D9463F37C0EC602"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Smelting and Casting guidebook"
+			tasks: [{
+				id: "7CFBD0331F85C102"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66B2EBFE9718B18F"]
+			id: "334C559F2561363F"
+			rewards: [
+				{
+					count: 2
+					id: "700B59893DA42028"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1371D773566490E0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "161164BF43CACBC5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "008F1A8800FBA8CD"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1135AB1EFCAE4958"]
+			id: "6E114D081C2102C4"
+			rewards: [{
+				id: "4F995DF52A6A9536"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "761EC43E07F7A12B"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63CFF01CE065EBA2"]
+			id: "31F3DEBB3C6A6C27"
+			rewards: [{
+				id: "613550C2B0E0E386"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2DD707F78EFC5A41"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31F3DEBB3C6A6C27"]
+			id: "209F2C6CEF9EA62C"
+			rewards: [{
+				id: "711FB5BF409FBD52"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A94271E7D28F5F"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["286CB64900B1EBCB"]
+			description: [
+				"Craft your first pick with Wooden head."
+				"Don't worry - we will upgrade it to Stone in next step(this is just to show the upgrade process)"
+			]
+			id: "027FA7B5FE499C6A"
+			rewards: [{
+				id: "7A43055A6D6B89D8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Craft Part Builder to create parts for your tools"
+			tasks: [
+				{
+					id: "178ADC81AF2E4E0E"
+					item: {
+						Count: 1
+						id: "tconstruct:part_builder"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EF0289EDCCC9E9D"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "592542754082859D"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_binding"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BC16E0512D9783F"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_handle"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["027FA7B5FE499C6A"]
+			description: [
+				"Now you can either assemble a new Stone Pickaxe or upgrade your Wooden one by placing the part you want to upgrade"
+				""
+				"Check the other tools that you can make!"
+			]
+			id: "2019084A1923AA05"
+			rewards: [{
+				id: "4233A893909C6A71"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft Tinker Station to assemble your Tools from Parts"
+			tasks: [
+				{
+					id: "1D652CD30228E710"
+					item: {
+						Count: 1
+						id: "tconstruct:tinker_station"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C7285BB15402493"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:rock#stone"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2019084A1923AA05"]
+			id: "092C4FA2ADFF2092"
+			rewards: [
+				{
+					id: "4CED06E912CA14BA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6FC72CAD4253FDCA"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15A7051E89345855"
+				item: {
+					Count: 1
+					id: "tconstruct:small_blade"
+					tag: {
+						Material: "tconstruct:rock#stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2019084A1923AA05"]
+			id: "59B8117FF6DE9D1B"
+			rewards: [
+				{
+					id: "397AF6480034EE53"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62C6768B46086AB9"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69F9AA6AE0A9E5D9"
+				item: {
+					Count: 1
+					id: "tconstruct:small_axe_head"
+					tag: {
+						Material: "tconstruct:rock#stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2019084A1923AA05"]
+			id: "164E80ABD60DA4B4"
+			rewards: [
+				{
+					id: "0F8BFBCE15C133EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6DA1CFA51210C685"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "221E11285D8D7A6F"
+				item: {
+					Count: 1b
+					id: "tconstruct:round_plate"
+					tag: {
+						Material: "tconstruct:rock#stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["027FA7B5FE499C6A"]
+			id: "41259A249544DFA6"
+			rewards: [{
+				id: "168DF24D3F572514"
+				item: {
+					Count: 1
+					id: "tconstruct:crafting_station"
+					tag: {
+						texture: "minecraft:oak_log"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "To store all your parts"
+			tasks: [{
+				id: "4FEF7DDF2A9BC5F5"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57633F033AA5D597"]
+			description: [
+				"• You first smeltery"
+				"• Mini 2 block smeltery."
+				"• Gives 9 nuggets from ore"
+				"• Uses Heater - solid fuel source - to melt ores. Heater can be replaced with Seared Tank which can increase temperature"
+				"• Internal capacity of 9 ingots"
+				"• Melts 3 items at once"
+			]
+			icon: "tconstruct:seared_melter"
+			id: "66B2EBFE9718B18F"
+			rewards: [
+				{
+					count: 4
+					id: "2F2D16BFAA2530E7"
+					item: "tconstruct:blank_sand_cast"
+					type: "item"
+				}
+				{
+					id: "15684862A315BA7E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Your first smelting device"
+			tasks: [
+				{
+					id: "66A83AC2BE315764"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6DD10B4E59492252"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "3B330491EEF83788"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "57105CE45CE27A24"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "05BE47D030277F95"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			title: "Basic Smeltery"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["334C559F2561363F"]
+			description: [
+				"• Should be your second smeltery"
+				""
+				"• Gives 12 nuggets from ore"
+				""
+				"• Mass melting capabilities, extendable capacity"
+				""
+				"• More fuel efficiency, depends on size"
+				""
+				"• Able to melt mobs"
+				""
+				"• Ideal for mass smelting"
+			]
+			icon: "tconstruct:smeltery_controller"
+			id: "669C12775ABE80B4"
+			rewards: [
+				{
+					id: "482D6E5C7E83DF9B"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "353EDB50B637A5B0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "31012262F4192BE9"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "4915621C57A6660F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:seared_blocks"
+						}
+					}
+					title: "Any #tconstruct:seared_blocks"
+					type: "item"
+				}
+			]
+			title: "The mighty smeltery"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31F3DEBB3C6A6C27"]
+			icon: "tconstruct:scorched_alloyer"
+			id: "506C04CF6B06F5EF"
+			rewards: [
+				{
+					id: "5F763A3BC261D343"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "39AE59837B430151"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Used to create Alloys from two metals"
+			tasks: [
+				{
+					count: 3L
+					id: "6F50A25D658FA033"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "7813DD622A22CC2A"
+					item: "tconstruct:scorched_alloyer"
+					type: "item"
+				}
+				{
+					id: "3A9354BD6C7AED70"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "3250ED6914838643"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20860479F389164A"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			title: "Alloyer"
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["506C04CF6B06F5EF"]
+			description: [
+				"• Gives byproducts from ores"
+				""
+				"• Cannot alloy"
+				""
+				"• Can hold multiple metals"
+				""
+				"• Can melt blocks that give multiple outputs"
+			]
+			icon: "tconstruct:foundry_controller"
+			id: "4E216103A01C2BDA"
+			rewards: [
+				{
+					id: "0C09D229517083A9"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "60FF2BEED851C467"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6EE2F9F04839B3C9"
+					item: "aquaculture:treasure_chest"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D8179AE1C6B795D"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					id: "583459D633007BF6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:scorched_blocks"
+						}
+					}
+					title: "Any #tconstruct:scorched_blocks"
+					type: "item"
+				}
+				{
+					id: "534D902C012A4E32"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+				{
+					id: "3B670D2A73C80692"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0D8C029235F2D42D"
+					item: "tconstruct:scorched_faucet"
+					type: "item"
+				}
+				{
+					id: "34E6D91F1995B331"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["669C12775ABE80B4"]
+			id: "63CFF01CE065EBA2"
+			rewards: [
+				{
+					id: "30196E9B39815D34"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "616CEDA97F9477EF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6E9C0B414C506D25"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			subtitle: "Visit Nether to find new materials for your tools."
+			tasks: [{
+				id: "561F059181904FC9"
+				item: "tconstruct:nether_grout"
+				type: "item"
+			}]
+			title: "Need to go deeper"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["66B2EBFE9718B18F"]
+			description: [
+				"To start, take a stone tool part, (ex., pickaxe head) and put it in a Casting Table hooked up to your Smeltery."
+				""
+				"Then pour some Gold on the table."
+				""
+				"It will form a Cast around the tool part. The stone part is consumed and your cast is ready to be filled with metal of your choice."
+				""
+				"The ingot cast requires any ingot."
+			]
+			id: "697FA8E25F8878DC"
+			rewards: [
+				{
+					id: "7F7866031536660E"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "212A3F7CB1E35224"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Casts are used with the Smeltery to make metal tool parts."
+			tasks: [{
+				id: "5282461DE220B2E3"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["697FA8E25F8878DC"]
+			id: "17C644CDB4AD98FB"
+			rewards: [
+				{
+					id: "31DCE78FEAB57DD2"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1EC581064769B891"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EF5B7D3DBF52870"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["697FA8E25F8878DC"]
+			id: "5CFC9890EC05B813"
+			rewards: [
+				{
+					id: "59723BD72966F6A9"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0A47A18346397FE7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "39C1D532A3529F78"
+				item: "tconstruct:hammer_head_cast"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["697FA8E25F8878DC"]
+			id: "72B7777321E73225"
+			rewards: [{
+				id: "7566DD8AF8C7E2B8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A477010C924C266"
+				item: "tconstruct:broad_blade_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["697FA8E25F8878DC"]
+			id: "2856494BC49CD42A"
+			rewards: [
+				{
+					id: "09104E2129FF88DC"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2A1E7DC268983433"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "78650267DB5903C8"
+				item: "tconstruct:broad_axe_head_cast"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["66B2EBFE9718B18F"]
+			description: [
+				"Defense are a type of modifier exclusive to armor, boosting protection against particular threats such as fire or knockback. They provide another way to customize armor as most armor types lack material traits."
+				""
+				"They require defense slots to be applies."
+			]
+			id: "1BC681BBA826E5A7"
+			rewards: [{
+				id: "4C9B2AB7206BD092"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4821A6EAB87EF8F0"
+					item: "tconstruct:iron_reinforcement"
+					type: "item"
+				}
+				{
+					id: "79587CE7777E0CBE"
+					item: "tconstruct:slimesteel_reinforcement"
+					type: "item"
+				}
+				{
+					id: "024A43F4F1E120A5"
+					item: "tconstruct:seared_reinforcement"
+					type: "item"
+				}
+				{
+					id: "0B1BEBF0D2B4E6F0"
+					item: "tconstruct:gold_reinforcement"
+					type: "item"
+				}
+				{
+					id: "4A7DB29186E06E71"
+					item: "tconstruct:emerald_reinforcement"
+					type: "item"
+				}
+				{
+					id: "2C6AF2C822091D4D"
+					item: "tconstruct:cobalt_reinforcement"
+					type: "item"
+				}
+			]
+			title: "Full reinforcement"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E114D081C2102C4"]
+			id: "21F3AC53CB3FA5B7"
+			rewards: [
+				{
+					id: "3091BEF453A89A53"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "6032974AB2C52B60"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "2990F4D80E5C1223"
+					item: "tconstruct:sky_slime_ball"
+					type: "item"
+				}
+				{
+					id: "7608A5CEF78F0BF8"
+					item: "tconstruct:ender_slime_ball"
+					type: "item"
+				}
+				{
+					id: "5EC2D44DB29F9971"
+					item: "tconstruct:ichor_slime_ball"
+					type: "item"
+				}
+				{
+					id: "34E4BF79F6FD8909"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E114D081C2102C4"]
+			id: "6AB0E4AF9800CC45"
+			rewards: [
+				{
+					id: "1FD8739394D264AD"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "4B53CD3357BD9E53"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0F07B39CFA56E926"
+				item: "tconstruct:necrotic_bone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E114D081C2102C4"]
+			id: "710A51BA49CF1816"
+			rewards: [
+				{
+					id: "42EC06A6F7EE52E6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5730294DDFBEA2C3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5414899CB15005A7"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26B274403E651592"
+				item: "tconstruct:dragon_scale"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1135AB1EFCAE4958"]
+			id: "5B977815886D4AFE"
+			rewards: [
+				{
+					id: "159EC1FE98BFBEAD"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3AF5138F9B8B2E8B"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			subtitle: "Now with upgrades!"
+			tasks: [
+				{
+					id: "0276DAE3EF634719"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:tanned"
+								}
+								{
+									level: 1
+									name: "tconstruct:snow_boots"
+								}
+							]
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+							tic_stats: {
+								"tconstruct:armor": 1.0f
+								"tconstruct:durability": 130.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								"tconstruct:snow_boots": 1b
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4196B2B98895243B"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:tanned"
+							}]
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+							tic_stats: {
+								"tconstruct:armor": 4.0f
+								"tconstruct:durability": 150.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "753E46835CF64799"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:tanned"
+							}]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.55f
+							}
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:durability": 160.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "769EBF737B13816A"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:tanned"
+							}]
+							tic_persistent: { }
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+							tic_stats: {
+								"tconstruct:armor": 1.0f
+								"tconstruct:durability": 110.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Traveler's Gear"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["506C04CF6B06F5EF"]
+			id: "714DBAB268132E1A"
+			rewards: [
+				{
+					id: "271BCA357A8E1FDC"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2A8857F92D3DD45C"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "5B4BB4AED55D5668"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "23FE8C4E3F1FC236"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["506C04CF6B06F5EF"]
+			id: "648D56D8B16E9EC6"
+			rewards: [
+				{
+					id: "051E08F9AAD4A89A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "3F4F8DCF380EB5C1"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4080D3E2B87CAD7F"
+				item: "tconstruct:hepatizon_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63CFF01CE065EBA2"]
+			id: "1D73639C8475DE8F"
+			rewards: [
+				{
+					id: "145045AEEE1F4563"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "2C234E2FB4B7E449"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "2E5A4AC34504F645"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2D2F9290ABF927DB"
+				item: "tconstruct:cobalt_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2019084A1923AA05"]
+			id: "2E5472128046FEB1"
+			rewards: [
+				{
+					id: "5D712010215C0876"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0A18306720647770"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3270955167456EE1"
+				item: {
+					Count: 1
+					id: "tconstruct:repair_kit"
+					tag: {
+						Material: "tconstruct:rock#stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["506C04CF6B06F5EF"]
+			id: "2A8DA60004C5745F"
+			rewards: [
+				{
+					id: "1431D5E69421026E"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "65519E8FCBA8DEB6"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "04DAB65AABDBFDD9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0C98929E9E108702"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["506C04CF6B06F5EF"]
+			id: "30DE7DDF6D2FB4E0"
+			rewards: [
+				{
+					id: "46DC4393E9347849"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "6914858D18821E7B"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D62E32E65D4DDA7"
+				item: "tconstruct:amethyst_bronze_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["506C04CF6B06F5EF"]
+			id: "080C6380A03F41FD"
+			rewards: [
+				{
+					id: "3105C1DC3E35961D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "4CB6C63F65623292"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "1EB655EB496CD5A0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0AE617C02885F285"
+				item: "tconstruct:rose_gold_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["697FA8E25F8878DC"]
+			id: "6C6F964C4A018DA5"
+			rewards: [{
+				id: "1D343C60583869DD"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			subtitle: "Collect all the golden casts"
+			tasks: [{
+				advancement: "tconstruct:smeltery/cast_collector"
+				criterion: ""
+				id: "7714179279063A7E"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2019084A1923AA05"]
+			id: "21DBF631B1411130"
+			rewards: [{
+				id: "6DC29580143C31AB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Clay, Sand and Gravel"
+			tasks: [{
+				id: "03D2F1AC5F2308B7"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1135AB1EFCAE4958"]
+			id: "57633F033AA5D597"
+			rewards: [{
+				id: "3E03576CB3784E17"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Required to make Seared bricks"
+			tasks: [{
+				id: "6869A64D1DC6FD83"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D73639C8475DE8F"]
+			id: "5335D9C81B5C917F"
+			rewards: [{
+				id: "7DC1793DF6DA55EB"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0FBF22144164153C"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+							tic_stats: {
+								"tconstruct:armor": 7.0f
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:durability": 480.0f
+								"tconstruct:knockback_resistance": 0.1f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17649FF8C4EFCB0F"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+							tic_stats: {
+								"tconstruct:armor": 2.0f
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:durability": 330.0f
+								"tconstruct:knockback_resistance": 0.1f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DC63FA387018FD5"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:durability": 450.0f
+								"tconstruct:knockback_resistance": 0.1f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "281295F42195162C"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							tic_persistent_data: {
+								abilities: 1
+								defense: 4
+								upgrades: 1
+							}
+							tic_stats: {
+								"tconstruct:armor": 2.0f
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:durability": 390.0f
+								"tconstruct:knockback_resistance": 0.1f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Plated Gear"
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57633F033AA5D597"]
+			id: "1CBBA3E5B8B8BBA6"
+			rewards: [{
+				id: "61B7E2D28D9412BF"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Let me show you the way"
+			tasks: [{
+				id: "7E3FE2BCE87C4015"
+				item: "tconstruct:seared_lantern"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1135AB1EFCAE4958"]
+			description: [
+				"Modifiers are extra enhancements that can be applied to a tool, similar to enchantments."
+				""
+				"Upgrades are standart improvements to a tool. They are usually done simply by applying an item to a tool."
+				""
+				"Upgrades require upgrade slots to be applied. Most tools start with 3 or 4 upgrade slots, though it's possible to get more slots."
+			]
+			id: "5B297B4A3774710F"
+			rewards: [{
+				id: "4EC756E2FE79C6D3"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Apply a modifier to a tinker tool"
+			tasks: [{
+				advancement: "tconstruct:tools/modified"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "tconstruct:creative_slot"
+					tag: {
+						slot: "upgrades"
+					}
+				}
+				id: "6ACA6DEF51CF0A26"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["080C6380A03F41FD"]
+			description: [
+				"Modifiers such as silk touch and autosmelt are notable as both change the effects of mining blocks."
+				""
+				"Abilities require ability slots to be applied. Nearly all tools start with a single ability slot, and can only receive up to 1 more so choose wisely!"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "abilities"
+				}
+			}
+			id: "0134A7F0CA36F603"
+			rewards: [{
+				id: "66BE0273C59E2A4A"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Abilities are powerful modifiers that drastically change a tool. "
+			tasks: [{
+				count: 5L
+				id: "48535A553EFE599A"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			title: "Abilities"
+			x: 17.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0134A7F0CA36F603"]
+			id: "4C5FD45040647654"
+			rewards: [{
+				id: "191094E3C50CB0AA"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Apply every single default ability modifier to a tool at least once"
+			tasks: [{
+				advancement: "tconstruct:smeltery/abilities"
+				criterion: ""
+				id: "3FC0837BFB3BA772"
+				type: "advancement"
+			}]
+			x: 18.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["669C12775ABE80B4"]
+			id: "32CC971AC151F4A3"
+			tasks: [{
+				id: "40317D0D8454A9B4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tconstruct:tinkers_anvil"
+								tag: {
+									texture: "tconstruct:amethyst_bronze_block"
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:tinkers_anvil"
+								tag: {
+									texture: "create:brass_block"
+								}
+							}
+							{
+								Count: 1b
+								id: "tconstruct:tinkers_anvil"
+								tag: {
+									texture: "tconstruct:rose_gold_block"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			id: "6E0E6E31AB2FAC9A"
+			tasks: [{
+				id: "05814FE6C5AB47E3"
+				item: "tconstruct:modifier_worktable"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "7516B5922067E18C"
+			tasks: [{
+				id: "02CE06225A58A48F"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+	]
+	title: "Tinkers Workshop"
+}

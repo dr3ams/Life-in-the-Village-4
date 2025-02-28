@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "frequency": 0.50,
+    "offset": 43,
+    "salt": 1909491313,
+    "spacing": 58,
+    "structure": "dungeons_enhanced:fishing_ship"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:fishing_ship",
+      "weight": 1
+    }
+  ]
+}

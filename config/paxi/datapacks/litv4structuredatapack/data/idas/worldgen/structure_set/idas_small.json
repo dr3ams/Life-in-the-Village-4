@@ -73,10 +73,6 @@
       "weight": 3
     },
     {
-      "structure": "idas:ancient_statue/ancient_statue_jungle",
-      "weight": 3
-    },
-    {
       "structure": "idas:washing_camp",
       "weight": 3
     },
@@ -111,11 +107,11 @@
   ],
   "placement": {
     "salt": 169480673,
-    "spacing": 25,
-    "separation": 15,
+    "spacing": 35,
+    "separation": 23,
     "type": "integrated_api:advanced_random_spread",
     "super_exclusion_zone": {
-      "chunk_count": 2,
+      "chunk_count": 8,
       "other_set": "#idas:small_avoid"
     }
   }

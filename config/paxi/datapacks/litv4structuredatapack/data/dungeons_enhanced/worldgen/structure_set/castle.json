@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "frequency": 0.60,
+    "offset": 55,
+    "salt": 1328554442,
+    "spacing": 71,
+    "structure": "dungeons_enhanced:castle"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:castle",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "remove": [
+    "#dungeons_enhanced:no_structures/overworld/surface",
+	"minecraft:plains"
+  ],
+  "values": [
+    "#minecraft:is_overworld"
+  ]
+}

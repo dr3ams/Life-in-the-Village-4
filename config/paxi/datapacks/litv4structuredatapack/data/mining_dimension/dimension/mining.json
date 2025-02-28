@@ -1,0 +1,36 @@
+{
+  "type": "mining_dimension:mining",
+  "generator": {
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "mining_dimension:lush_caverns",
+          "parameters": {
+            "temperature": [0.5, 1],
+            "humidity": [0.7, 1],
+            "continentalness": [-1, 1],
+            "erosion": [-1, 1],
+            "weirdness": [-0.5, 1],
+            "depth": [0.2, 0.9],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "mining_dimension:mining",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [-0.5, 0.925],
+            "erosion": [0.4, 1],
+            "weirdness": 0,
+            "depth": [-2, 2],
+            "offset": 0.34
+          }
+        }
+      ]
+    },
+    "settings": "mining_dimension:mining",
+    "type": "minecraft:noise"
+  }
+}

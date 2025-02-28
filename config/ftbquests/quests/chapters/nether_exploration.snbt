@@ -1,0 +1,1486 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "nether_exploration"
+	group: "6454BAEA71CB61DD"
+	icon: "minecraft:netherrack"
+	id: "1D0517C3BEA06389"
+	images: [{
+		height: 11.653846153846153d
+		image: "litv3:textures/misc/nebula.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 17.5d
+		y: 2.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "2180E83A0BF99108"
+			rewards: [
+				{
+					id: "717522BAE4B4E0C0"
+					item: "minecraft:gold_ingot"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "3C7E5B828F4C583E"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_leaping"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43D736688F1921D7"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Build, light and enter the nether portal"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "3A28C5F6C5F31A32"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38D6932079FC5877"]
+			id: "487EE12A34EF9E23"
+			rewards: [
+				{
+					id: "5E7F1B63FC92E4F5"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					id: "30DD90475F80E3A3"
+					item: "minecraft:paper"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "5F3BBE58749408E4"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76ECB8DFCB6D3229"
+				item: "quark:soul_sandstone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "38D6932079FC5877"
+			rewards: [
+				{
+					id: "25B66EB811405401"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4632083302CBFBD0"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 20
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26C4A23F14C93AFC"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["287AA5F2913FF7BA"]
+			id: "7C88DB14EC430EEE"
+			rewards: [
+				{
+					id: "30247F6E0360C7F5"
+					item: "minecraft:redstone"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "04C86A11023295AF"
+					item: "minecraft:paper"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "7D1CDD038DB898B3"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59910CE65D0A274B"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["287AA5F2913FF7BA"]
+			id: "18A396FBC15B57BD"
+			rewards: [{
+				id: "725FB9F74F0B7CFB"
+				item: "minecraft:gunpowder"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "38CFD59EFD5D6081"
+				item: "supplementaries:sconce_soul"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38D6932079FC5877"]
+			id: "287AA5F2913FF7BA"
+			rewards: [
+				{
+					id: "2EE69A84937F91C0"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "0588DF1A87592226"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37E0BCBB5D0B268F"
+				item: "minecraft:soul_torch"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "3A874C0C28B98BF8"
+			rewards: [{
+				id: "1D020E124B4BEF57"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "010FC3931AFA3B6F"
+				item: "minecraft:crimson_stem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "62E4B0123943B783"
+			rewards: [{
+				id: "1300091DDCAEEC20"
+				item: "minecraft:gold_nugget"
+				random_bonus: 15
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CCAEF914E36E30F"
+				item: "floormats:connected/nether/connected_gilded_crimson_stem"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "4122C33D384CF98D"
+			rewards: [
+				{
+					id: "0DABB5DB54DEA387"
+					item: "minecraft:redstone"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "3BD9AA923C8C4229"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CB3FDE433ECFB90"
+				item: "floormats:connected/nether/connected_crimson_stem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["399D0F4FA424B5A4"]
+			id: "6B2A287DAD092F9D"
+			rewards: [
+				{
+					id: "69B56B0D8DDECE00"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "1696187BFFC02FA0"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "6C91D8BCA9AF77ED"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D5571A0D8229608"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "399D0F4FA424B5A4"
+			rewards: [
+				{
+					id: "7A53463D52B96FB8"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+				{
+					id: "06B734CEC247F1E7"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "434970DB0E6FFA49"
+				item: "minecraft:crimson_nylium"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "536B521F13679850"
+			rewards: [{
+				id: "60F1882D2030BC3E"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10C1474929C0C813"
+				item: "minecraft:warped_stem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["536B521F13679850"]
+			id: "40A34660A26BB44F"
+			rewards: [
+				{
+					id: "6B87399F1A2F26D8"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4A8B9467CE8CA25E"
+					item: "minecraft:gold_nugget"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BC3510879D1728B"
+				item: "floormats:connected/nether/connected_gilded_warped_stem"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["536B521F13679850"]
+			id: "2B32BE7E83266F81"
+			rewards: [
+				{
+					id: "03218D916D12F3CD"
+					item: "minecraft:paper"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "1D74B21A995479F7"
+					item: "minecraft:iron_nugget"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B259D2E0B2DD716"
+				item: "floormats:connected/nether/connected_warped_stem"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["536B521F13679850"]
+			id: "39D411EBF412394A"
+			rewards: [
+				{
+					id: "6BB1871A6D604B80"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "34DE9B231AE35807"
+					item: "minecraft:gold_nugget"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F1EEF1EA840B4D9"
+				item: {
+					Count: 1
+					id: "minecraft:warped_fungus_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "2EA5028B44B954C5"
+			rewards: [{
+				id: "68FB8B88F3EED9F6"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "776956F9B3950832"
+				item: "minecraft:shroomlight"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BF4F7FA6F5489B8"]
+			id: "1D9B2263E9696EDF"
+			rewards: [{
+				id: "77E90C41502BF81B"
+				item: "minecraft:slime_ball"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1542DDB5BD42E5F4"
+				item: "quark:blue_nether_bricks"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BF4F7FA6F5489B8"]
+			id: "65B686EB9BA517F4"
+			rewards: [
+				{
+					id: "4DD3C0157B05FB9A"
+					item: "minecraft:redstone"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "6087CE187EB97FA9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "612D3213737DA7A4"
+				item: "minecraft:red_nether_bricks"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "1579F030A62BD23B"
+			rewards: [{
+				id: "10E2AF407A28DE7C"
+				item: "minecraft:glowstone_dust"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "02247DDCF9983FB9"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1579F030A62BD23B"]
+			id: "758DB0E456768CA8"
+			rewards: [{
+				id: "1049524E44880884"
+				item: "minecraft:paper"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "54981FEDDD097D2A"
+				item: "minecraft:polished_blackstone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1579F030A62BD23B"]
+			id: "2E525D0F8BB84C24"
+			rewards: [
+				{
+					id: "0843A6483357B22F"
+					item: "minecraft:iron_nugget"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					id: "1040CE36715FE633"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E6D5E9689BFA134"
+				item: "supplementaries:blackstone_tile"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1579F030A62BD23B"]
+			id: "2134AF23429FA6E2"
+			rewards: [{
+				id: "19C4BC460A893359"
+				item: "minecraft:gold_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EA164EBF3CC075C"
+				item: "minecraft:gilded_blackstone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "7BF4F7FA6F5489B8"
+			rewards: [
+				{
+					id: "71888375E4A0E825"
+					item: "minecraft:gold_nugget"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "0998A9C6AAE2B757"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E47DAEA9419EECF"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "7302E3D9693F151A"
+			rewards: [
+				{
+					id: "002C694BB905C989"
+					item: "minecraft:gunpowder"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "44A14ED550752381"
+					item: "minecraft:redstone"
+					random_bonus: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5587B31A70FD1DB9"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7302E3D9693F151A"]
+			id: "1184F04280AB950F"
+			rewards: [
+				{
+					id: "3203377AC3696BA2"
+					item: "minecraft:paper"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "3113D9533AACF7E8"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B406A383510EDBF"
+				item: "minecraft:polished_basalt"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "6FDC0ADE3275BB7A"
+			rewards: [
+				{
+					id: "2312C0F7ED3FD83D"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "7C39BCBF05ABB816"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "33D5C352CBFD0B13"
+					item: "minecraft:nether_quartz_ore"
+					random_bonus: 12
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "4E1D29E47EF602F4"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6FDC0ADE3275BB7A"]
+			id: "56135589A8A4C819"
+			rewards: [
+				{
+					id: "027E2C74A5C4F4E3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2074C25B6FC97B6E"
+					item: "minecraft:nether_quartz_ore"
+					random_bonus: 23
+					type: "item"
+				}
+				{
+					id: "70DFD0A5C162C493"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "2E6DB2EF206CBEE4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["56135589A8A4C819"]
+			id: "4A29297E9C755469"
+			rewards: [
+				{
+					count: 2
+					id: "6546C62FF6812982"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "6B993809783F84A5"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5E3190EADA4DEEE7"
+					item: "minecraft:nether_quartz_ore"
+					random_bonus: 27
+					type: "item"
+				}
+				{
+					id: "52A6DC61EDE4863D"
+					item: "minecraft:gold_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "68CCFD7F0DB8FF17"
+				type: "kill"
+				value: 20L
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7BF4F7FA6F5489B8"]
+			id: "6E15B29ADEF21112"
+			rewards: [
+				{
+					id: "117701B14CC13BA2"
+					item: "minecraft:raw_gold"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5C35ABDD3594C70C"
+					item: "minecraft:quartz"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "68B08264E94C8953"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6E15B29ADEF21112"]
+			id: "3A6CB0263E300028"
+			rewards: [
+				{
+					id: "4B079407828FAC22"
+					item: "minecraft:raw_gold"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "2C9CBEE695F4D7A9"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "6AE3AF3F2EA324AA"
+					item: "minecraft:slime_ball"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "6AD11F89C0FFF606"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3A6CB0263E300028"]
+			id: "0F098ACF4C718802"
+			rewards: [
+				{
+					count: 16
+					id: "7E9A92A8FCB5B70D"
+					item: "minecraft:quartz"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "23C727AE3429F114"
+					item: "minecraft:slime_ball"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "40CBF00F222BE2B2"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "2D51AE23A26C2765"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "38EE50A9832FFCF0"
+				type: "kill"
+				value: 40L
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "43E414A246A05B0E"
+			rewards: [
+				{
+					count: 5
+					id: "11F4FAD3FBE2560D"
+					item: "minecraft:nether_quartz_ore"
+					type: "item"
+				}
+				{
+					id: "4B17A884DE7A3D1B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "3A3FD670AF366E5B"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			subtitle: "Enter a Bastion Remnant"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "22EC98254ACE06F8"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43E414A246A05B0E"]
+			id: "4890308F6A77A05C"
+			rewards: [{
+				id: "25313F141668BDED"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Loot a chest in a Bastion Remnant"
+			tasks: [{
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+				id: "0F37DAFE4DE9CF39"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "339674EB5D2A2852"
+			rewards: [
+				{
+					id: "112D6B4BEF0E514F"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "047D19EB5FFDFCCE"
+					item: "minecraft:nether_quartz_ore"
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			subtitle: "Tame a Foxhound by feeding it Coal while under Fire resistance"
+			tasks: [{
+				advancement: "quark:tame_foxhound"
+				criterion: ""
+				id: "48C05B6ABB55D87B"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "21CEC05CBFEA8B0E"
+			rewards: [
+				{
+					id: "023E4F0227E5340A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "53F78C56C3E6DEB4"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "01FD4D4CD1DCD202"
+					item: "minecraft:raw_gold"
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			subtitle: "Explore all Nether biomes"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "3ED6FA0361D6D6B6"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["00FACACE1AADA314"]
+			id: "155E4E7BC087647A"
+			rewards: [{
+				id: "685BB37A3BAD7949"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5043B99BF9B87153"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["155E4E7BC087647A"]
+			id: "6668401BF4304212"
+			rewards: [{
+				count: 5
+				id: "57A26A8D0FD349C1"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D930A359922D5E7"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["155E4E7BC087647A"]
+			id: "00000000000000BB"
+			rewards: [
+				{
+					id: "74869F66B0915A6B"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37BD0F782615438E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "08616EAEE6E63425"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Locate the End portal."
+			tasks: [{
+				id: "5D82777831D07A11"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "3805D1BB400ED6FE"
+			rewards: [{
+				id: "4D63B5EABF812A8B"
+				item: "minecraft:gold_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "169DFBA331053040"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "717E0E4B8EE8DBFE"
+			rewards: [{
+				id: "38F5B34E9BFF8ACC"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "5CD578C92F43E2F3"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["717E0E4B8EE8DBFE"]
+			id: "00000000000000C4"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000000497"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "000000000000049D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004A3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004A9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4834851F1566671D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000000C4"]
+			id: "3738B0DE6CC37452"
+			rewards: [
+				{
+					count: 3
+					id: "2CD58BCD0CD733F0"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0000000000000498"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "000000000000049E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004A4"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004AA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "42EE04AFFCF9FF6F"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "36EA0616B1B6BBA4"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3738B0DE6CC37452"]
+			id: "75F630520D632862"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000000499"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "000000000000049F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004A5"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "00000000000004AB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000000C3"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2180E83A0BF99108"]
+			id: "00FACACE1AADA314"
+			rewards: [{
+				id: "3DEEFBD9C9D04197"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Break your way into a Nether Fortress"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "65E9058E644A8CA4"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["39D411EBF412394A"]
+			id: "47996E93799B3383"
+			rewards: [
+				{
+					id: "699E61B16B8EB959"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7D84AA14967CFA0B"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "390D693E937D5421"
+					item: "minecraft:quartz"
+					random_bonus: 32
+					type: "item"
+				}
+			]
+			subtitle: "Ride a Strider with a Warped Fungus on a stick"
+			tasks: [{
+				advancement: "minecraft:nether/ride_strider"
+				criterion: ""
+				id: "6593AE2B1DB95124"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00FACACE1AADA314"]
+			id: "62D0DB8C0B2BAE56"
+			rewards: [{
+				count: 10
+				id: "47B31DD4F4B36DBB"
+				item: "minecraft:nether_quartz_ore"
+				type: "item"
+			}]
+			subtitle: "Find a small nether dungeon"
+			tasks: [{
+				advancement: "betterdungeons:small_nether_dungeon"
+				criterion: ""
+				id: "222A5F9405FD8918"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["155E4E7BC087647A"]
+			id: "15BA69671841A79B"
+			rewards: [{
+				id: "4BDC97DAE1FBE0C0"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21D001863B88C48D"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00000000000000BB"]
+			id: "77F17C15B698F3CC"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000000278"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5F9788776D205820"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Enter the End portal"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "128FAC40150681E1"
+				type: "advancement"
+			}]
+			title: "This is the End....."
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77F17C15B698F3CC"]
+			icon: "minecraft:dragon_head"
+			id: "6CDC6733BD84ACA1"
+			rewards: [{
+				id: "52F64DB17EF2F284"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "178EE111694A84FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CDC6733BD84ACA1"]
+			id: "01D2A7528EF5B6A6"
+			rewards: [{
+				id: "71FB50142E3B5EC9"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Respawn the Ender Dragon"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "33FC909BAC6F4424"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CDC6733BD84ACA1"]
+			id: "0A5F8CB7AF0AF2BA"
+			rewards: [{
+				id: "659680B7AB9C9200"
+				type: "xp"
+				xp: 200
+			}]
+			size: 2.0d
+			subtitle: "Escape the Island"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "56F1731DC44B96AD"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["241AD7C07B239921"]
+			id: "30EB863CBF1958F8"
+			rewards: [{
+				id: "08C7D94F1A2391BF"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6DDF71DF91984D36"
+				item: "quark:dusky_myalite"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A5F8CB7AF0AF2BA"]
+			id: "241AD7C07B239921"
+			rewards: [{
+				id: "4EE88268F2524F21"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "316A7969B84AD847"
+				item: "quark:myalite"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["241AD7C07B239921"]
+			id: "583DEE4BEBD427A8"
+			rewards: [{
+				id: "5B70E093B4500769"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "060E9AA8C980C0FC"
+				item: "quark:myalite_crystal"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15BA69671841A79B"]
+			id: "0C846005B5E08018"
+			rewards: [
+				{
+					id: "490357F5E0F784AC"
+					item: "minecraft:nether_quartz_ore"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "742745C143E7A690"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "526220859DC58D74"
+				item: "iron_ender_chests:iron_ender_chest"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C846005B5E08018"]
+			id: "0B80B88E6522E611"
+			rewards: [
+				{
+					count: 5
+					id: "3468BE0E2595A70B"
+					item: "minecraft:nether_quartz_ore"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					count: 5
+					id: "575D83F0AB1C30FE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "42EC2EE8900529F3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "7E6D14C2A9C9F454"
+				item: "iron_ender_chests:diamond_ender_chest"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B80B88E6522E611"]
+			id: "755540C403B9FB6A"
+			rewards: [
+				{
+					id: "5F296BAC0DBE6187"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 5
+					id: "695DEDE1E2A39F3F"
+					item: "minecraft:nether_quartz_ore"
+					random_bonus: 23
+					type: "item"
+				}
+				{
+					count: 5
+					id: "04146CB43AC2CF75"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0070D6AABDD8479D"
+				item: "iron_ender_chests:netherite_ender_chest"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "7A371AEE4727A5DE"
+			rewards: [{
+				id: "75EC2D97EA92ADCB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "50CAF37E6B636E03"
+				item: "fireproofboats:crimson_boat"
+				type: "item"
+			}]
+			title: "Fireproof Boats!"
+			x: -2.0d
+			y: 7.0d
+		}
+	]
+	title: "&4The Nether&r"
+}

@@ -1,0 +1,12 @@
+#Specify the Strategy to be used when picking which data to keep and remove
+#when a Dog got unloaded into DTN Respawn Storage
+#0: Removes all tags, keeping only the Dog's Owner, the Dog's Age, DTN's saved data
+#and additional tags provided by tags_to_keep below.
+#1: Keep all tags, and remove certain tags specified in respawn_removal_tags except
+#important DTN tags.
+#Other: Defaulted to 0
+#Range: > -2147483648
+restore_strategy = 0
+respawn_removal_tags = []
+tags_to_keep = []
+

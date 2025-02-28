@@ -5,15 +5,7 @@
       "weight": 5
     },
     {
-      "structure": "idas:bearclaw_inn",
-      "weight": 5
-    },
-    {
       "structure": "idas:hermits_hollow",
-      "weight": 4
-    },
-    {
-      "structure": "idas:hunters_cabin",
       "weight": 4
     },
     {
@@ -30,11 +22,11 @@
     },
     {
       "structure": "idas:wizard_tower",
-      "weight": 4
+      "weight": 3
     },
     {
       "structure": "idas:redhorn_guild",
-      "weight": 3
+      "weight": 2
     },
     {
       "structure": "idas:beekeepers_house",
@@ -57,10 +49,6 @@
       "weight": 1
     },
     {
-      "structure": "idas:winter_wagon",
-      "weight": 1
-    },
-    {
       "structure": "idas:apothecary_abode",
       "weight": 1
     },
@@ -71,11 +59,11 @@
   ],
   "placement": {
     "salt": 169480670,
-    "spacing": 20,
-    "separation": 17,
+    "spacing": 40,
+    "separation": 35,
     "type": "integrated_api:advanced_random_spread",
     "super_exclusion_zone": {
-      "chunk_count": 2,
+      "chunk_count": 6,
       "other_set": "#idas:common_avoid"
     }
   }

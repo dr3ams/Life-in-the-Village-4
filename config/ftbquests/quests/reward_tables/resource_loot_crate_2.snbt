@@ -1,0 +1,46 @@
+{
+	id: "6B0A0A3A8517FD62"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Resource Loot Crate 2"
+		string_id: "resource_loot_crate_2"
+	}
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_2"
+				}
+			}
+		}
+	]
+	title: "Resource Loot Crate 2"
+	use_title: true
+}

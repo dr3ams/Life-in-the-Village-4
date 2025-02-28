@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "offset": 19,
+    "salt": 2084725083,
+    "spacing": 124,
+    "structure": "dungeons_enhanced:elders_temple"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:elders_temple",
+      "weight": 1
+    }
+  ]
+}

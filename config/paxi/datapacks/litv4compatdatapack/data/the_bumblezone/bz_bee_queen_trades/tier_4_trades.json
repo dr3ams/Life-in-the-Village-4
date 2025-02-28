@@ -1,0 +1,600 @@
+{
+  "wants": [
+    {
+      "id": "minecraft:honey_block",
+      "required": true
+    },
+    {
+      "id": "minecraft:diamond_block",
+      "required": true
+    },
+    {
+      "id": "minecraft:bee_nest",
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:bee_soup",
+      "required": true
+    },
+    {
+      "id": "#the_bumblezone:buckets/honey",
+      "required": false
+    },
+    {
+      "id": "#c:beehive",
+      "required": false
+    },
+    {
+      "id": "#forge:beehive",
+      "required": false
+    },
+    {
+      "id": "#resourcefulbees:resourceful_honey_block",
+      "required": false
+    },
+    {
+      "id": "#resourcefulbees:t3_nests",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:t4_apiary",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:breeder",
+      "required": false
+    },
+    {
+      "id": "#productivebees:advanced_beehives",
+      "required": false
+    },
+    {
+      "id": "#productivebees:solitary_overworld_nests",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honey_lamp",
+      "required": false
+    },
+    {
+      "id": "skinnedlanterns:honey_lantern_block",
+      "required": false
+    },
+    {
+      "id": "skinnedlanterns:honey_soul_lantern_block",
+      "required": false
+    },
+    {
+      "id": "apotheosis:beeshelf",
+      "required": false
+    },
+    {
+      "id": "zenith:beeshelf",
+      "required": false
+    },
+    {
+      "id": "bk:royal_jelly",
+      "required": false
+    },
+    {
+      "id": "forestry:ambrosia",
+      "required": false
+    },
+    {
+      "id": "forestry:royal_jelly",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:honeyglazedcarrotsitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:honeyglazedhamitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:honeyglazedlemonlambitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:honeysandwichitem",
+      "required": false
+    },
+    {
+      "id": "pamhc2foodextended:honeysoyribsitem",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:honey_113",
+      "required": false
+    },
+    {
+      "id": "valleycraft:beekeeper_station",
+      "required": false
+    },
+    {
+      "id": "valleycraft:beekeeping_bookshelf",
+      "required": false
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "the_bumblezone:honey_compass",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 60,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:stinger_spear",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 60,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:honey_crystal_shield",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 60,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:crystal_cannon",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 45,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:bee_bread",
+      "count": 10,
+      "xp_reward": 8,
+      "weight": 45,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:honey_bee_leggings_1",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 18,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:honey_bee_leggings_2",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 18,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:stingless_bee_helmet_1",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 18,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:stingless_bee_helmet_2",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 18,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:carpenter_bee_boots_1",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 18,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:carpenter_bee_boots_2",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 18,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:bee_cannon",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 15,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:bee_stinger",
+      "count": 20,
+      "xp_reward": 8,
+      "weight": 15,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:honey_crystal_shards",
+      "count": 20,
+      "xp_reward": 8,
+      "weight": 15,
+      "required": true
+    },
+    {
+      "id": "minecraft:golden_carrot",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 15,
+      "required": true
+    },
+    {
+      "id": "minecraft:glistering_melon_slice",
+      "count": 2,
+      "xp_reward": 8,
+      "weight": 15,
+      "required": true
+    },
+    {
+      "id": "minecraft:cookie",
+      "count": 8,
+      "xp_reward": 8,
+      "weight": 15,
+      "required": true
+    },
+    {
+      "id": "minecraft:ochre_froglight",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 15,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:flower_headwear",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 6,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:bumble_bee_chestplate_1",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 6,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:bumble_bee_chestplate_2",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 6,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:bumble_bee_chestplate_trans_1",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 6,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:bumble_bee_chestplate_trans_2",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 6,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:buzzing_briefcase",
+      "count": 1,
+      "xp_reward": 15,
+      "weight": 3,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov",
+      "count": 1,
+      "xp_reward": 15,
+      "weight": 3,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:music_disc_honey_bee_rat_faced_boy",
+      "count": 1,
+      "xp_reward": 15,
+      "weight": 3,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:music_disc_la_bee_da_loca",
+      "count": 1,
+      "xp_reward": 15,
+      "weight": 3,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees",
+      "count": 1,
+      "xp_reward": 15,
+      "weight": 3,
+      "required": true
+    },
+    {
+      "id": "windswept:music_disc_bumblebee",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "llamarama:flight_of_the_bumble_llama",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "productivebees:bee_nest_diamond_helmet",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "productivebees:nest_locator",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "queen_bee:bee_antenna_helmet",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "queen_bee:stinger_sword",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "minecolonies:scepterbeekeeper",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "simplehats:beehat",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "spectrum:bee_head",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "special_drops:bee_helmet",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "travelersbackpack:bee",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "mcda:beehive_armor_helmet",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "mcda:beehive_armor_chestplate",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "mcda:beehive_armor_leggings",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "mcda:beehive_armor_boots",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "mcda:beenest_armor_helmet",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "mcda:beenest_armor_chestplate",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "mcda:beenest_armor_leggings",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "mcda:beenest_armor_boots",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:bee_stinger",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:buzzy_nest",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:beenest_helmet",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:beenest_chestplate",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:beenest_leggings",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:beenest_boots",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:beehive_helmet",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:beehive_chestplate",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:beehive_leggings",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:beehive_boots",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "dungeons_gear:buzzy_nest",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "duneons:beenest_helmet",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "duneons:beenest_chestplate",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "duneons:beehive_helmet",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "duneons:beehive_chestplate",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "id": "feywild:summoning_scroll_bee_knight",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "item": {
+        "id": "plushies:bee_plushie",
+        "count": 1
+      },
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "item": {
+        "id": "skinnedlanterns:bee_lantern_block",
+        "count": 1
+      },
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+    {
+      "item": {
+        "id": "skinnedlanterns:bee_soul_lantern_block",
+        "count": 1
+      },
+      "xp_reward": 8,
+      "weight": 1,
+      "required": false
+    },
+	{      "id": "tconstruct:earth_ichor_slime_grass",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    }, 
+    {      "id": "tconstruct:queens_slime_nugget",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    }, 
+    {      "id": "tconstruct:ichor_slime_ball",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    }, 
+    {      "id": "createoreexcavation:raw_diamond",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    }, 
+    {      "id": "createoreexcavation:raw_emerald",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    }, 
+    {      "id": "tconstruct:blood_cake",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    }, 
+    {      "id": "regions_unexplored:mauve_sapling",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    }, 
+    {      "id": "regions_unexplored:brimwood_sapling",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    }, 
+    {      "id": "compactxpbottles:x16experiencebottle",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    },
+    {      "id": "tconstruct:magma_cake",      "count": 1,      "xp_reward": 1,      "weight": 10,      "required": true    }
+  ]
+}

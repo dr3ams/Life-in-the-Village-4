@@ -1,0 +1,109 @@
+{
+	id: "1F9A5B959081E105"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "artifact_loot_crate"
+	}
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:snowshoes" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:pickaxe_heater" }
+		{ item: "artifacts:onion_ring" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:chorus_totem" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:thorn_pendant"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:flame_pendant"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:shock_pendant"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:panic_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:cross_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:scarf_of_invisibility"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "artifacts:anglers_hat" }
+		{ item: "artifacts:cowboy_hat" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:umbrella" }
+	]
+	title: "Artifact Loot Crate"
+}

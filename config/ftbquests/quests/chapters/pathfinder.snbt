@@ -1,0 +1,800 @@
+{
+	autofocus_id: "2DADDB2315AB67D6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "pathfinder"
+	group: "6454BAEA71CB61DD"
+	icon: "supplementaries:globe"
+	id: "66690CB79DA211EF"
+	images: [{
+		height: 10.0d
+		image: "litv3:textures/misc/rad_compass_new_3.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: -1.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"There are dozens of new dungeons."
+				"What are you waiting for? Go conquer them all!"
+				""
+				"This is also a good way to farm some &6Coins&r and &2explore&r the world around you."
+			]
+			icon: "supplementaries:key"
+			id: "2DADDB2315AB67D6"
+			rewards: [{
+				id: "213653105613DC54"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "New dungeons and challenges"
+			tasks: [{
+				id: "3F1DED87066891FA"
+				title: "Dungeon Diving"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "24975F8795218934"
+			rewards: [
+				{
+					id: "72CC37E960A91B7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1106BCE25CE8F564"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:enchantingtower"
+				criterion: ""
+				id: "2D54AE47A2678D34"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "58BFD3C77C4D1AC6"
+			rewards: [
+				{
+					id: "53373862F4FB41DC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "44E52017DBF9B7ED"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70E03A1D4DD7AC34"
+				structure: "idas:train_ruins"
+				type: "structure"
+			}]
+			title: "Find Train Ruins"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "5954871D011EA31B"
+			rewards: [
+				{
+					id: "2A1742850A3FB63B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2FF099DE7A877C7D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Discover a Spider Cave"
+			tasks: [{
+				advancement: "betterdungeons:spider_dungeon"
+				criterion: ""
+				id: "1D501E3BD17DD079"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "028BAD294AD040AF"
+			rewards: [
+				{
+					id: "38CDB8A3C2D7C0B8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "289267781D81F804"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Discover a Catacomb"
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "35AD77BC9FF9119A"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "2FF97DE5D1B0F727"
+			rewards: [
+				{
+					id: "7B721698CF021DF2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6A6DB74DE59F0580"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Discover a Fortress of the Undead"
+			tasks: [{
+				advancement: "betterdungeons:skeleton_dungeon"
+				criterion: ""
+				id: "19375711FD111567"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "3C6CA584F934B8B9"
+			rewards: [
+				{
+					id: "22C9765AF1C14A31"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "069044A06C605DA9"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Discover a Monster Room"
+			tasks: [{
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+				id: "1F0BFB0430425384"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "40822E5624735C13"
+			rewards: [
+				{
+					id: "6C9358C5967C30DE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "34895188FCFE3BD6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:wizardtower"
+				criterion: ""
+				id: "68D52A350D5DB36D"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			id: "134BE651109B1400"
+			rewards: [
+				{
+					id: "1E632A5DD5DBD137"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "752CE3D1F632D6F6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "idas:sunken_ship"
+				criterion: ""
+				id: "1714231BC1DD7644"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "7853F4333CEA424A"
+			rewards: [
+				{
+					id: "6732B2BE0127F2D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6296921EC78C1AE6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Discover a Fortress of the Villagers"
+			tasks: [{
+				advancement: "idas:castle"
+				criterion: ""
+				id: "37F30C1A60C5BC67"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "5DD1A32CAD544DCC"
+			rewards: [
+				{
+					id: "3CBCE1269010266B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7AA99964597A2CD6"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "(idas)"
+			tasks: [{
+				id: "2F7EFB377AC2998D"
+				structure: "idas:pillager_camp"
+				type: "structure"
+			}]
+			title: "Find Pillager Camp"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "6848C93746CC1FC0"
+			rewards: [
+				{
+					id: "2768BD5FF43A5CCA"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "22B8E980B43AE487"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Locate a Pillager Camp"
+			tasks: [{
+				advancement: "takesapillage:pillager_camp"
+				criterion: ""
+				id: "6543D27A26C0B9EB"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "4BCA960017B0992C"
+			rewards: [
+				{
+					id: "4E01993DAFC4C371"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "582457F027FF9D53"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Locate a Bastille"
+			tasks: [{
+				advancement: "takesapillage:bastille"
+				criterion: ""
+				id: "2B9E2AC9EDA5E69A"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "2BFF62DE2B1CE10C"
+			rewards: [
+				{
+					id: "29F0D455A6BA12D8"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "29BFFFF1F6FEAD60"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:apothecary_abode"
+				criterion: ""
+				id: "1A78566257294BB7"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "392C1055DFA53518"
+			rewards: [
+				{
+					id: "321F528EE1254797"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1125551AD7A9F45F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:redhorn_guild"
+				criterion: ""
+				id: "67AF29C1C7F509F5"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "1A19338C58738423"
+			rewards: [
+				{
+					id: "050EC6648BCFBD4D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0758F0CEC48DA064"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Find Winter Wagon"
+			tasks: [{
+				advancement: "idas:winter_wagon"
+				criterion: ""
+				id: "7F580B20F36EF103"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "725867AD010248A6"
+			rewards: [
+				{
+					id: "254539A5C822CC61"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2C3C446828BDDF64"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:fishermans_lodge"
+				criterion: ""
+				id: "1C1E8952D30A0DBB"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "32E5AA0B2991492C"
+			rewards: [
+				{
+					id: "50501DC32429FD0A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "6611D0F0C9A823EB"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Find an abandoned Castle"
+			tasks: [{
+				advancement: "dungeons_enhanced:wars_and_kingdoms"
+				criterion: ""
+				id: "7E7BC67636413C05"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "6984E3074D73F0A4"
+			rewards: [
+				{
+					id: "7207BD047E79F934"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2CF5F549134DC8DB"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Find an underwater city"
+			tasks: [{
+				id: "0D25973725D016FB"
+				structure: "hopo:underwater/underwater_city"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "63D92454EEA2BDD1"
+			rewards: [
+				{
+					id: "0D2B6A1CAEB55633"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1EB7E31D0964F8C1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "039B04FFF1D6C1AA"
+					item: {
+						Count: 1
+						id: "minecolonies:pirate_cap"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B4CB94A8D9A8404"
+					item: {
+						Count: 1
+						id: "minecolonies:pirate_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20205117B837D3AF"
+					item: {
+						Count: 1
+						id: "minecolonies:pirate_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F38DD6F64FF1BB2"
+					item: {
+						Count: 1
+						id: "minecolonies:pirate_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find Pirate Ship"
+			tasks: [{
+				advancement: "dungeons_enhanced:ahoy"
+				criterion: ""
+				id: "67D8778B39ED2302"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "6AA02A421422CFDF"
+			rewards: [
+				{
+					id: "2DCDBA9024668D45"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "7CFF1EF6FCB41C1E"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "41DF4685A7AA242B"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [
+				{
+					id: "255535988C695D52"
+					structure: "integrated_villages:airship_village"
+					type: "structure"
+				}
+				{
+					id: "747FCE811A3555D6"
+					structure: "integrated_villages:cabin_village"
+					type: "structure"
+				}
+				{
+					id: "708C8D9E31F17AB5"
+					structure: "integrated_villages:clockwork_village"
+					type: "structure"
+				}
+				{
+					id: "225640563406B598"
+					structure: "integrated_villages:kutcha_village"
+					type: "structure"
+				}
+				{
+					id: "5551D29126C0D348"
+					structure: "integrated_villages:marketstead_village"
+					type: "structure"
+				}
+				{
+					id: "5410E239992FC345"
+					structure: "integrated_villages:mediterranean_village"
+					type: "structure"
+				}
+				{
+					id: "28A82591E6942CD0"
+					structure: "integrated_villages:mossy_mounds"
+					type: "structure"
+				}
+				{
+					id: "32034C99FF675B3D"
+					structure: "integrated_villages:oasis_village"
+					type: "structure"
+				}
+				{
+					id: "59969770197103E8"
+					structure: "integrated_villages:tavern_village"
+					type: "structure"
+				}
+				{
+					id: "3FBEDD76EBCE0330"
+					structure: "integrated_villages:pirate_village"
+					type: "structure"
+				}
+				{
+					id: "78B1B82D667F2ECD"
+					structure: "integrated_villages:quark/minka_village"
+					type: "structure"
+				}
+			]
+			title: "Find all the new villages"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "22C3A2E0AFE8CE4C"
+			rewards: [
+				{
+					id: "42AE0CF08BD66E47"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "658E92BEEA979DB2"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "3741C7F6AB3F7F25"
+				structure: "idas:cottage"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "7B2A45537289948A"
+			rewards: [
+				{
+					id: "74B5685F0B153A5D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1B0862E3038EF1B3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "0D9ED5ECF91B505B"
+				structure: "hauntedharvest:abandoned_farm"
+				type: "structure"
+			}]
+			title: "Find Abandoned Farm"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "11E87FBEA97607FC"
+			rewards: [
+				{
+					id: "12E2566864E66439"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "655DF768D3A7D9C0"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "0F386AA0BEF8173B"
+				structure: "betterarcheology:light_temple"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			id: "442D397D3B61B4B8"
+			rewards: [
+				{
+					id: "4ED0886D1CBA3F9E"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2DCACD8EA2FA3657"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "(Dungeons Enhanced)"
+			tasks: [{
+				id: "5878EA1FC4D8F87A"
+				structure: "dungeons_enhanced:pillager_camp"
+				type: "structure"
+			}]
+			title: "Find Pillager's Camp"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "2E4BD3CADB1EB12C"
+			rewards: [
+				{
+					id: "144B47E03B32B0FE"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "0953670EF07484D3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "66D7C249DECF57BA"
+				structure: "minecolonies:barbarian_camp"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "448941342ECAE0CF"
+			rewards: [
+				{
+					id: "536EE4F264F093E1"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "77523CB96AD3085B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "1D257C0A8398148B"
+				structure: "dungeons_enhanced:castle"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "29DEDD3484E226A3"
+			rewards: [
+				{
+					id: "0FD7CFC1AACC97E8"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "34E238EC33C007C5"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Find Hermits Hollow"
+			tasks: [{
+				id: "5A8F67FCD3C72A2B"
+				structure: "idas:hermits_hollow"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "0B094DC127DAAB0F"
+			rewards: [
+				{
+					id: "324E9FAFA6F9EDC5"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "1C4FC4F6CA00EFA0"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Find a Frog Village"
+			tasks: [{
+				id: "09F3688504818810"
+				structure: "ribbits:ribbit_village"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+	]
+	title: "&3Around the World&r"
+}

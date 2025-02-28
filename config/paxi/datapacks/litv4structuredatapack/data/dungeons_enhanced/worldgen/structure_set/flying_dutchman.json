@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "frequency": 0,
+    "offset": 107,
+    "salt": 1464339740,
+    "spacing": 134,
+    "structure": "dungeons_enhanced:flying_dutchman"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:flying_dutchman",
+      "weight": 1
+    }
+  ]
+}

@@ -14,5 +14,5 @@ general = {}
 	vanilla_nether_region_weight = 10
 	#The weighting of vanilla biome regions in the overworld.
 	#Range: 0-2147483647
-	vanilla_overworld_region_weight = 5
+	vanilla_overworld_region_weight = 1
 

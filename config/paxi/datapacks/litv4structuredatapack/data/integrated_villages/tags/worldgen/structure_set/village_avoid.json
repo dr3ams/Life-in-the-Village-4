@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:villages",
+    "minecraft:pillager_outposts",
+	"minecolonies:medieval_birch_colony",
+	"minecolonies:medieval_oak_colony",
+	"minecolonies:medieval_spruce_colony",
+	"minecolonies:medieval_dark_oak_colony",
+	"minecolonies:asian_colony",
+	"minecolonies:caledonia_colony",
+	"minecolonies:lostmesacity_colony",
+	"minecolonies:desertoasis_colony",
+	"minecolonies:shire_colony",
+	"minecolonies:incan_colony",
+	"minecolonies:colonial_colony",
+	"minecolonies:barbarian_camp",
+	"minecolonies:amazon_camp",
+	"minecolonies:desert_camp",
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "wants": [
+    {
+      "id": "the_bumblezone:porous_honeycomb_block",
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:beehive_beeswax",
+      "required": true
+    },
+    {
+      "id": "#the_bumblezone:carvable_wax",
+      "required": true
+    },
+    {
+      "id": "minecraft:honeycomb",
+      "required": true
+    },
+    {
+      "id": "minecraft:honeycomb_block",
+      "required": true
+    },
+    {
+      "id": "minecraft:sugar",
+      "required": true
+    },
+    {
+      "id": "minecraft:pink_petals",
+      "required": true
+    },
+    {
+      "id": "#minecraft:logs_that_burn",
+      "required": true
+    },
+    {
+      "id": "minecraft:redstone",
+      "required": true
+    },
+    {
+      "id": "#c:crops",
+      "required": false
+    },
+    {
+      "id": "#c:wax",
+      "required": false
+    },
+    {
+      "id": "#c:storage_blocks/honeycomb",
+      "required": false
+    },
+    {
+      "id": "#c:honeycombs",
+      "required": false
+    },
+    {
+      "id": "#forge:crops",
+      "required": false
+    },
+    {
+      "id": "#forge:wax",
+      "required": false
+    },
+    {
+      "id": "#forge:storage_blocks/honeycomb",
+      "required": false
+    },
+    {
+      "id": "#forge:honeycombs",
+      "required": false
+    },
+    {
+      "id": "#resourcefulbees:resourceful_honeycomb_block",
+      "required": false
+    },
+    {
+      "id": "#resourcefulbees:resourceful_honeycomb",
+      "required": false
+    },
+    {
+      "id": "#resourcefulbees:t0_nests",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:t1_apiary",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_planks",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_stairs",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_slab",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_fence",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_fence_gate",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_button",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_door",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_trapdoor",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_sign",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:trimmed_waxed_planks",
+      "required": false
+    },
+    {
+      "id": "resourcefulbees:waxed_machine_block",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_bricks",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_brick_slab",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:chiseled_honeycomb_bricks",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_bricks",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_brick_wall",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_tiles",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_tile_slab",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_tile_wall",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honeycomb_door",
+      "required": false
+    },
+    {
+      "id": "candylands:sugar_brick",
+      "required": false
+    },
+    {
+      "id": "candylands:crystalized_sugar",
+      "required": false
+    },
+    {
+      "id": "candylands:crystalized_sugar_pile",
+      "required": false
+    },
+    {
+      "id": "candylands:glazed_sugar",
+      "required": false
+    },
+    {
+      "id": "charm:sugar_block",
+      "required": false
+    },
+    {
+      "id": "supplementaries:sugar_block",
+      "required": false
+    },
+    {
+      "id": "vanillatweaks:sugar_block",
+      "required": false
+    },
+    {
+      "id": "duneons:wax",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:wax",
+      "required": false
+    },
+    {
+      "id": "hexerei:wax_blend",
+      "required": false
+    },
+    {
+      "id": "cyclic:wax_bucket",
+      "required": false
+    },
+    {
+      "id": "feywild:honeycomb",
+      "required": false
+    },
+    {
+      "id": "pyrite:honey_dye",
+      "required": false
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "the_bumblezone:bee_stinger",
+      "count": 2,
+      "xp_reward": 1,
+      "weight": 102,
+      "required": true
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2,
+      "xp_reward": 1,
+      "weight": 68,
+      "required": true
+    },
+    {
+      "id": "minecraft:sugar",
+      "count": 1,
+      "xp_reward": 1,
+      "weight": 51,
+      "required": true
+    },
+    {
+      "id": "minecraft:poisonous_potato",
+      "count": 1,
+      "xp_reward": 1,
+      "weight": 17,
+      "required": true
+    },
+    {
+      "id": "#minecraft:candles",
+      "count": 1,
+      "xp_reward": 1,
+      "weight": 1,
+      "required": true
+    },
+	{     
+	"id": "minecraft:glowstone_dust",      
+	"count": 3,      
+	"xp_reward": 1,      
+	"weight": 15,     
+	"required": true    
+	},     
+	{     
+	"id": "minecraft:golden_carrot",
+	"count": 2,
+	"xp_reward": 1,
+	"weight": 15,
+	"required": true
+    },     
+	{      
+	"id": "regions_unexplored:enchanted_birch_sapling",      
+	"count": 1,      
+	"xp_reward": 1,      
+	"weight": 15,      
+	"required": true    
+	},    
+	{      
+	"id": "regions_unexplored:brimwood_door",     
+	"count": 1,    
+	"xp_reward": 1,  
+    "weight": 15,     
+	"required": true  
+	},     
+	{    
+	"id": "titles:title_scroll_common",    
+	"count": 1,   
+	"xp_reward": 1,  
+    "weight": 15,   
+	"required": true 
+	},     
+	{   
+	"id": "regions_unexplored:blackwood_sapling", 
+	"count": 1, 
+	"xp_reward": 1,   
+	"weight": 15,   
+	"required": true   
+	},     
+	{    
+	"id": "regions_unexplored:ashen_sapling",  
+    "count": 1,    
+	"xp_reward": 1,
+	"weight": 15,   
+	"required": true 
+	},     
+	{     
+	"id": "tconstruct:ender_slime_dirt",  
+    "count": 1,  
+    "xp_reward": 1,
+	"weight": 15,    
+	"required": true  
+	},     
+	{  
+    "id": "tconstruct:sky_slime_grass_seeds",  
+    "count": 1,    
+	"xp_reward": 1,  
+    "weight": 15,    
+	"required": true  
+	},     
+	{    
+	"id": "tconstruct:earth_slime_grass_seeds", 
+	"count": 1, 
+	"xp_reward": 1, 
+	"weight": 15,  
+    "required": true  
+	},     
+	{     
+	"id": "tconstruct:earth_earth_slime_grass",  
+    "count": 1,   
+	"xp_reward": 1,
+	"weight": 15,   
+	"required": true  
+	},     
+	{     
+	"id": "regions_unexplored:alpha_log",  
+    "count": 1,   
+	"xp_reward": 1,  
+    "weight": 15,    
+	"required": true 
+	},     
+	{    
+	"id": "tconstruct:earth_sky_slime_grass", 
+	"count": 1,   
+	"xp_reward": 1,    
+	"weight": 15,    
+	"required": true  
+	},     
+	{  
+    "id": "regions_unexplored:silver_birch_sapling",  
+    "count": 1, 
+	"xp_reward": 1,    
+	"weight": 15,    
+	"required": true  
+	},     
+	{   
+	"id": "tconstruct:earth_cake",  
+    "count": 1,   
+	"xp_reward": 1, 
+	"weight": 15,   
+	"required": true  
+	},     
+	{    
+	"id": "tconstruct:earth_slime_sapling", 
+	"count": 1,   
+	"xp_reward": 1,    
+	"weight": 15,   
+	"required": true   
+	},     
+	{   
+	"id": "tconstruct:earth_slime_dirt",  
+    "count": 1,   
+	"xp_reward": 1,  
+    "weight": 15,  
+    "required": true  
+	},     
+	{   
+	"id": "tconstruct:sky_slime_sapling",    
+	"count": 1,   
+	"xp_reward": 1,    
+	"weight": 15,    
+	"required": true   
+	},     
+	{    
+	"id": "tconstruct:sky_slime_ball",   
+	"count": 1,    
+	"xp_reward": 1,   
+	"weight": 15,    
+	"required": true  
+	}
+  ]
+}

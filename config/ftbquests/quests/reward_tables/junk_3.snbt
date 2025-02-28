@@ -1,0 +1,34 @@
+{
+	id: "2C71D20C84F26B27"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Junk 3"
+		string_id: "junk_3"
+	}
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ item: "minecraft:zombie_spawn_egg" }
+		{ item: "minecraft:turtle_spawn_egg" }
+		{ item: "minecraft:armor_stand" }
+		{ item: "supplementaries:planter" }
+		{ count: 2, item: "minecraft:sheep_spawn_egg" }
+		{ count: 2, item: "minecraft:slime_spawn_egg" }
+		{ item: "minecraft:pufferfish_spawn_egg" }
+		{ item: "minecraft:axolotl_spawn_egg" }
+		{ item: "supplementaries:soap" }
+		{ count: 64, item: "minecraft:fermented_spider_eye" }
+		{ item: "supplementaries:jar" }
+		{ item: "minecraft:creeper_head" }
+		{ count: 32, item: "minecraft:item_frame" }
+		{ count: 64, item: "minecraft:phantom_membrane" }
+		{ item: "simplehats:hatscraps_rare" }
+	]
+	title: "Junk 3"
+	use_title: true
+}

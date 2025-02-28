@@ -1,0 +1,4096 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: "31B2D4582F8C8AC3"
+	icon: "minecraft:wheat"
+	id: "0000000000000067"
+	images: [
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/sweetpotato_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/turnip_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/vanilla_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/yam_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/zucchini_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/turmeric_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/corn_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/greenbean_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/grape_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/oat_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/olive_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/greenonion_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/rutabaga_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/tomato_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/saguaro_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/peanut_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/bellpepper_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/pineapple_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/radish_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/raspberry_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/rhubarb_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/rice_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/tomatillo_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/tea_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/strawberry_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/squash_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/spinach_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/soybean_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/ginger_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/garlic_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/elderberry_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/eggplant_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/currant_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/cucumber_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/coffee_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/mustard_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/lettuce_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/cranberry_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/greenonion_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/honeydew_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/hops_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/kale_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/kiwi_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/leek_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/artichoke_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/asparagus_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/barley_crop_stage2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/basil_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/bellpepper_crop_stage2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/blackbean_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/blackberry_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/blueberry_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/broccoli_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/cabbage_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/cantaloupe_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/cauliflower_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/celery_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "croptopia:textures/block/chile_pepper_crop_stage3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			height: 5.0d
+			image: "litv3:textures/misc/farm.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 11.5d
+			y: -7.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "484A497DBA9249C0"
+			rewards: [
+				{
+					id: "2AFE3F5C0F600C30"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "059643B07D0C9998"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "08497267E44A4BA3"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27BDC24AA3098017"
+				item: "croptopia:artichoke_seed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "7F0F5593E6EFEA8F"
+			rewards: [
+				{
+					id: "4F455051BCA3BF2F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "237360FCAEE2A5BA"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "1269401E9A0A9E0C"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28234FC83358549D"
+				item: "croptopia:asparagus_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "6F66C60F64DB242A"
+			rewards: [
+				{
+					id: "5B917CBA593454AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "496CC0E7A74D50B9"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "62A929ABFEE9C5CD"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1289AA424C93FA03"
+				item: "croptopia:barley_seed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "31FAA44FE1987689"
+			rewards: [
+				{
+					id: "63C961BCDB22C762"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "46E098C7655D4F87"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "198DCA39C8DC221E"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "655C772EC0D1C361"
+				item: "croptopia:basil_seed"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "42066ED4A88437F1"
+			rewards: [
+				{
+					id: "774B4EE5531561C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "56112542EB5CCA47"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "1149E4839FBBA3C1"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B332A1A8F09FB26"
+				item: "croptopia:bellpepper_seed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			id: "0FD8085108BD1F45"
+			rewards: [
+				{
+					id: "0172298EF20B3BB2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "572861F1F1D05029"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "0EDABD09B3B79EA7"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00D7937548972BB8"
+				item: "croptopia:blackbean_seed"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "45BD65D02097615F"
+			rewards: [
+				{
+					id: "6344899E3DBCA24E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7D2225F1F4832FBB"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "33E54E954FCD7FBA"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "302DAD9C6C5FEF5A"
+				item: "croptopia:blackberry_seed"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			id: "43758ECCCE42CC7D"
+			rewards: [
+				{
+					id: "62434E530007C8D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "113D673C05B2E8F3"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "4F64B93D1A5CEEFE"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E5A8B57815D3D1E"
+				item: "croptopia:blueberry_seed"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			id: "7374EB7E4125CB2C"
+			rewards: [
+				{
+					id: "210BEF2052B1FDAB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "586BEF9BC6E54382"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "33611E35C30D799F"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "057E5F69C1E1759B"
+				item: "croptopia:broccoli_seed"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			id: "64B74473211DAAB3"
+			rewards: [
+				{
+					id: "7E9C448026D0438E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "56753B3534840EB3"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "3C2DF7E351FD7C1B"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F4F1B4CBBC4C3AA"
+				item: "croptopia:cabbage_seed"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			id: "5C80A286191E61E7"
+			rewards: [
+				{
+					id: "0F1EA04273AF46E5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4D7143B830DA4D66"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2BE3DC9A74D64DB3"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6676CFEDC392641F"
+				item: "croptopia:cantaloupe_seed"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			id: "5F4DE64E58929008"
+			rewards: [
+				{
+					id: "5BD2CB80751AB50E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7A73BFD2371BDA3C"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "647DCA0BCC5AED6C"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CFE6BA417F48390"
+				item: "croptopia:cauliflower_seed"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			id: "48B9F87CA01BE856"
+			rewards: [
+				{
+					id: "474035A24FFD2969"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "14E60B9DC6B70FAE"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "098ADC7B560F7A5E"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B7DE21945929542"
+				item: "croptopia:celery_seed"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			id: "72A24E40DEDBF82E"
+			rewards: [
+				{
+					id: "2849697768A41DA0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5C8B1210E7DD365B"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "05C211509B206D17"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26157675D3893AEE"
+				item: "croptopia:chile_pepper_seed"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			id: "5CE265AADA75234F"
+			rewards: [
+				{
+					id: "49595271FFADB240"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4C773C1074DF3AE1"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "4EF534E0C3A0113E"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11978010CF6A3E28"
+				item: "croptopia:coffee_seed"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			id: "5AB988F108BCB248"
+			rewards: [
+				{
+					id: "7FC07869F663B457"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7B0D19B61CA0E426"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "65CFA5D1105D6028"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24581659538ED0F7"
+				item: "croptopia:corn_seed"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "1BD74F25E32916CC"
+			rewards: [
+				{
+					id: "6DF2EDCC23889886"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6FDDE91933509C23"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "35881D75239AD961"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BF6A63BA134CDDF"
+				item: "croptopia:greenbean_seed"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "4ABDBFDF7E279798"
+			rewards: [
+				{
+					id: "5D6699C50B9F864E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "74B7211A18AD4018"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2229AF4DCBAA5BF2"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "344F17B6D435E395"
+				item: "croptopia:grape_seed"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "42FD04D7E8513E1D"
+			rewards: [
+				{
+					id: "50DDC580C5DED6CA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "43CFC2D108034557"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "5F2E92DF39EBFABA"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "607E3CC745C44B1F"
+				item: "croptopia:ginger_seed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "21C5FD53AE56EFAE"
+			rewards: [
+				{
+					id: "543EB52748F88F70"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0BE852C7E95E1EC0"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "5BABDF71C91F15F7"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CA76F40E8C4FC2F"
+				item: "croptopia:garlic_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "5310130B88DC29AC"
+			rewards: [
+				{
+					id: "02FBD458DDC73F4D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "700D14DA960083C3"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "51FF890235B2B926"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6792877FA4D71650"
+				item: "croptopia:elderberry_seed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "77D91ABA811DE23B"
+			rewards: [
+				{
+					id: "454D21B557236A50"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10F55624C1E84E39"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "16E7D24D57416D23"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A35627CE1E3CDE3"
+				item: "croptopia:eggplant_seed"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "13C4618544A868D7"
+			rewards: [
+				{
+					id: "3ADC820F495BE85C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10F2FF39EF113DC0"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "4825DB0289DA61DC"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1311C4E7A018F17F"
+				item: "croptopia:currant_seed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "20369C923887319B"
+			rewards: [
+				{
+					id: "2CC8A1CA83667A03"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0BF300C899264181"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2B40F7D17E74667D"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C2FBEBEFBF3A0A5"
+				item: "croptopia:cucumber_seed"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "7D06E4628844D1D9"
+			rewards: [
+				{
+					id: "5B664364FAF87C46"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "03E26D4BCDDBACE0"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "43DA7ACC05EA2E4C"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DA041DD32DC0497"
+				item: "croptopia:cranberry_seed"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			id: "06F7C582CC8D18D1"
+			rewards: [
+				{
+					id: "1BA7AD729849FE07"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4C5C400042900352"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "71B5FCC1BA5D3DB3"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "676D73F7D76CA0DA"
+				item: "croptopia:greenonion_seed"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			id: "7C4452941170FABF"
+			rewards: [
+				{
+					id: "37652311E0B1F6B3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "517A6C16096328F0"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "768762B0CF4C083A"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76D919C1180BD7CA"
+				item: "croptopia:honeydew_seed"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			id: "5DCDC6F672A3B559"
+			rewards: [
+				{
+					id: "1BA6FA8FA13E9DC1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6522035289C06BAE"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "60F7D427ACB1C26A"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B8B33CDB4CA7F31"
+				item: "croptopia:hops_seed"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			id: "2BF5E700570CD129"
+			rewards: [
+				{
+					id: "141393182443A387"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4389EE5A9EF1AB9F"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "0D02CDB1D0443194"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7308EFDBF9E11B45"
+				item: "croptopia:kale_seed"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			id: "4C45F38D72956D29"
+			rewards: [
+				{
+					id: "54112BCFB7077B55"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "49A403A795B55E19"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2FCCA798D867BBF1"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6795ECE9394235C2"
+				item: "croptopia:kiwi_seed"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			id: "5669FA8600397060"
+			rewards: [
+				{
+					id: "6A7336BC8C625BA1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "41E3C2E842D1E321"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "20D4EE81FAC7BF38"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48B8F1E59F2F0008"
+				item: "croptopia:leek_seed"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			id: "559C709CCC0363CC"
+			rewards: [
+				{
+					id: "775A33195294EFB4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1FF03F7A39829C64"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "027736F81BC2773D"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B5BAD689780DFCE"
+				item: "croptopia:lettuce_seed"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			id: "124CECE556BAECE9"
+			rewards: [
+				{
+					id: "148B8211669286EF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3D0147E81A972CB0"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "1134DDB76858688A"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08C53EBDADEFBB66"
+				item: "croptopia:mustard_seed"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			id: "037F06953F37521E"
+			rewards: [
+				{
+					id: "015704BCEA9FE157"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "429946145D7A1E82"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "11950D84496D8603"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FD65F770BA8516E"
+				item: "croptopia:oat_seed"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			id: "3BED34F5700EAD86"
+			rewards: [
+				{
+					id: "33F5E8A39413FD5B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1A5AC00FFFE4B42B"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "42F5C58C598031D8"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02B466E497F93D87"
+				item: "croptopia:olive_seed"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			id: "1AEFEFEC3C51BB61"
+			rewards: [
+				{
+					id: "0F120D8C0772D8D9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "34AAD9BB70B5412D"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2E105681F083C553"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C0689F257BF0F87"
+				item: "croptopia:onion_seed"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			id: "6821D995ACB64F02"
+			rewards: [
+				{
+					id: "4B5DD169F32DF1DF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "300268F9A3DEAA15"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "5F036CA71FA16577"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40B182FCC3DDC819"
+				item: "croptopia:peanut_seed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "4E1A4F8362BE24BC"
+			rewards: [
+				{
+					id: "22D44B0A97FBFFDB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7A610B0064D071A9"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "230877D623520CFA"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52AFF9438F0726E8"
+				item: "croptopia:pepper_seed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "014D5E8A070110ED"
+			rewards: [
+				{
+					id: "27DB05A9B2E95E0A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "343DB3E96F792A2A"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "29BBFAC5E20BC105"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03D5B6611B9173D5"
+				item: "croptopia:pineapple_seed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "0288A877C313C3F5"
+			rewards: [
+				{
+					id: "6760088DB2C76BC3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5BAA7421D246444F"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "34A09AFA7CAF2E5C"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64C374E435525F64"
+				item: "croptopia:radish_seed"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "05BC8C2850326C8D"
+			rewards: [
+				{
+					id: "328AAE962EFD6B07"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6E356AAEADA6B2D2"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "4E8CB2C4EBB355AD"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A829B6D803178F5"
+				item: "croptopia:raspberry_seed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			id: "15493A6E997E050F"
+			rewards: [
+				{
+					id: "208CA011AA429989"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5C553DA226E24DBF"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "6B6AD14964E261B1"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "599CA9E134752BD4"
+				item: "croptopia:rhubarb_seed"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "2F3F907E718674F1"
+			rewards: [
+				{
+					id: "0AF5AA989BCE731C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5458463D6C3DFF65"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "56F21CA1CAD1798C"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30DA37C5297D7C41"
+				item: "croptopia:rice_seed"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "11E3E0ED932DE81E"
+			rewards: [
+				{
+					id: "79F7B753B866B131"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "65D9E2BAEEF919CC"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "30DA1CCB8A312EBE"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55ADCBF7036B9270"
+				item: "croptopia:tomatillo_seed"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			id: "14FE6EF8DEA481FB"
+			rewards: [
+				{
+					id: "43A43DCD44B8DF6E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0D64D01430DE8B9C"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "7E79DFEC310E1982"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36EEC30235BB3402"
+				item: "croptopia:tea_seed"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "7B8E762CB60F2CCD"
+			rewards: [
+				{
+					id: "7AB4A8BAFFA5177F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3FC1B01A141944F8"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "6E086A66D7166776"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72BC57E55CB90F89"
+				item: "croptopia:sweetpotato_seed"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			id: "7BD234E2EDA6B1E8"
+			rewards: [
+				{
+					id: "34596682B5083C46"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5B61AFFD9D72ADA9"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "1560974F0630BA7C"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DAB3E936AB51B51"
+				item: "croptopia:strawberry_seed"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			id: "5E383D6AA90525BC"
+			rewards: [
+				{
+					id: "1F8D9D12AB862EFA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "33A9E82B0CD38CD8"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "10A0FC741150A448"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58ECB6B00C4D7CDA"
+				item: "croptopia:squash_seed"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			id: "0CBBF80C4FCF4914"
+			rewards: [
+				{
+					id: "6CFDB69EB18182F7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4CF1A4EBD18AB87F"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "714BDEE1AE887FCE"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EB3390A47AA4C53"
+				item: "croptopia:spinach_seed"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			id: "14814FAD22145F58"
+			rewards: [
+				{
+					id: "4CF06FEC020F3C2E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "286297889032362D"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "65486DB03ACE67D0"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B773877F3F8A3BA"
+				item: "croptopia:soybean_seed"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			id: "2A38348BB5BB6FCE"
+			rewards: [
+				{
+					id: "6B994FA54ED9EEE7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "712163D2990277FB"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2F88666BF1299B02"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E4D85C9837D85D9"
+				item: "croptopia:saguaro_seed"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			id: "3264414C6910D217"
+			rewards: [
+				{
+					id: "02C7B334E18AB8AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6494596725E12299"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "66320E5CD3F2A7F3"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "192AD1B936BBDFA2"
+				item: "croptopia:rutabaga_seed"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			id: "49FDF78B95177BB9"
+			rewards: [
+				{
+					id: "1C372CC0F260DBC4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "543E794CBDA69DB9"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "4BB013B973AD8D17"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "745F70D57027B7F0"
+				item: "croptopia:tomato_seed"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			id: "20B38427ED2F9060"
+			rewards: [
+				{
+					id: "11585D030E197DFA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "37C380C955D8429C"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "09FB93A341DF176C"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BC542F69EF51157"
+				item: "croptopia:turmeric_seed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "486CF043521CAA97"
+			rewards: [
+				{
+					id: "038C61428E430CDF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5E0EC9E1DA3247E1"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "28FC71850BA20FC5"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "649BE48148BD7BE3"
+				item: "croptopia:turnip_seed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "66799341CD60AF36"
+			rewards: [
+				{
+					id: "1654B97D258924A0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5CC29372A6D2E238"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "5F74EBFA29A8D1CF"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "598EF57E1FD21385"
+				item: "croptopia:vanilla_seeds"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "75902A1103F16630"
+			rewards: [
+				{
+					id: "41231AF02441492A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6767DB50915AF284"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "0800B440462CC847"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78E4545C86D435F5"
+				item: "croptopia:yam_seed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "6F25F9765D75C66F"
+			rewards: [
+				{
+					id: "5C4BC99229A15F5A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "461C78D83E894E19"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "09ACE7AA112DB5FF"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39FF90C764F10D59"
+				item: "croptopia:zucchini_seed"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "793E839B54512A33"
+			rewards: [
+				{
+					id: "483C18935A7A6049"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "77F83C4C7590B5AF"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "3C94580B47C5BC1E"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18AB70529818860B"
+				item: "croptopia:almond_sapling"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -1.5d
+		}
+		{
+			id: "15D2A3BF944D47CB"
+			rewards: [
+				{
+					id: "35CD3BDA307467D6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "742D75D8C3BC6F24"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "282B97BBF70A87E6"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25287F47C19CD5F3"
+				item: "croptopia:apple_sapling"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 0.5d
+		}
+		{
+			id: "012DDE12A4791130"
+			rewards: [
+				{
+					id: "4040AB18F5414861"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "09ED9A658079862B"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "42CA6F85E5106AB7"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "760D663B6E470B6A"
+				item: "croptopia:apricot_sapling"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -0.5d
+		}
+		{
+			id: "48BD4FE685746821"
+			rewards: [
+				{
+					id: "4C8CA0BAD702CE4F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6DAE57489B2FCF26"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "5FA0BF4FB6DA7BD6"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3690021FFE61C77B"
+				item: "croptopia:avocado_sapling"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -2.5d
+		}
+		{
+			id: "5F5F507B6B4F66A2"
+			rewards: [
+				{
+					id: "4600C15C4B63B096"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "499A9A911B39BD6D"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "26ED076C4E10A5BC"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0750F187AF22E8B5"
+				item: "croptopia:banana_sapling"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -2.5d
+		}
+		{
+			id: "3EC7C83F400E23D4"
+			rewards: [
+				{
+					id: "38F8533D2B78C735"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "37437957A874A679"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "7C2962F8E6BE6A13"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B9AACFA53DA2259"
+				item: "croptopia:cashew_sapling"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -3.0d
+		}
+		{
+			id: "04CD945BDD89563B"
+			rewards: [
+				{
+					id: "075ACA64B6FF5745"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4547E6E3229C6151"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "567B12FDC654308F"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26ECC8851333753C"
+				item: "croptopia:cherry_sapling"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -3.0d
+		}
+		{
+			id: "5ED0F75F0EC760F0"
+			rewards: [
+				{
+					id: "79F0BD66280F43C0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6DEA8CB2D0F6F1C5"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "13A1187AC14D3120"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7623D5125168359E"
+				item: "croptopia:coconut_sapling"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -3.0d
+		}
+		{
+			id: "566D4ECDC17D7D06"
+			rewards: [
+				{
+					id: "1B2F28447D2DB6FF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1CFBD0D590609595"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "19F518C3791A8976"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03E52F032B6DCF2A"
+				item: "croptopia:date_sapling"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			id: "568D5B1CEAC1EFE6"
+			rewards: [
+				{
+					id: "03F33BBC3ABDD223"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5503498B6EDAB6F3"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2B35ACE82EE2E05E"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C90FEBF6DACE83B"
+				item: "croptopia:nutmeg_sapling"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.5d
+		}
+		{
+			id: "052EB0E15A76B46A"
+			rewards: [
+				{
+					id: "5454E529122B1BB2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "63207CA692C1004C"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "3510A57CC51A4432"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "289004237854E72E"
+				item: "croptopia:nectarine_sapling"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -2.5d
+		}
+		{
+			id: "4B2F5791654E5C3B"
+			rewards: [
+				{
+					id: "4CFCF15776B8923B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4DCA3A5111DA0C88"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2FB028E35A7A6D0C"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05D2F431B0A41108"
+				item: "croptopia:mango_sapling"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -1.5d
+		}
+		{
+			id: "6D9890CC393E65A5"
+			rewards: [
+				{
+					id: "5C6E254D4B479468"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5B8BBBB79438DD64"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "14620CC5E1163092"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "099A7561B6CEB31E"
+				item: "croptopia:lime_sapling"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.5d
+		}
+		{
+			id: "4F926A9C964D9A8E"
+			rewards: [
+				{
+					id: "280E2FF1C6DC5A5D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5D38568BDDF11B0A"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "0E4C007E5B9DA8D4"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "152B7268D50A0269"
+				item: "croptopia:lemon_sapling"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			id: "09784E00988B155C"
+			rewards: [
+				{
+					id: "6B032C73A0A48C49"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "01000B3686DC6570"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "29C30D0385332B1C"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01E9EE1C00172780"
+				item: "croptopia:kumquat_sapling"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -2.5d
+		}
+		{
+			id: "4DC7F65CF888CB2B"
+			rewards: [
+				{
+					id: "0A6EC12F1E94CBE9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "190CACAF5A84E32B"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "0E1A1AA616DD2CBE"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "052C7F309C93F082"
+				item: "croptopia:grapefruit_sapling"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.5d
+		}
+		{
+			id: "7DF1D70F8D184BFC"
+			rewards: [
+				{
+					id: "0FD83C8BDB63D948"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "27D200A78F703F24"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "3D9E83EB9EF87885"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "632488FA9F771EFD"
+				item: "croptopia:fig_sapling"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 1.5d
+		}
+		{
+			id: "7E1378B5A821FD08"
+			rewards: [
+				{
+					id: "6FD615EED83D1090"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "68BE74DC424566DB"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "7400F20799DE7610"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44FF8D2FDEAFDCF1"
+				item: "croptopia:dragonfruit_sapling"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 2.0d
+		}
+		{
+			id: "2302F7960851EB98"
+			rewards: [
+				{
+					id: "175DB85028A6B4FE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6B294B6EFD612EA5"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "54635A4693379C42"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DC07A5017BE81FB"
+				item: "croptopia:cinnamon_sapling"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.5d
+		}
+		{
+			id: "4D63F7FE6D087555"
+			rewards: [
+				{
+					id: "3AED805965B05E9B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0ACB63654F9001F3"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "167321DF488BAA9F"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F0426BAEE991EFF"
+				item: "croptopia:walnut_sapling"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.5d
+		}
+		{
+			id: "2AC7460F7861191A"
+			rewards: [
+				{
+					id: "09931E6BFBFD3A99"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3D309F9ABA0F1FCD"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "724CCEBA8821FAD4"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ACFC3F4AC9857F3"
+				item: "croptopia:starfruit_sapling"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 1.5d
+		}
+		{
+			id: "3120D992DE2850C5"
+			rewards: [
+				{
+					id: "14CC78E5264CC4CA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5C35D74465DBB4A4"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "5A0DB086D50D2FC7"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4674B979EC638806"
+				item: "croptopia:plum_sapling"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			id: "5FD29D7F8DE79655"
+			rewards: [
+				{
+					id: "34D8C716DA29E8ED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "14D764E2466FA23C"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "3FA0CA17E9B81821"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CA017DF1A98CD4F"
+				item: "croptopia:persimmon_sapling"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.5d
+		}
+		{
+			id: "56CA980AB047716F"
+			rewards: [
+				{
+					id: "0668F52FE47EB18A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2AB15DC8CDF3F3ED"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "4D949EAD44F11F92"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BFA280875BFA6C7"
+				item: "croptopia:pecan_sapling"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			id: "0BBAF93689D547AD"
+			rewards: [
+				{
+					id: "7874969C2FD93111"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6F98CFE0BCF31640"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "44668AE7275F7FB2"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A3F125206C48A2D"
+				item: "croptopia:pear_sapling"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 1.5d
+		}
+		{
+			id: "7489A18EEA50D4AA"
+			rewards: [
+				{
+					id: "1A4663B6184188C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "458EBD433293FA44"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "060BD6BDACBD0038"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E89B19D04E10561"
+				item: "croptopia:peach_sapling"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 1.5d
+		}
+		{
+			id: "42E1BBD3E7A87A81"
+			rewards: [
+				{
+					id: "185BC88C76B9E121"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "66B14C881A83B5E8"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "4A67438D11C4C300"
+					item: "kubejs:emerald_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35EBD099B9843D4D"
+				item: "croptopia:orange_sapling"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			id: "50DF8B73D579D418"
+			rewards: [
+				{
+					id: "6EF41930F7126C6B"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1F4964246F3C0EE1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			subtitle: "Gather every sapling from a dark forest or variants"
+			tasks: [{
+				advancement: "croptopia:gather_tree_dark_forest"
+				criterion: ""
+				id: "7AD36D05D2005754"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			id: "36157D5059479273"
+			rewards: [
+				{
+					id: "1CC0B903B3204CE4"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "3A2CF953E117C77F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			subtitle: "Gather every sapling from a jungle or variants"
+			tasks: [{
+				advancement: "croptopia:gather_tree_jungle"
+				criterion: ""
+				id: "2D168285828693E7"
+				type: "advancement"
+			}]
+			x: 25.0d
+			y: -0.5d
+		}
+		{
+			id: "69A8C67963DBA7DA"
+			rewards: [
+				{
+					id: "531051931CC20F8A"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "0F426C456C1D7D1C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			subtitle: "Gather every sapling from a plains or variants"
+			tasks: [{
+				advancement: "croptopia:gather_tree_plains"
+				criterion: ""
+				id: "56D50FE62262E842"
+				type: "advancement"
+			}]
+			x: 29.0d
+			y: -0.5d
+		}
+		{
+			id: "4B9344ECD2D6E701"
+			rewards: [
+				{
+					id: "5F62C707DE57986A"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "6C999720819791D3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				advancement: "croptopia:gather_tree_forest"
+				criterion: ""
+				id: "156884C659EB0643"
+				type: "advancement"
+			}]
+			x: 28.0d
+			y: -0.5d
+		}
+		{
+			id: "1D29CFDF2B56107B"
+			rewards: [
+				{
+					id: "1EB6DF4461378206"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1947C44F17967F6E"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A5EC903295801AF"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Gather every sapling from a Croptopia mod"
+			tasks: [{
+				advancement: "croptopia:gather_tree_all"
+				criterion: ""
+				id: "0CAC94463EACFA62"
+				type: "advancement"
+			}]
+			x: 26.5d
+			y: -0.5d
+		}
+		{
+			id: "0C881EDED56AD8E4"
+			rewards: [
+				{
+					id: "225ABF85731D4B94"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "77FAA70ABFA93461"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "32B294D30930A283"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "5AEA03C41C8D5EBC"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14C335FC2C9AEA51"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Gather every seed from a Croptopia mod"
+			tasks: [{
+				advancement: "croptopia:gather_all"
+				criterion: ""
+				id: "458526E0E5BEC542"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"As soon as you travel around your world, you'll either find a new type of &2cactus&r or a new type of &4flower&r, depending on the biome you wander through. "
+				""
+				"&2Cactus&r plants can be found in any desert type biome, while &4flower&r plants can be found in any other biome but not in desert type biomes. When you look around for a while, you'll see that &nthere is one type of &2cactus&r and one type of &4flower&r for each type of dye&r. "
+				""
+				"You'll find them every few chunks in small groups sorted by their color. But take care, the cacti might sting! Besides from looking pretty and attracting bees, they serve another useful purpose. Upon breaking one of either a cactus or flower, they'll drop two respective seeds depending on their plant type and color, one plant petal in their respective color and one plant fiber. Harvesting them with a pair of shears or a silk touch enchanted tool will drop the cactus or flower itself instead, for you to plant or pot it as decoration."
+				""
+				"The seeds you just have gotten are pretty straight forward to use, either plant cactus seeds on some sand or plant flower seeds on farmland."
+			]
+			id: "07DCE50A52F9709A"
+			rewards: [{
+				id: "5967C2ECB2971496"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63A067AE51B6744B"
+				item: "floralis:white_cactus_seeds"
+				type: "item"
+			}]
+			title: "Farmable Dyes"
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			description: [
+				"The following are your basic crops that will always be handy when you are hungry."
+				""
+				"The quests following the initial crops give a basic recipe to help keep you fed but look to JEI for more complex and fullfilling recipes."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:farmland"
+			id: "0150106BEF0605B7"
+			rewards: [{
+				id: "03BE8A894D1F3F4F"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "42EEA74AFBD23BFB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any #forge:seeds"
+				type: "item"
+			}]
+			title: "Basic Farming"
+			x: 11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Should be able to nab some of these to get you started from a village."]
+			id: "053C0C086704A424"
+			rewards: [
+				{
+					id: "5B63DBE4AC17C816"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "62E3757CE5FD003A"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "7F94F99A33EC2B49"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "Potato, Potatoe"
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Should be able to find a few of these in villages as well."]
+			id: "2CAD2936FBF8C162"
+			rewards: [{
+				id: "7116F44A10212AE0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "7B3B51D1DA3771E3"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "Carrots"
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2CAD2936FBF8C162"]
+			id: "62A913EB840D6093"
+			rewards: [{
+				id: "531C16991DCA4CFB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "48B5277F59DE3629"
+				item: { Count: 16, id: "minecraft:golden_carrot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Farmland that is always moist and can't be trampled."]
+			id: "420C88598C4506FB"
+			rewards: [{
+				id: "51698D9CD86570BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AAF951DA04777D4"
+				item: "supplementaries:planter"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["You don't have jack on me Mr. Pumpkin!"]
+			id: "02D47ED17855D7EF"
+			rewards: [{
+				id: "62330342FD813B77"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "593DC42110353A1C"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["02D47ED17855D7EF"]
+			id: "734B0DCBA9412A12"
+			tasks: [{
+				id: "0A60C2772A762313"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["You will come across a lot of these from grass."]
+			id: "31BD9D438DE7C517"
+			rewards: [{
+				id: "71DEE9A88637BEBE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "48F99AB951712C54"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["31BD9D438DE7C517"]
+			description: ["Get to growing!"]
+			id: "664517285527B807"
+			rewards: [
+				{
+					count: 3
+					id: "5D5EA55D9172570F"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "22014DEAAEF2837B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "16552AD597B7A9F9"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Wheatabix"
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["I am supposed to beat a root?"]
+			id: "5F18F2B90194BCC3"
+			rewards: [{
+				id: "6C60C6C9A3C41685"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7851E931B45888AB"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["27AF065C882335E1"]
+			id: "275387B29232F13A"
+			rewards: [{
+				id: "739BF7E02E37A1A2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00909B4552089BBB"
+				item: "supplementaries:flower_box"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Desert adventure time."]
+			id: "7A95813C7465B7C6"
+			rewards: [{
+				id: "17756B4D8CCA048D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 12L
+				id: "413401E96C63F5AC"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			title: "Cacti"
+			x: 14.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5F18F2B90194BCC3"]
+			id: "192A80A11DED531C"
+			rewards: [
+				{
+					id: "459BF7A8B1725B5B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6F595FAD33E3FB08"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4FF5947A791AA566"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7A95813C7465B7C6"]
+			description: ["Give your base some flair."]
+			id: "3BCCF82725DF2A28"
+			rewards: [{
+				id: "63509E7F692B0B23"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C42179F2C7E1F66"
+				item: "quark:midori_block"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Have to eat some melons to make some melons."]
+			id: "40AA50EB34627A92"
+			rewards: [{
+				id: "1A5FA9F02C761E04"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "49C844695E49CAB5"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["40AA50EB34627A92"]
+			id: "1952835D9E813B00"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "5D45F3C63C692E33"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1952835D9E813B00"]
+			id: "07CD3B4239E51614"
+			rewards: [{
+				id: "5BB2D9B4BF9D7075"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "644A9B3A3C1A831F"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Nether fortress mold."]
+			id: "712C15991B37B7B1"
+			rewards: [{
+				id: "163B1F7B8BEFB281"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "15929FF7F9EA6A82"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "Hell Wart"
+			x: 14.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			id: "109502AF0E1426E3"
+			rewards: [{
+				id: "77D4E07DC47D906E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0B7A1B5E2FEE7675"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["109502AF0E1426E3"]
+			id: "3BE59D712783F620"
+			rewards: [{
+				id: "4F850F57E41BDB0F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "139533CAF8A0B3D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bamboo_block"
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3BE59D712783F620"]
+			id: "46718966B28E3B14"
+			rewards: [{
+				id: "49EA5387C05F8455"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "resource_loot_crate_1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3311E477CC81761E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bamboo_block"
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["You are going to have to travel to the great white north to find some of these delicous berries."]
+			id: "31291BCDDFA51962"
+			rewards: [{
+				id: "3CD53CF7B34E9D63"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "59445B3F080FDFD1"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			title: "Sweet Berries"
+			x: 12.5d
+			y: 12.5d
+		}
+		{
+			id: "1CF567879A605CDE"
+			rewards: [
+				{
+					id: "7E9D5D70D2B7F698"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "3D3C5884F608C675"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Breed all the animals!(26)"
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				id: "657CBF0E6370C304"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Let those stalks reach for the sky!"]
+			id: "479326E5BD12BF8A"
+			rewards: [
+				{
+					count: 5
+					id: "34EC83CCED1F6064"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "5030608222B40A15"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "64DDC7E899C949C0"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			title: "Sugar or Paper?"
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["479326E5BD12BF8A"]
+			description: ["Man I will be able to write so much stuff on this."]
+			id: "42E723A5E554D01D"
+			tasks: [{
+				count: 3L
+				id: "420E9DCA8162ADEB"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["479326E5BD12BF8A"]
+			id: "49961DB59F6635D6"
+			tasks: [{
+				count: 16L
+				id: "2A5F424681BE8BA1"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "Sugar"
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			id: "27A17EA6EA3056BE"
+			rewards: [{
+				id: "69509A89C6D7865E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "62F3FACE3901E223"
+				item: { Count: 64, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Found on beaches."]
+			id: "525F03AF99A1D135"
+			rewards: [{
+				id: "144E353263109F29"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6222761DD1A93D5F"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			id: "5DD66D89CFFBC6CB"
+			rewards: [{
+				id: "5FA08853994D1577"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2C92163AC6A0E68D"
+				item: "supplementaries:flax_seeds"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Found in savannahs, deserts, and other dry areas."]
+			id: "560AD0F9298122F9"
+			rewards: [{
+				id: "0BA86EBC27884858"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "25A6BF170C220383"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["525F03AF99A1D135"]
+			description: ["[insert overdone Avatar joke]"]
+			id: "3636E4985AE5DA4A"
+			rewards: [{
+				id: "03CFE1819412A317"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "59D1B3C1813E156D"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["They really added a whole mob for this plant, huh."]
+			id: "53F9A4108D37742B"
+			rewards: [{
+				id: "18AE65F4855015BE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "09676DA84A069270"
+				item: "minecraft:torchflower_seeds"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["53F9A4108D37742B"]
+			description: ["At least it looks nice."]
+			id: "27AF065C882335E1"
+			rewards: [{
+				id: "60D4179C57FFBC40"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07ADAED9C9B62707"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["734B0DCBA9412A12"]
+			id: "60466BDEAEB5226B"
+			tasks: [{
+				id: "104AC2CB9B6DF077"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["560AD0F9298122F9"]
+			id: "1F315FE8A7B0B86A"
+			rewards: [{
+				id: "52EE640DF263C4BE"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "3C5ED9C1AC4DEB98"
+				item: { Count: 64, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F315FE8A7B0B86A"]
+			description: ["throw them at your friends"]
+			id: "773B6AA481F91A30"
+			tasks: [{
+				id: "1BC1A01C640E82DF"
+				item: "farmersdelight:rotten_tomato"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5DD66D89CFFBC6CB"]
+			description: ["Wait a minute, I can't eat string!"]
+			id: "3C3D0DC9A0B47CF7"
+			rewards: [{
+				id: "79E7B25D3545AF22"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "3E76D80A140A8DF7"
+				item: { Count: 64, id: "supplementaries:flax" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["664517285527B807"]
+			description: ["You robbed a village for this, didn't you."]
+			id: "448EFB9BF8C8E4DC"
+			rewards: [{
+				id: "2868FDAC133044BA"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "001853966E149396"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["There's food to be found, deep underground"]
+			id: "14660686F1A64AE5"
+			rewards: [{
+				id: "12F9E3633C27338B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "136EAB8CCC9923FF"
+				item: "miners_delight:cave_carrot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Found in swamps. Must be grown in water 1 block deep. This is both the seed and the product."]
+			id: "21B44E8D2E48896B"
+			rewards: [{
+				id: "18449CA6D5275B29"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6BF9E6A507AC0571"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["21B44E8D2E48896B"]
+			id: "2D3315618404C6FB"
+			rewards: [{
+				id: "3EB0C52516AC45AB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "1430851ADFD2FE17"
+				item: { Count: 64, id: "farmersdelight:rice_panicle" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["192A80A11DED531C"]
+			id: "378862B8056108A3"
+			tasks: [{
+				count: 10L
+				id: "69F2AAA1F9C8BCC7"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3636E4985AE5DA4A"]
+			description: ["Cabbage is mostly an ingredient in more complex foods. You can't really eat it by itself."]
+			id: "08BA0EFA7BA00A04"
+			rewards: [{
+				id: "1526212F59CCF2E1"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "63AEA07DA2331981"
+				item: "farmersdelight:cabbage_crate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14660686F1A64AE5"]
+			id: "25009AD8713D833D"
+			rewards: [{
+				id: "102BE1596A51E04C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "2454777715FC624C"
+				item: { Count: 32, id: "miners_delight:baked_cave_carrot" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27A17EA6EA3056BE"]
+			id: "7C1FB9C39840E2CE"
+			rewards: [
+				{
+					id: "30D5133D2BEE90FC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1C6C44CB52771765"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1D22B21FB88DD918"
+				item: "farmersdelight:onion_crate"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["31291BCDDFA51962"]
+			id: "110D80709A6E0A74"
+			rewards: [{
+				id: "3A8CEDDFC044106D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0DD4DCC9641BDA9C"
+				item: { Count: 16, id: "farmersdelight:sweet_berry_cookie" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["053C0C086704A424"]
+			id: "5581946E99704369"
+			rewards: [{
+				id: "2FCD458AB4C21064"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "41D2A8F9495D5F00"
+				item: { Count: 64, id: "minecraft:baked_potato" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			id: "5D30E304E65A1FB4"
+			rewards: [{
+				id: "765A8B678377D5CD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "139248C74239962E"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D30E304E65A1FB4"]
+			id: "456A4247C5C245B7"
+			rewards: [{
+				id: "04BE6D84AB00E40F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "3EB8C3D9E0A021CE"
+				item: { Count: 64, id: "minecraft:dried_kelp" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["456A4247C5C245B7"]
+			id: "108B521C77B11D4D"
+			rewards: [{
+				id: "3E25492A1F4A9A8B"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2BF82344C816BDC1"
+				item: { Count: 64, id: "minecraft:dried_kelp_block" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: ["Good Lord, this stuff explodes!"]
+			id: "6D564EC3B4625C67"
+			rewards: [{
+				id: "2F3294EF93155033"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "643734262CEA37A3"
+				item: "nethersdelight:propelplant_cane"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6D564EC3B4625C67"]
+			id: "1C662D549DB2E6DB"
+			rewards: [{
+				id: "681BEBCD986DEF5C"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5702643D1F4E754A"
+				item: { Count: 64, id: "nethersdelight:propelplant_cane" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0150106BEF0605B7"]
+			description: [
+				"Rich Soil is an enhanced type of dirt, more fertile and durable to the elements."
+				""
+				"Rich Soil cannot be directly crafted. To make it, you must craft Organic Compost and place it into the world, letting it decompose over time."
+				""
+				"Organic Compost will decompose more easily under sunlight and moisture from nearby water, but doesn't actually hydrate like farmland. It can also be gently accelerated by placing activators next to it, in a 3x3x3 area centered on itself."
+				""
+				"Currently, the following blocks behave as activators for Organic Compost:"
+				"- Brown and Red Mushrooms, and their Colonies;"
+				"- Podzol and Mycelium;"
+				"- Other blocks of Organic Compost;"
+				"- Rich Soil, normal or tilled."
+			]
+			id: "56D3BC7D09F900CA"
+			rewards: [{
+				id: "3868E5AC6AFC1217"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D4707A71CD44077"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["56D3BC7D09F900CA"]
+			description: [
+				"When any growable plant is placed on Rich Soil, its growth will be randomly boosted, similar to the usage of Bone Meal."
+				"Rich Soil can be tilled into Rich Farmland through the use of hoes. Rich Farmland is immune to mob trampling and won't unravel to Melons or Pumpkins, but requires hydration in order to boost crops."
+				""
+				"Mushrooms planted on Rich Soil under sufficient darkness will eventually form a Mushroom Colony. Such colonies will grow from 2 to 5 mushroom caps over time, dropping them when harvested."
+			]
+			id: "1729A82B2351DE53"
+			rewards: [
+				{
+					id: "5DFF93BF5E61BECD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15FDF1C12591F0B7"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5229C5BEC0FE4C1B"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			id: "1FEC1791B1778245"
+			rewards: [{
+				id: "3E4CB0EAA9396870"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2F406EB1463BA467"
+				item: "bushes_update:blue_berries"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			id: "0517C2D1F59B4CC6"
+			rewards: [{
+				id: "2D06FD4AE393B542"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01B2EECBEB9FBA64"
+				item: "bushes_update:nether_lava_berry"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			id: "646C4CEDD05B30C5"
+			rewards: [{
+				id: "7CD1A1ECEBE8947F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "23407A18F72B4E25"
+				item: "bushes_update:end_shulker_berry"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			id: "67D83997D4BF2CDA"
+			rewards: [{
+				id: "3AE0F286BBBE6A70"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "507AF2DED7A3DDC8"
+				item: "bushes_update:end_chorus_berries"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 6.0d
+		}
+		{
+			id: "2DBBE393D8540543"
+			rewards: [{
+				id: "701B1D81E215E01B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B47FE5E3897152D"
+				item: "bushes_update:nether_glowstone_berries"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			id: "46577813DAFEF187"
+			rewards: [{
+				id: "403BEA664577432C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4B6F8F4DCD9265D8"
+				item: "bushes_update:golden_berries"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 6.0d
+		}
+		{
+			id: "06153A7EF5034215"
+			rewards: [{
+				id: "6EF777B6647342E7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C039089645039A5"
+				item: "bushes_update:miners_berries"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 6.0d
+		}
+	]
+	title: "Farming"
+}

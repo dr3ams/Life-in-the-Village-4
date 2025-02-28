@@ -1,0 +1,9 @@
+#Spawn baby zombie villagers
+spawnBabyZombieVillagers = false
+#Spawn baby husks
+spawnBabyHusks = false
+#Spawn baby zombie pigmen
+spawnBabyPigmen = false
+#Spawn baby drowned
+spawnBabyDrowned = false
+

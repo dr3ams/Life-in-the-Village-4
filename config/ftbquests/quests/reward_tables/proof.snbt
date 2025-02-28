@@ -1,0 +1,121 @@
+{
+	hide_tooltip: true
+	id: "667D828211D92076"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "logs"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "building_blocks"
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:sandstone" }
+		{ count: 64, item: "minecraft:sand" }
+		{ count: 64, item: "minecraft:glass" }
+		{ count: 64, item: "minecraft:wheat" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "food_2"
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:torch" }
+		{ count: 64, item: "minecraft:copper_ingot" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_2"
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:gravel" }
+		{ count: 16, item: "minecraft:book" }
+		{ count: 8, item: "minecraft:leather" }
+		{ item: "torchmaster:megatorch" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "spawn_eggs"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "random_dyes"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "flowers"
+				}
+			}
+		}
+		{ count: 16, item: "minecraft:brick" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "set_of_iron_tools"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "set_of_golden_tools"
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:oak_log" }
+		{ count: 64, item: "minecraft:spruce_log" }
+		{ count: 64, item: "minecraft:birch_log" }
+		{ count: 64, item: "minecraft:jungle_log" }
+		{ count: 64, item: "minecraft:dark_oak_log" }
+		{ count: 64, item: "minecraft:acacia_log" }
+		{ count: 64, item: "minecraft:cobblestone" }
+		{ count: 64, item: "minecraft:stone" }
+		{ count: 64, item: "minecraft:granite" }
+		{ count: 64, item: "minecraft:diorite" }
+		{ count: 64, item: "minecraft:andesite" }
+	]
+	title: "Proof"
+}

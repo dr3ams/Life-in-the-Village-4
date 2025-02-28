@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "frequency": 0,
+    "offset": 63,
+    "salt": 1010078189,
+    "spacing": 79,
+    "structure": "dungeons_enhanced:witch_tower"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:witch_tower",
+      "weight": 1
+    }
+  ]
+}

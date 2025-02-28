@@ -1,0 +1,136 @@
+{
+	hide_tooltip: true
+	id: "02DAC0FA8ABE756F"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ item: "collectorsalbum:common_card_pack" }
+		{ item: "collectorsalbum:uncommon_card_pack" }
+		{ item: "collectorsalbum:rare_card_pack" }
+		{ item: "collectorsalbum:epic_card_pack" }
+		{ item: "aquaculture:treasure_chest", random_bonus: 2 }
+		{ count: 2, item: "aquaculture:lockbox", random_bonus: 2 }
+		{ count: 2, item: "aquaculture:box", random_bonus: 3 }
+		{ item: "minecraft:anvil" }
+		{ item: "quark:redstone_randomizer" }
+		{ item: "minecraft:comparator" }
+		{ item: "minecraft:glow_item_frame", random_bonus: 4 }
+		{ item: "minecraft:repeater" }
+		{ count: 2, item: "supplementaries:bomb", random_bonus: 5 }
+		{ item: "supplementaries:statue" }
+		{ item: "supplementaries:hat_stand" }
+		{ item: "supplementaries:globe" }
+		{ item: "farmersdelight:potato_crate" }
+		{ item: "farmersdelight:beetroot_crate" }
+		{ item: "farmersdelight:carrot_crate" }
+		{ item: "farmersdelight:tomato_crate" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "torchmaster:megatorch" }
+		{ item: "farmersdelight:pumpkin_slice" }
+		{ item: "miners_delight:baked_cave_carrot" }
+		{ item: "miners_delight:cooked_arthropod" }
+		{ item: "farmersdelight:kelp_roll" }
+		{ item: "farmersdelight:cabbage_rolls" }
+		{ item: "miners_delight:bone_broth_cup" }
+		{ item: "miners_delight:cave_soup_cup" }
+		{ item: "miners_delight:insect_stew_cup" }
+		{ item: "miners_delight:bat_soup_cup" }
+		{ item: "miners_delight:fish_stew_cup" }
+		{ item: "miners_delight:vegan_wrap" }
+		{ item: "farmersdelight:hamburger" }
+		{ item: "farmersdelight:tomato_seeds" }
+		{ item: "farmersdelight:cabbage_seeds" }
+		{ item: "miners_delight:baked_cod_stew_cup" }
+		{ item: "miners_delight:bat_cookie" }
+		{ item: "miners_delight:improvised_barbecue_stick" }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "resource_loot_crate_1"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "resource_loot_crate_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "resource_loot_crate_3"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "resource_loot_crate_4"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "spawn_eggs"
+				}
+			}
+		}
+		{ count: 16, item: "farmersdelight:rope" }
+		{ count: 4, item: "minecraft:bone" }
+		{ count: 4, item: "minecraft:string" }
+		{ count: 3, item: "minecraft:gunpowder" }
+		{ count: 4, item: "minecraft:coal" }
+		{ count: 4, item: "minecraft:redstone" }
+		{ count: 4, item: "minecraft:torch" }
+		{ count: 4, item: "minecraft:lapis_lazuli" }
+		{ count: 8, item: "minecraft:stick" }
+		{ count: 4, item: "minecraft:leather" }
+		{ count: 3, item: "spelunkery:mineomite" }
+		{ count: 2, item: "spelunkery:glowstick" }
+		{ item: "villagertools:bribe" }
+		{ item: "villagertools:cure" }
+		{ item: "waystones:warp_scroll" }
+	]
+	title: "Dungeon coin reward"
+}

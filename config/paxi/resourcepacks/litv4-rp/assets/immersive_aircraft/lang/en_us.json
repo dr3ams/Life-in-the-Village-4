@@ -1,0 +1,12 @@
+{
+	"item.immersive_aircraft.hull": "Airship Hull",
+  "item.immersive_aircraft.engine": "Airship Engine",
+  "item.immersive_aircraft.sail": "Airship Sail",
+  "item.immersive_aircraft.boiler": "Airship Boiler",
+  
+  "item.immersive_aircraft.enhanced_propeller": "Enhanced Airship Propeller",
+  "item.immersive_aircraft.eco_engine": "Eco Airship Engine",
+  "item.immersive_aircraft.nether_engine": "Nether Airship Engine",
+  "item.immersive_aircraft.steel_boiler": "Steel Airship Boiler",
+  "item.immersive_aircraft.hull_reinforcement": "Airship Hull Reinforcement"
+}

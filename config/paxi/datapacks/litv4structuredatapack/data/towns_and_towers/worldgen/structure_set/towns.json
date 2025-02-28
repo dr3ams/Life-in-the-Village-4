@@ -107,7 +107,7 @@
     "separation": 40,
     "type": "minecraft:random_spread",
     "exclusion_zone": {
-      "chunk_count": 10,
+      "chunk_count": 30,
       "other_set": "minecraft:villages"
     }
   }

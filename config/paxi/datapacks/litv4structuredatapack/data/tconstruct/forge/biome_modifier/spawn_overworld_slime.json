@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "feur_dimensional_skyland:skyland",
+  "spawners": {
+    "type": "tconstruct:sky_slime",
+    "maxCount": 4,
+    "minCount": 2,
+    "weight": 100
+  }
+}

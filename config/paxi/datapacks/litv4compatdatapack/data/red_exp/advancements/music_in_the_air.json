@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "red_exp:music_disc_birthday"
+    },
+    "title": {
+      "translate": "advancements.music_in_the_air.title"
+    },
+    "description": {
+      "translate": "advancements.music_in_the_air.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "music_in_the_air_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

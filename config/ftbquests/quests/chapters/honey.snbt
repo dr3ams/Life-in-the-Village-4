@@ -1,0 +1,1257 @@
+{
+	autofocus_id: "5539E11BB40EAA84"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon_important"
+	filename: "honey"
+	group: "3E8AF5589C449D02"
+	icon: "minecraft:honeycomb"
+	id: "0000000000000004"
+	images: [{
+		alpha: 150
+		height: 17.137614678899084d
+		image: "litv3:textures/misc/q-b-hcomb.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 5.5d
+		y: 10.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000000129"]
+			description: ["Sweet, sweet comb."]
+			id: "1AFBAF4ECA08B555"
+			rewards: [{
+				id: "610CB89180D2102C"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000000CF"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["575C18AFB7EB80A0"]
+			id: "0000000000000127"
+			rewards: [{
+				id: "365E48C39BD1331D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000128"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["000000000000030F"]
+			description: ["The first home you can make for bees."]
+			id: "0000000000000129"
+			rewards: [
+				{
+					id: "53B68CE745141B05"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "00000000000002FF"
+					item: "minecraft:orange_carpet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000012A"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0000000000000129"]
+			description: [
+				"Bees inhabiting the advanced beehive will produce resources for you."
+				"Resources can be extracted automatically."
+				"Honey will be harvested automatically."
+				"Advanced hives are comfortable and bees living in here will not mind the hive being harvested."
+				"Can be expanded using an expansion box."
+			]
+			id: "0000000000000307"
+			rewards: [
+				{
+					id: "000000000000060C"
+					item: "minecraft:azure_bluet"
+					type: "item"
+				}
+				{
+					id: "2632C18832A9FFB3"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon_important"
+			size: 1.0d
+			tasks: [{
+				id: "0000000000000308"
+				item: "productivebees:advanced_oak_beehive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0000000000000307"]
+			description: ["Adds room for 2 more bees for a total of 5."]
+			id: "0000000000000309"
+			rewards: [{
+				id: "77082DAB56DC1E6B"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000030A"
+				item: "productivebees:expansion_box_oak"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			description: ["&aUse Create's Mixer to extract resources from combs produced by your bees.&r"]
+			id: "000000000000030B"
+			shape: "hexagon"
+			subtitle: "&cAll Centrifuges were disabled!&r"
+			tasks: [
+				{
+					id: "000000000000030C"
+					item: "productivebees:centrifuge"
+					type: "item"
+				}
+				{
+					id: "1A8AE41449F47D3B"
+					item: "productivebees:powered_centrifuge"
+					type: "item"
+				}
+				{
+					id: "7573F90DC50F6C10"
+					item: "productivebees:heated_centrifuge"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000127"]
+			description: [
+				"Calms down angry bees, heals bees, and baby bees will grow faster when fed this."
+				""
+				""
+			]
+			id: "000000000000030D"
+			rewards: [{
+				id: "6CDAF6DF2B663E89"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "000000000000030E"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5539E11BB40EAA84"]
+			description: ["Capture and keep your bees safe during transport. One time use."]
+			id: "000000000000030F"
+			rewards: [
+				{
+					id: "0000000000000323"
+					item: "productivebees:bee_cage"
+					type: "item"
+				}
+				{
+					id: "05D26ED057875854"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon_important"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000310"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0000000000000129"]
+			description: ["Will allow bees to be fed."]
+			id: "1DBF47C93EE85A18"
+			rewards: [{
+				id: "1BB91AF2B691CC45"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09548C9F7C01F30F"
+				item: "productivebees:feeder"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1AFBAF4ECA08B555"]
+			description: ["Places honey into bottles."]
+			id: "575C18AFB7EB80A0"
+			rewards: [
+				{
+					id: "396DC8167D45292A"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "random_materials"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37F1FA452D406232"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "5EF42AACD36AC17A"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0000000000000127"]
+			description: ["will generate power when fed with honey."]
+			id: "106B69AD442F9392"
+			rewards: [
+				{
+					id: "2B4FC320EA042265"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "742C48DACB33233D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon_important"
+			size: 1.0d
+			tasks: [{
+				id: "0D97FC8347CCB2DD"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["106B69AD442F9392"]
+			description: ["Raises baby bees."]
+			id: "42928DFCE3C87478"
+			rewards: [
+				{
+					id: "501A48019096B061"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "78647A99397892FA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1968EA80744DEBB9"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["000000000000030F"]
+			description: [
+				"&bSome information in JEI and Official Guidebook about the Bees doesn't represent the actual data.&r"
+				""
+				"Please give preference to these &nQuests&r. I tried to describe everything as detailed as possible."
+			]
+			id: "15037C611BEEBB4F"
+			rewards: [{
+				id: "2F38F948DB30AC7B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "random_dyes"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C1AB16E2EBCAA5A"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["000000000000030F"]
+			description: ["Right click the locator on a block of your choosing and it will locate a nest of the same type within a distance."]
+			id: "3F072BDFACB5F6DF"
+			rewards: [{
+				id: "3694D59288754183"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F9BE709C13D4B87"
+				item: {
+					Count: 1
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0000000000000129"]
+			description: ["Will catch bees that fly over it."]
+			id: "0AB33D74F6160D35"
+			rewards: [{
+				id: "56BA6500BF77CBFF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "random_mob_drops"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "082B7EC4206E697B"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["000000000000030F"]
+			description: ["Will allow you to display a bee."]
+			id: "454453E103EFA02A"
+			rewards: [
+				{
+					id: "119818F75F94F863"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "1FA653CBB8EC94AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "14660E3E34B6C228"
+				item: {
+					Count: 1
+					id: "productivebees:jar_oak"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0000000000000309"]
+			id: "720DA46F439D8886"
+			rewards: [
+				{
+					id: "7BE27E520EBAB261"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "320D3EA394A6638D"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon_important"
+			size: 1.0d
+			subtitle: "Breed all the vanilla type Productive bees"
+			tasks: [{
+				advancement: "productivebees:husbandry/bee_cage/quartz_nest/catch_crystalline_bee/breed_iron_bee/breed_all_productive_bees"
+				criterion: ""
+				id: "417266D2492161EE"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			id: "7460627B5B3872CB"
+			rewards: [{
+				id: "0B6B5A14060907F4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0566954C03488463"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.25d
+		}
+		{
+			dependencies: ["7460627B5B3872CB"]
+			id: "6506B0104C5A861D"
+			rewards: [{
+				id: "514F6C3D69F21D47"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6833BC66FD262EDC"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7460627B5B3872CB"]
+			id: "75B55CFDD07D9E9C"
+			rewards: [{
+				id: "4E772FAD763D9D35"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2F78DB42469CC9E9"
+				item: "productivebees:upgrade_not_babee"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7460627B5B3872CB"]
+			id: "74F60115C5E9CE71"
+			rewards: [{
+				id: "4A5644E624CAF45D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "32C91F278F40CE30"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7460627B5B3872CB"]
+			id: "48E177EA25387499"
+			rewards: [{
+				id: "7C1F29B1EBAA0D0B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1E840DA9C237A7DF"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7460627B5B3872CB"]
+			id: "49EFBF60C11BB367"
+			rewards: [{
+				id: "41AC0B310192FF36"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6E816A5C7DD1AE92"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7460627B5B3872CB"]
+			id: "13F9B48A090A3750"
+			rewards: [{
+				id: "3FAC06600028FAF0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "34BB64BF05D5B1D0"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7460627B5B3872CB"]
+			id: "1EAA17B5E70FDDEA"
+			rewards: [{
+				id: "556C8BA626DBD7EC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7ED9C6055367A44B"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["000000000000030F"]
+			id: "318324469A97DADB"
+			rewards: [{
+				id: "7ADAC800F97C7276"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Catch a bee in a bee cage"
+			tasks: [{
+				advancement: "productivebees:husbandry/bee_cage/catch_any_bee"
+				criterion: ""
+				id: "381E7D8FFDCDD7EB"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["000000000000030D"]
+			id: "252C3F2A9D9C2F92"
+			rewards: [
+				{
+					id: "2670F8B3DC728A19"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "65C3CEDD5F9EC7A0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Use a Honey Treat on an angry bee to calm it down"
+			tasks: [{
+				advancement: "productivebees:husbandry/bee_cage/calm_bee"
+				criterion: ""
+				id: "6B9E846906BD3182"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["000000000000030D"]
+			id: "585F9DC5CAA5C99B"
+			rewards: [
+				{
+					id: "76987B24A9FC6661"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ED0BC43A27EFDD1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Use a Honey Treat on a nest"
+			tasks: [{
+				advancement: "productivebees:husbandry/bee_cage/overworld_nest/treat_on_nest"
+				criterion: ""
+				id: "7FD98D5FA5346CDA"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["585F9DC5CAA5C99B"]
+			id: "53950A9D42DFA86D"
+			rewards: [{
+				id: "3F9334B33593B6ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "It's not the destionation, it's the journBee! Ride a Bumble Bee."
+			tasks: [{
+				advancement: "productivebees:husbandry/bee_cage/overworld_nest/treat_on_nest/bumblebee_rider"
+				criterion: ""
+				id: "292DC865E1DED2C7"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["53950A9D42DFA86D"]
+			id: "04D1549FF7413AD9"
+			rewards: [
+				{
+					id: "18357DCC12667062"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2E24D0F8CB20AC2D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a Treat on a Stick to steer your new favourite ride."
+			tasks: [{
+				advancement: "productivebees:husbandry/bee_cage/overworld_nest/treat_on_nest/bumblebee_rider/treat_on_stick"
+				criterion: ""
+				id: "356F6A8B0FB39779"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["000000000000030F"]
+			description: ["Wax is a good source of fuel"]
+			id: "58B0ABBF1DD04A4C"
+			rewards: [{
+				count: 64
+				id: "046129BB9350B84B"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5D79E4347608752F"
+				item: "productivebees:wax"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"&6Productive Bees&r has undergone significant changes to shift its focus from a &4powerful&r (&olet's face it - sometimes overpowered&r) &4farming system&r to a more laid-back, &2supplementary role&r in resource gathering."
+				""
+				"This shift in focus designed to promote a more &2leisurely&r and &2calming&r gameplay experience, allowing players &nto enjoy the process&r of &6beekeeping&r without the pressure of maximizing farming efficiency."
+				""
+				"So make some beehives, take a seat, watch the bees and relax. The obtained resources act as a bonus rather than the primary objective."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/stingless_bee_helmet_1"
+				}
+			}
+			id: "5539E11BB40EAA84"
+			size: 2.0d
+			tasks: [{
+				id: "5A8069B51FA8D0FC"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5539E11BB40EAA84"]
+			description: ["Please give preference to this quest chapter. I tried to describe everything as detailed as possible."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/variant_bee_spawn_egg"
+				}
+			}
+			id: "144F11F9264E1912"
+			subtitle: "&bSome information in JEI and Book about the Bees(mainly what combs are available) may not represent the actual data.&r"
+			tasks: [{
+				id: "1F7F2D123B5E8773"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			id: "7EB705E59E9BCDE2"
+			tasks: [{
+				id: "1A821C64605F99B4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "7325F91279E09901"
+			tasks: [{
+				id: "6B9AAFD97E450044"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:rose_quartz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "76757D8773D44BD1"
+			tasks: [{
+				id: "4D9C3B38FFA97741"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sculk"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "315AA5985CAE194A"
+			tasks: [{
+				id: "2CBD559BE1DEAB35"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prismarine"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "383F61E503C7497F"
+			tasks: [{
+				id: "75EE910450FFF3B8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "743511D8F03E66E8"
+			tasks: [{
+				id: "415A5975CF2B8819"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crystalline"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "37AA90E268E6D709"
+			tasks: [{
+				id: "449E8952A9BECD6A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:amethyst"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "2D2D40ED3AF7D93B"
+			tasks: [{
+				id: "4F2EC5A20932D600"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "46D1C16DAC18A392"
+			tasks: [{
+				id: "04A180877A88775A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zinc"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			id: "68DB4921F0F19808"
+			tasks: [{
+				id: "2AB5561E343EB91A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:coal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			id: "6A0B6D7C0130BAD6"
+			tasks: [{
+				id: "13FC563E613D44FA"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "683A2830BF1C5B89"
+			tasks: [{
+				id: "096CDC1117E92E44"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brass"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "53994C6398D84150"
+			tasks: [{
+				id: "650F5905439BF72B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			id: "74CCAF1F66882368"
+			tasks: [{
+				id: "00B345700DD3F928"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zombie"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "273AF8269C45CD4D"
+			tasks: [{
+				id: "2CF25664E9F3095C"
+				item: "productivebees:honeycomb_powdery"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			id: "377A052D52D280C8"
+			tasks: [{
+				id: "6E0394DE3913B34E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:skeletal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			id: "2012A4EA8A239A0A"
+			tasks: [{
+				id: "28F16128B84BE334"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silky"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			id: "2E857617E596752C"
+			tasks: [{
+				id: "52C186AE86BD749A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			id: "7E060DAF49C79D14"
+			tasks: [{
+				id: "3347B0C5D3698DDC"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:magmatic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			id: "6E7785E8DECE78CE"
+			tasks: [{
+				id: "5114D17ABA1DDE57"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:slimy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			id: "460ED2414AE3613D"
+			tasks: [{
+				id: "1000BDA62CBAC5EE"
+				item: "productivebees:honeycomb_milky"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "599FD353EEDD58D6"
+			tasks: [{
+				id: "159D718E146387C5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:frosty"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "7146E1494CB4CE43"
+			tasks: [{
+				id: "5CD1AEDFBAEC78D5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:salty"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "14D8ECB06DB412B0"
+			tasks: [{
+				id: "3161302AC3F16EC4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crimson"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "569B9B470CE72522"
+			tasks: [{
+				id: "69FD798299AF423A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:red_shroom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "1DEA570831E12F45"
+			tasks: [{
+				id: "453EAC371E9E83B9"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brown_shroom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "0F843AE9A678A3B4"
+			tasks: [{
+				id: "25CA1338697CE77F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:warped"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "2E925FF64FC2F33E"
+			tasks: [{
+				id: "65D0D847229896E0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:chocolate"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "47CAEFF327AB7D02"
+			tasks: [{
+				id: "0D5A2A1101E1A196"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:obsidian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+	]
+	title: "Busy Bees"
+}

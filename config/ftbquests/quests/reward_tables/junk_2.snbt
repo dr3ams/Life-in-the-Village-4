@@ -1,0 +1,48 @@
+{
+	id: "7D91F06F3FC4892C"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Junk 2"
+		string_id: "junk_2"
+	}
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ count: 32, item: "minecraft:repeater" }
+		{ count: 10, item: "minecraft:lantern" }
+		{ item: "minecraft:dropper" }
+		{ count: 2, item: "minecraft:pig_spawn_egg" }
+		{ count: 2, item: "minecraft:cow_spawn_egg" }
+		{ item: "minecraft:cat_spawn_egg" }
+		{ count: 64, item: "minecraft:glass_bottle" }
+		{ item: "minecraft:skeleton_skull" }
+		{ item: "supplementaries:flower_box" }
+		{ count: 2, item: "minecraft:piston" }
+		{ count: 3, item: "minecraft:redstone_lamp" }
+		{ item: "minecraft:dispenser" }
+		{ item: "minecraft:creeper_spawn_egg" }
+		{ count: 16, item: "minecraft:item_frame" }
+		{ item: "minecraft:torchflower_seeds" }
+		{ count: 32, item: "minecraft:comparator" }
+		{ count: 8, item: "minecraft:spider_eye" }
+		{ count: 3, item: "supplementaries:bomb" }
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "supplementaries:pedestal" }
+		{ item: "simplehats:hatscraps_uncommon" }
+	]
+	title: "Junk 2"
+	use_title: true
+}

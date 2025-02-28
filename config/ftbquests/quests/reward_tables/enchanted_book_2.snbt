@@ -1,0 +1,113 @@
+{
+	id: "0ED9B235C3241100"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:piercing"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Piercing V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Smite V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 4s
+					}]
+				}
+			}
+			title: "Sweeping IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 4s
+					}]
+				}
+			}
+			title: "Efficiency IV"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:impaling"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Impaling V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "farmersdelight:backstabbing"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Backstabbing III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "walljump:speed_boost"
+						lvl: 3s
+					}]
+				}
+			}
+			title: "Speed Boost III"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Sharpness V"
+		}
+	]
+	title: "Enchanted Book 2"
+	use_title: true
+}

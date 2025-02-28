@@ -1,0 +1,27 @@
+{
+  "caveblocks": {
+    "desc:": "List of blocks to which ores are allowed to spawn next to. This does not override existing spawn restrictions of the ores, as those are restrictions on the block they can spawn instead of.  e.g. format :  [\"minecraft:air\", \"minecraft:cave_air\"]",
+    "caveblocks": [
+      "minecraft:air",
+      "minecraft:cave_air",
+      "minecraft:water",
+      "minecraft:lava"
+    ]
+  },
+  "excludedOres": {
+    "desc:": "List of excluded ores beeing affected, these are mod-specific. : e.g. format :  [\"mod:orename\", \"minecraft:iron_ore\"]",
+    "excludedOres": []
+  },
+  "inverted": {
+    "desc:": "Inverts the exluded list to an included only list, of which ores are affected. Default : false",
+    "inverted": false
+  },
+  "spawnchance": {
+    "desc:": "Chance for an ore vein to appear, reduced below 100% to reduce global spawn rates.",
+    "spawnchance": 60
+  },
+  "hiddenOreChance": {
+    "desc:": "Chance for ore to spawn normally without air/allowed blocks contact, default: 10%, vanilla = 100%",
+    "hiddenOreChance": 4
+  }
+}

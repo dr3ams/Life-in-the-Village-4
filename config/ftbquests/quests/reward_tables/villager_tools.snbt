@@ -1,0 +1,20 @@
+{
+	id: "551BD0948AB3A728"
+	loot_size: 1
+	order_index: 43
+	rewards: [
+		{ item: "villagertools:lure" }
+		{ item: "villagertools:gears" }
+		{ item: "villagertools:bribe" }
+		{ item: "villagertools:restock" }
+		{ item: "villagertools:forget" }
+		{ item: "villagertools:contract" }
+		{ item: "villagertools:darkness" }
+		{ item: "villagertools:guard" }
+		{ item: "villagertools:knowledge" }
+		{ item: "villagertools:key" }
+		{ item: "villagertools:badge" }
+		{ item: "villagertools:cure" }
+	]
+	title: "Villager Tools"
+}

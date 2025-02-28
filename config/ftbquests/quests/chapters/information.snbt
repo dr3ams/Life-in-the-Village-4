@@ -1,0 +1,897 @@
+{
+	autofocus_id: "0000000000001231"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_quest_size: 2.0d
+	filename: "information"
+	group: ""
+	icon: "kubejs:help"
+	id: "06205F0004E690D7"
+	images: [{
+		alpha: 200
+		height: 15.027027027027026d
+		image: "litv3:textures/misc/info.png"
+		rotation: 0.0d
+		width: 22.0d
+		x: 5.0d
+		y: 1.5d
+	}]
+	order_index: 0
+	quest_links: [{
+		id: "6130A183B08E47F5"
+		linked_quest: "02466D62F5A6CA5F"
+		x: -3.0d
+		y: 4.5d
+	}]
+	quests: [
+		{
+			description: [
+				"Welcome to the &6Life in the Village 4&r modpack!"
+				""
+				"This is your guide/quest book. Here you can find some sort of guided progression with rewards and some explanations."
+				""
+				"To collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+				""
+				"To move onto the next quest you can click the view dependants button &6▶&r below the close &c&lX&r button to see the next available quest(s), or just click a lit up quest linked to a completed gold outlined quest."
+			]
+			id: "0000000000000117"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56FAB739C616F0BF"
+				table_id: 1068058522884565778L
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0000000000000118"
+				type: "dimension"
+			}]
+			title: "&bCheck the questbook!&r"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
+				""
+				"Checkmark quest type(usually explaining stuff), such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :])."
+				""
+				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+			]
+			icon: "minecraft:writable_book"
+			id: "0000000000000F88"
+			rewards: [{
+				id: "0000000000000F8A"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				icon: "minecraft:writable_book"
+				id: "0000000000000F89"
+				title: "Quest Types"
+				type: "checkmark"
+			}]
+			title: "Quest Types and Rewards"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)"
+				""
+				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that items recipe."
+				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids and machines. "
+				"• To search by mod name use the \"@\" key before search in search box. (e.g. @notreepunch)"
+				"• To select the search box without clicking on it, the player can press Ctrl + F."
+				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
+				""
+			]
+			id: "000000000000009B"
+			rewards: [{
+				id: "000000000000035C"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "In-game item and recipe browser"
+			tasks: [{
+				icon: "itemfilters:not"
+				id: "000000000000009C"
+				title: "Just Enough Items"
+				type: "checkmark"
+			}]
+			title: "Just Enough Items"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Some other small features:"
+				""
+				"- crimson and warped boats are fireproof"
+				"- In case you fall down into the void - instead of dying you will fall back down from the sky"
+				"- you can farm dyes (@Floralis)"
+				"- more tiers of ender chests"
+				"- light overlay"
+				"- no baby zombies"
+				"- pigling reputation system (sapience)"
+				"- special torch which prevents mob spawning"
+				"- cosmetic armor slot which persist after death"
+			]
+			icon: "minecraft:barrier"
+			id: "0000000000001231"
+			tasks: [{
+				id: "0000000000001232"
+				title: "New Mechanics"
+				type: "checkmark"
+			}]
+			title: "Other features and mechanics"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000F88"]
+			icon: "kubejs:help"
+			id: "759565BD4CB7872D"
+			size: 1.0d
+			subtitle: "They contain useful info that may help you during your playthrough."
+			tasks: [{
+				id: "55399A3A9CF095CE"
+				type: "checkmark"
+			}]
+			title: "Info Quests"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Please note that there are may be some issues and recipe inconsistencies. This is &oprobably&r my oversight as it hard to check every item and block interaction."
+				""
+				"This pack was developed in the intervals of my free time and will be improved over time according to player's feedback."
+				""
+				"If you found something that seems strange to you please report it to github or discord."
+				""
+				"&2Thank you for your understanding and sorry if something went wrong.&r"
+				""
+				"https://github.com/dr3ams/Life-in-the-Village-4"
+			]
+			icon: "kubejs:icon_exclamation"
+			id: "2A9DC8C72AD9AED0"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Understand and forgive"
+			tasks: [{
+				id: "5CCB77F4EFDC3569"
+				type: "checkmark"
+			}]
+			title: "Recipe issues and incompatibilities"
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"To claim a chunk &9open a world map&r (M) and &9right-click&r the chunk you want to claim."
+				""
+				"From the dropdown menu select '&9Claim Chunk&r'."
+				""
+				"If playing on a server you can also forceload a chunk by clicking on already claiming chunk and choosing '&9Forceload selected&r'"
+			]
+			icon: "kubejs:lock"
+			id: "1539FF1BB1B405C9"
+			tasks: [{
+				id: "7422BA6FEAA82318"
+				type: "checkmark"
+			}]
+			title: "Chunk Claiming"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Mod: &oFTB Teams&r"
+				"To create a &2Team&r, use"
+				""
+				"&2/ftbteams party create [team_name]&r"
+				""
+				"Being in one Team allows multiple people to complete the same quests together."
+				"&9&n                                                  &r&9               "
+				"Mod: &oOpen Parties and Claims&r"
+				"To create a &3Party&r, use"
+				""
+				"&3/openpac-parties create&r"
+				""
+				"Parties are related to chunk claiming and player's permission inside claimed chunks."
+			]
+			icon: "kubejs:star"
+			id: "750C1B65255EB146"
+			tasks: [{
+				id: "5631A0CD11BC7726"
+				title: "Team"
+				type: "checkmark"
+			}]
+			title: "Teams and Parties"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&5⭐ Cauldrons&r"
+				""
+				"- Can store ANY liquid"
+				"- Can be used to Mix Potions and Dyes"
+				"- When holding water or a potion can Boil if they have a heat source below"
+				"- Boiling cauldrons can inflict boiling damage"
+				"- Stepping into a splash or lingering potion cauldron will apply that potion"
+				"- Can be used to make stews. Just throw the ingredients into a boiling water cauldron"
+				" "
+				"&5⭐ Lecterns&r"
+				""
+				"- When holding a Book and Quill will have a new GUI that adds a Quill button and an Ink Well button"
+				"- Click on the Ink Well to cycle between available font colors"
+				"- Click on the Quill to cycle between available fonts"
+				"- Can now interact with hoppers!"
+				" "
+				"&5⭐ Lanterns&r"
+				""
+				"- Can be hung on walls. Works with ANY lantern"
+				""
+				"&5⭐ Hanging Signs&r"
+				""
+				"- Can hold any item on both their faces"
+				"- Can also display a banner patterns"
+				""
+				"&5⭐ Carpets&r"
+				"- Can be placed on Slabs"
+				"- Can be placed on Stairs"
+				""
+				"&5⭐ Cakes&r"
+				"- Can be stacked by placing two ontop of eachother. Works with ANY cake"
+				""
+				"&5⭐ Lilypads&r"
+				""
+				"- Can have any block placed on them"
+				" "
+				"&5⭐ Mob Skulls&r"
+				""
+				"- Can be stacked. Works with ANY skull in any combination"
+				"- Can have candles placed ontop"
+				"- Candle will leave a wax overlay on the skull"
+				" "
+				"&5⭐ Banners and Pots&r"
+				""
+				"- Can be placed on ceilings"
+				""
+				"&5⭐ Tripwire Hook&r"
+				"- Can hold tools when you shift click on one"
+			]
+			icon: "supplementaries:cog_block"
+			id: "68E94396D20366E4"
+			tasks: [{
+				id: "125A6F326A10264B"
+				title: "Tweaks to many existing blocks"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&n&5Better End Island&r&r"
+				""
+				"Obsidian pillars, End gateways, the spawn platform, and the portal itself in the middle of the island have all been redesigned. Additionally, the dragon no longer spawns from the start - instead, it will be summoned once a player gets close to the bell tower in the center."
+				""
+				"&lTo resummon the dragon&r, the 4 crystals no longer go right next to the portal. Instead, you'll see 4 bedrock blocks on the floor inside the tower, one in each directional wing of the building. The crystals can be placed on these 4 blocks to start summoning the dragon again. That being said, we do actually still support vanilla crystal summoning positions, to avoid confusing players who aren't familiar with the mod."
+				""
+				"&n&5Nullscape&r&r"
+				""
+				"Overhauls the End's generation in a way that maintains this identity - &0&oa realm of utter desolation&r&r. Nullscape will make you feel tiny and alone in the vast expanse of the End. You against the void - nothing more than that."
+				""
+				"Nullscape boosts the End's height to 384 blocks, introduces a new terrain system based around materials science. Essentially, different regions of the End - on very large scales - have different properties and a different 'feel' to allow for almost infinite variation in terrain shapes. From sponge-like porous terrain to stretched alien landscapes to stacked rounded islands, you'll find new and interesting terrain no matter how far you go."
+			]
+			icon: "minecraft:dragon_head"
+			id: "2620A08E1295B3A3"
+			subtitle: "Mods: YUNG's Better End Island, Nullscape"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2D5F4D54C3C6EDF1"
+				type: "dimension"
+			}]
+			title: "End Overhaul"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"First you need to craft your album and then start killing hostile mobs. Hostile mobs have chance to drop card package with random rarity. Opening the package will grant you 5 cards which can be used for album."
+				""
+				"&l&2Album is divided into 5 categories:&r&r"
+				""
+				"- Tools"
+				"- Armor"
+				"- Mobs"
+				"- Nature"
+				"- Items"
+				""
+				"&l&2Each card has custom parameters:&r&r"
+				""
+				""
+				"- Card number -> Used to identify correct slot in album"
+				"- Card category -> See category list above"
+				"- Card rarity -> Rarity of card (Common=Worst, Mythical=Best)"
+				"- Card value -> Value based on rarity"
+				""
+				"&n&l&5Bonuses&r&r&r"
+				""
+				"Once you reach certain threshold with your album card collection you will obtain passive effects such as &1resistance&r/&cregeneration&r/&4extra health&r and more."
+				""
+				"These thresholds are unlocked by having certain amount of points or filling full categories."
+			]
+			id: "2D02F0E1C3DFBCA5"
+			subtitle: "900 new collectible cards in varying rarities which can enhance your character by filling your collector's album."
+			tasks: [{
+				id: "2545C1126B7F5424"
+				item: "collectorsalbum:common_card_pack"
+				type: "item"
+			}]
+			title: "Collector's Album"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&5&nPassive Skill Tree&r&r"
+				""
+				"To get started, gather some &aexperience&r to acquire your first skill point."
+				""
+				"Then press O (default key, if it doesn't work - check your key bindings)."
+				""
+				"Then select your &5class&r but choose carefully, &nyou cannot change it.&r"
+				""
+				"You can path to other classes later if you think it is worth it."
+				""
+				"&nMaximum number of skill points is 85&r so choose wisely. (you can respec later with a special item)"
+			]
+			icon: "create:experience_nugget"
+			id: "1A6295743A494017"
+			rewards: [{
+				id: "38CA208D214B1E77"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "46C5AFE3AA95EE33"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			title: "&5&nPassive Skill Tree&r&r"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: ["The Global Skin Library loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."]
+			id: "4DCD0744847F44B8"
+			rewards: [{
+				id: "7FBB9EAE677E1BB5"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Apply custom skins to anything: from equipment to blocks!"
+			tasks: [{
+				id: "483DFE0BA1E6149D"
+				item: "armourers_workshop:skin-library-global"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DCD0744847F44B8"]
+			description: ["This is your local skin library"]
+			icon: "armourers_workshop:skin-library"
+			id: "789F5AA2E53CFE82"
+			rewards: [{
+				id: "5F170B5F24C8424D"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "6018EBA6E3FC1694"
+					item: "armourers_workshop:skin-library"
+					type: "item"
+				}
+				{
+					id: "48536602B54C6B4C"
+					item: "armourers_workshop:skin-template"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["789F5AA2E53CFE82"]
+			description: [""]
+			id: "7B0A6930B521088F"
+			rewards: [{
+				id: "30B0B51473AFD1DA"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.0d
+			subtitle: "For applying skins from your local skin library"
+			tasks: [{
+				id: "460571AA8E2DF4C7"
+				item: "armourers_workshop:skinning-table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["444EE0B011D2925F"]
+			description: [""]
+			icon: "minecraft:crafting_table"
+			id: "1D6D50ECC5936A2D"
+			rewards: [
+				{
+					command: "/curios add ring @s 1"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "skilltree:copper_ring"
+					id: "1AA44AF1304BA127"
+					silent: true
+					title: "+1 Ring Curio Slot"
+					type: "command"
+				}
+				{
+					id: "5A2F73AA6BD2B387"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "29B8E07834A64598"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &2Adventure Begins&r &6chapter!&r"
+			x: -3.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["1D0517C3BEA06389"]
+			icon: "minecraft:netherrack"
+			id: "5D831079EF09607F"
+			rewards: [
+				{
+					id: "5535D61A46A4A75C"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "097F11B95A319DBF"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0875E39C9DB97797"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &4The Nether&r &6chapter!&r"
+			x: -1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["66690CB79DA211EF"]
+			icon: "supplementaries:globe"
+			id: "7621F5502716F377"
+			rewards: [
+				{
+					id: "271D44F2E2CC33C3"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "07611DA52F9EC5CF"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "152CD573CAD135F5"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &3Around the World&r &6chapter!&r"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["76389659C6680826"]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:bumble_bee_chestplate_1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1CE193AD339043B0"
+			rewards: [
+				{
+					id: "58C07FE6E8EB0A69"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "2EA8A3C1107192E9"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+				{
+					id: "44446D6DF703F7F7"
+					item: "the_bumblezone:royal_jelly_block"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "62C26B3B6F788EE1"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r &eTo the Bumblezone&r &6chapter!&r"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5A62415E6BEF0970"]
+			icon: "minecolonies:supplycampdeployer"
+			id: "7B095B8B085F8A4B"
+			rewards: [{
+				id: "01973FA3848D55F0"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2100C97E4F924FF3"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r My Colony &6chapter!&r"
+			x: 3.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["62E81CB0EB2A6987"]
+			icon: "farmersdelight:cooking_pot"
+			id: "390B8F10562FF1CB"
+			rewards: [{
+				id: "1AA583C874AB749C"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1E99039B9CF36091"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r Cooking &6chapter!&r"
+			x: 6.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0000000000000067"]
+			icon: "minecraft:wheat"
+			id: "38DAB94E5134F3C0"
+			rewards: [{
+				id: "0EB3B8BB5881F0FA"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "37C7FBD32916E432"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r Farming &6chapter!&r"
+			x: 7.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["7DD3034D8780A70E"]
+			icon: {
+				Count: 1
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "create:brass_block"
+				}
+			}
+			id: "3354D69B05F00218"
+			rewards: [
+				{
+					id: "381600E796AF3C52"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					command: "/curios add belt @s 1"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "toolbelt:item/belt"
+						}
+					}
+					id: "1907562A678F31CB"
+					title: "+1 Belt Curio Slot"
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "20305541C056C058"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r Tinker's Workshop &6chapter!&r"
+			x: 12.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0817BDFE298D5C86"]
+			icon: "create:flywheel"
+			id: "0D89799641F180F4"
+			rewards: [
+				{
+					id: "10BE2D54CA97B486"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					command: "/curios add trinket @s 1"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "curios:slot/empty_curio_slot"
+						}
+					}
+					id: "5F45E9923DEB096C"
+					title: "+1 Trinket Curio Slot"
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "56D42383DBB4FA53"
+				title: "Create"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r Create &6chapter!&r"
+			x: 11.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0000000000000004"]
+			icon: "minecraft:honeycomb"
+			id: "7383A9B79FCC0698"
+			rewards: [{
+				id: "7DBD210CE91651AC"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "16F90A30DB94CFF0"
+				title: "Bees"
+				type: "checkmark"
+			}]
+			title: "&6Complete&r Busy Bees &6chapter!&r"
+			x: 9.0d
+			y: 6.75d
+		}
+		{
+			description: [
+				"&4&nGems&r&r"
+				""
+				"{image:litv3:textures/misc/sockets.png width:100 height:40 align:center}"
+				"You can find &4gems&r in any ore."
+				""
+				"Can be inserted into equipment on a &5smithing table.&r"
+				""
+				"To remove &4gems&r from equipment, you need to insert &9Vacucite&r gem into it. It will &nconsume all&r the gems."
+				""
+				"&9Vacucite&r have a smaller drop chance."
+				""
+				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "skilltree:item/gems/vacucite_3"
+				}
+			}
+			id: "4C3FFE363D391BA4"
+			rewards: [{
+				id: "79C22DEF4BA0EA45"
+				item: {
+					Count: 1
+					id: "skilltree:gem"
+					tag: {
+						type: "skilltree:vacucite_3"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CA3F519E2ACC5A5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "skilltree:gems"
+					}
+				}
+				title: "Any #skilltree:gems"
+				type: "item"
+			}]
+			title: "Sockets and gems"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&6Chests in natural structures can be looted by multiple players and help indicate which structures you have already looted."
+				""
+				"These chests are &6Lootr&r chests, which provide individual loot for every player that comes across it."
+				""
+				"Any items you put in the chest also cannot be seen by other players."
+				""
+				"They can also come in the form of barrels and shulker boxes in some structures."
+			]
+			id: "3DAF04226327EE09"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "213C62C9917B22E0"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&9Corail Tombstone&r handles your death in Minecraft by providing tons of configuration options, many features to encourage to discover the world and several compatibilities between mods."
+				""
+				"It also introduces a &a&nperk system&r&r : the Knowledge of Death, and a &5magic&r system based on some enchantable items with the help of the Souls haunting the Decorative Graves and waiting for a way to be freed for their eternal sentence. A screen in game allows to configure player preferences, access a Compendium of infos and the selection of the perks."
+			]
+			id: "1ED269967D867860"
+			subtitle: "Keeps safe your inventory items on death with many features for better survivability and exploration"
+			tasks: [{
+				advancement: "tombstone:adventure/first_knowledge"
+				criterion: ""
+				id: "771BE235B704F53A"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The trash can slot found on the bottom right of your inventory and certain other interfaces can be used to delete unwanted items."
+				""
+				"When an item is in this slot, it will not be deleted until another item is placed onto it, reducing the chance of accidentally deleting an item."
+				""
+				"You can click and drag to move the slot anywhere you want, and it can be toggled on and off with a keybind, &3default T&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "trashslot:item/trashcan"
+				}
+			}
+			id: "65278C521CB7794B"
+			tasks: [{
+				id: "0A6D9EFC81898152"
+				title: "Trash Can Slot"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Many quests give &ecoins&r which can be exchanged in &eCoin Exchange&r chapter for useful items."
+				""
+				""
+				"{ \"text\": \"Coin Exchange HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12AA5A2ECF315050\" } }"
+			]
+			id: "55C35399F4E1776C"
+			tasks: [{
+				id: "25641152E7BF41D9"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "Coin Exchange"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"You can wear two sets of armor, one for display, one for function."
+				""
+				"You can also hide armor for your skin."
+				""
+				"You can press a key (default is set to 'None', you need to change it in Controls under Inventory category) or the button added in your inventory screen (bottom right to your character, similar to the Baubles button) to open the Cosmetic Armor Inventory, left side is your normal armor slots, right side is your cosmetic armor slots."
+				""
+				"Any armor placed in cosmetic armor slots will not have any effect on you, only for display purpose."
+				""
+				"&3There are also a lot of cosmetic armor sets. Search @cosmetic or @hats in JEI&r"
+			]
+			icon: {
+				Count: 1
+				id: "cosmeticarmoursmod:maid_outfit_black_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7AD533ABD19BF7AC"
+			rewards: [{
+				id: "66938EA20AF5C3FF"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "cosmeticarmoursmod:cosmeticarmours_book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2735386201A8C24A"
+				title: "Cosmetic Armor Slots"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&2Wall Cling&r: Jump towards a wall and hold the wall jump key (LSHIFT)"
+				""
+				"&aWall Jump&r: While wall clinging, keep holding W and let go of LSHIFT to wall jump"
+				""
+				"&6Double Jump&r: Optional mid-air jump. Available with Enchant."
+				""
+				"&4Steep Assist&r: Walk up steps even while airborne, also jump over fences"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tconstruct:gui/modifiers/armor/lightspeed"
+				}
+			}
+			id: "184FAD3C9A66DBA7"
+			tasks: [{
+				id: "208FDB4E2A217DB1"
+				type: "checkmark"
+			}]
+			title: "More Movement Options"
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "&l&f⭐ Information&r&r"
+}

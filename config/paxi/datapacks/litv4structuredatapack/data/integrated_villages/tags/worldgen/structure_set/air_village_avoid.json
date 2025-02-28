@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:villages",
+    "integrated_villages:regular_villages"
+  ]
+}

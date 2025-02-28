@@ -1,0 +1,1643 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon_important"
+	default_quest_size: 2.0d
+	filename: "collections"
+	group: "6454BAEA71CB61DD"
+	id: "7F5EF3CC187F7DAE"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0AADD30F4387FAA5"
+			tasks: [
+				{
+					id: "39AF966BEDF1317F"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_13"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0A6BF3AE3E5EA0AF"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_cat"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1C5145F3E8C086EF"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_blocks"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "25CD67D5903BC17C"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_chirp"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "58A9EB75241BE135"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_far"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "39068A7E8105F0AC"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_mall"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "09BED4F622D2ED89"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_mellohi"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3CF542A2C6118924"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_stal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4F7056077F48A143"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_strad"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6E3A2025A70418A9"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_ward"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "32B7CF6EE85A1CF4"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_11"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4A6BD4130B5B9C14"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_wait"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "065939F7E0EDD872"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_otherside"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "74FC36FC22F91B3A"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_5"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "101775E2AA93C52A"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_pigstep"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "585679D37564D9E3"
+					item: {
+						Count: 1
+						id: "minecraft:music_disc_relic"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "411B10D0C5B15D13"
+					item: {
+						Count: 1
+						id: "takesapillage:bastille_blues_music_disc"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4F052114DECE96FD"
+					item: {
+						Count: 1
+						id: "quark:music_disc_endermosh"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6A2153DA3E4C2C64"
+					item: {
+						Count: 1
+						id: "snowyspirit:music_disc_winter"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2DE517A608FDE84A"
+					item: {
+						Count: 1
+						id: "supplementaries:music_disc_heave_ho"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "18F7CE0F9037AE56"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6317483F967F8C66"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6018B4B73635FD46"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_la_bee_da_loca"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7551055E424D2466"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7E76F98C4996EF7A"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_bee_ware_of_the_temple"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "19890983397C1A88"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_beenna_box"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3AFBE192383C93FD"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_radiance_renren"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1FF35C1E4F81878C"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_too_much_space"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "51E3BC993F0D213E"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_the_lost_soul"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2DE4B4B06554A6C7"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_waves"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0E71171588CB55C9"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_life_renren"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "12B9EC69D0151782"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_drowning_in_despair"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "48FA45FB68799B62"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_knowing_renren"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "496E2C4F986D9FC2"
+					item: {
+						Count: 1
+						id: "the_bumblezone:music_disc_a_last_first_last"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "79EF1B2658C19D56"
+					item: {
+						Count: 1
+						id: "idas:music_disc_slither"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "68325C91C01E8A4D"
+					item: {
+						Count: 1
+						id: "idas:music_disc_calidum"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2F082BEE3612CCA0"
+					item: {
+						Count: 1
+						id: "alekiships:music_disc_pirate_crafting"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "68EA0C2B2ECFD498"
+					item: {
+						Count: 1
+						id: "caverns_and_chasms:music_disc_epilogue"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "283DEC4341E0D987"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_amethyzied"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1CB1BF188B55DC70"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_attractive"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "36AAADBFA082A059"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_awakening"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3DB6820FCF1CBB66"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_birch"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "062F71614F7C70C3"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_birthday"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "530362E5D108251B"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_blossom"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "25FD55624F4301EB"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_endless_void"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2EEBEB4606ED0609"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_endstone_golem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1E857263FF26BFF3"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_flying_ships"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6C77BD003D9A115E"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_forest"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6D0ADF6A6D93A236"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_into_the_jungle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "04010EB277AA228C"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_night_in_savanna"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "372AC4F6D1D66FAC"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_out_of_them"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "65508318BEF6563D"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_queen"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0A305F234DC8BD9F"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_rascal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "140A003D630CBA64"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_shrooming"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "74993DE89A904741"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_sins"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "31C3DEF77C636F18"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_the_bright_side"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6AD12DD59B7C7713"
+					item: {
+						Count: 1
+						id: "red_exp:music_disc_the_dark_side"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "762309A8EA3E1F12"
+					item: {
+						Count: 1
+						id: "quark:music_disc_fire"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "67581C1E19057BFA"
+					item: {
+						Count: 1
+						id: "quark:music_disc_crickets"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7C29E68597A20A69"
+					item: {
+						Count: 1
+						id: "quark:music_disc_wind"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "33148F45B7C3B868"
+					item: {
+						Count: 1
+						id: "quark:music_disc_rain"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "057DBDC8BC7FA108"
+					item: {
+						Count: 1
+						id: "quark:music_disc_ocean"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3360E0E2D4ADCB8F"
+					item: {
+						Count: 1
+						id: "quark:music_disc_drips"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Music Disc Collection"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "0F5C601327BB6BAE"
+			tasks: [
+				{
+					id: "0A997B9C44C50A39"
+					item: "collectibles:gold_coin"
+					type: "item"
+				}
+				{
+					id: "52D73B4209DB4FCE"
+					item: "collectibles:silver_coin"
+					type: "item"
+				}
+				{
+					id: "57DE46DC2F9B4AA1"
+					item: "collectibles:platinum_coin"
+					type: "item"
+				}
+				{
+					id: "617D850630C5705E"
+					item: "collectibles:netherite_coin"
+					type: "item"
+				}
+				{
+					id: "16FBB14362D1EBD6"
+					item: "collectibles:copper_coin"
+					type: "item"
+				}
+				{
+					id: "502B8CBB838AB067"
+					item: "collectibles:bronze_coin"
+					type: "item"
+				}
+				{
+					id: "3358C274BB9DD222"
+					item: "collectibles:brass_coin"
+					type: "item"
+				}
+				{
+					id: "19C6AD0047421F97"
+					item: "collectibles:iron_coin"
+					type: "item"
+				}
+				{
+					id: "40B78A648657FAB5"
+					item: "collectibles:stone_coin"
+					type: "item"
+				}
+				{
+					id: "018DE825775C8CA5"
+					item: "collectibles:diamond_fragment"
+					type: "item"
+				}
+				{
+					id: "2638FB058CC8375C"
+					item: "collectibles:emerald_fragment"
+					type: "item"
+				}
+				{
+					id: "4EC28C1AD100C331"
+					item: "collectibles:amethyst_fragment"
+					type: "item"
+				}
+				{
+					id: "0394E825C916B994"
+					item: "collectibles:ruby_fragment"
+					type: "item"
+				}
+				{
+					id: "7A4637EB20FA9671"
+					item: "collectibles:sapphire_fragment"
+					type: "item"
+				}
+				{
+					id: "72445FA6C9309858"
+					item: "collectibles:topaz_fragment"
+					type: "item"
+				}
+				{
+					id: "217E3AA77CB9F1FA"
+					item: "collectibles:crystal_fragment"
+					type: "item"
+				}
+				{
+					id: "20F308CEAA182B4D"
+					item: "collectibles:hematite_fragment"
+					type: "item"
+				}
+				{
+					id: "6CF2FE9A72C988D8"
+					item: "collectibles:tourmaline_fragment"
+					type: "item"
+				}
+				{
+					id: "04AF848DAB52B36F"
+					item: "collectibles:old_book"
+					type: "item"
+				}
+				{
+					id: "4FA5CEFD5797DCBF"
+					item: "collectibles:necronomicon_book"
+					type: "item"
+				}
+				{
+					id: "1401A748FF5C3EF1"
+					item: "collectibles:knowledge_book"
+					type: "item"
+				}
+				{
+					id: "7A754491FA6371C2"
+					item: "collectibles:notchs_book"
+					type: "item"
+				}
+				{
+					id: "4A18FC99ED479128"
+					item: "collectibles:darkhold_book"
+					type: "item"
+				}
+				{
+					id: "26F949D95CF644A3"
+					item: "collectibles:monster_book"
+					type: "item"
+				}
+				{
+					id: "43EDEF6907CB85A9"
+					item: "collectibles:grimoire_book"
+					type: "item"
+				}
+				{
+					id: "10E1F6AA4C74E4D4"
+					item: "collectibles:cursed_book"
+					type: "item"
+				}
+				{
+					id: "7A3F04188FA77418"
+					item: "collectibles:herobrines_book"
+					type: "item"
+				}
+				{
+					id: "7B2F9E1AFAE82826"
+					item: "collectibles:claw_fossil"
+					type: "item"
+				}
+				{
+					id: "5D45EC867E4C542E"
+					item: "collectibles:leg_fossil"
+					type: "item"
+				}
+				{
+					id: "66A6C418B52CBFA7"
+					item: "collectibles:ammonite_fossil"
+					type: "item"
+				}
+				{
+					id: "1954B6AC60AB9172"
+					item: "collectibles:crinoid_fossil"
+					type: "item"
+				}
+				{
+					id: "3B8EA781A209F286"
+					item: "collectibles:trilobite_fossil"
+					type: "item"
+				}
+				{
+					id: "7D217C20E14BF4E2"
+					item: "collectibles:skull_fossil"
+					type: "item"
+				}
+				{
+					id: "5D5AE7FD09D754D5"
+					item: "collectibles:spine_fossil"
+					type: "item"
+				}
+				{
+					id: "388EB1000DE97E46"
+					item: "collectibles:rip_fossil"
+					type: "item"
+				}
+				{
+					id: "649CE277D9435F49"
+					item: "collectibles:thorax_fossil"
+					type: "item"
+				}
+				{
+					id: "08A8D97CC82CF640"
+					item: "collectibles:amulet_jewelry"
+					type: "item"
+				}
+				{
+					id: "31F28ABB92D4FE66"
+					item: "collectibles:hairpin_jewelry"
+					type: "item"
+				}
+				{
+					id: "413393E7335F5A4A"
+					item: "collectibles:bracelet_jewelry"
+					type: "item"
+				}
+				{
+					id: "5653846E4983E244"
+					item: "collectibles:brooch_jewelry"
+					type: "item"
+				}
+				{
+					id: "795EC80CB54DB18B"
+					item: "collectibles:earring_jewelry"
+					type: "item"
+				}
+				{
+					id: "58566079D725C406"
+					item: "collectibles:diadem_jewelry"
+					type: "item"
+				}
+				{
+					id: "06F81F71A95777EC"
+					item: "collectibles:crown_jewelry"
+					type: "item"
+				}
+				{
+					id: "1D626F85F4F0BBFE"
+					item: "collectibles:chain_jewelry"
+					type: "item"
+				}
+				{
+					id: "3A137212246AEE9D"
+					item: "collectibles:ring_jewelry"
+					type: "item"
+				}
+			]
+			title: "Collectible Collection"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "50F972738ED2B659"
+			tasks: [
+				{
+					id: "7BE3BA961688908C"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_pickaxe"
+						tag: {
+							Damage: 0
+							inWater: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BF7B9BA7B9473DF"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_shovel"
+						tag: {
+							Damage: 0
+							inWater: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B6EEEEAF8B96A2C"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CB4847589CBAA16"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24FBEE2DC7EA8385"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27BA32001C24DED2"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "374693CD4A7CCDBE"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C2066E7176D5867"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AEFAB6CF73C971A"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "042ED72E49AA271D"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Neptunium Equipment Collection"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "089FBD77ACBC4FE8"
+			tasks: [
+				{
+					id: "056A0A6B63C6F200"
+					item: "artifacts:umbrella"
+					type: "item"
+				}
+				{
+					id: "1593DF55A46D9DF4"
+					item: "artifacts:flippers"
+					type: "item"
+				}
+				{
+					id: "593BA111B9C07BBD"
+					item: "artifacts:steadfast_spikes"
+					type: "item"
+				}
+				{
+					id: "4DD250AD46FD17EF"
+					item: "artifacts:scarf_of_invisibility"
+					type: "item"
+				}
+				{
+					id: "4188BE96F26E70FF"
+					item: "artifacts:whoopee_cushion"
+					type: "item"
+				}
+				{
+					id: "3056E873BEB0C2A0"
+					item: "artifacts:plastic_drinking_hat"
+					type: "item"
+				}
+				{
+					id: "28AA740D56DFE390"
+					item: "artifacts:novelty_drinking_hat"
+					type: "item"
+				}
+				{
+					id: "2A8BD267A8553FAB"
+					item: "artifacts:snorkel"
+					type: "item"
+				}
+				{
+					id: "2A6CBB1231B8240D"
+					item: "artifacts:night_vision_goggles"
+					type: "item"
+				}
+				{
+					id: "5A348A62C40A6379"
+					item: "artifacts:villager_hat"
+					type: "item"
+				}
+				{
+					id: "679707B0431FF197"
+					item: "artifacts:cowboy_hat"
+					type: "item"
+				}
+				{
+					id: "4B27A8DFC6B688BB"
+					item: "artifacts:anglers_hat"
+					type: "item"
+				}
+				{
+					id: "5CB4C6B22BAB882B"
+					item: "artifacts:cross_necklace"
+					type: "item"
+				}
+				{
+					id: "5EF6CDAC1A7D5113"
+					item: "artifacts:digging_claws"
+					type: "item"
+				}
+				{
+					id: "1553F4A920C5B8BF"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
+				{
+					id: "2B8A5A636F1AF99F"
+					item: "artifacts:shock_pendant"
+					type: "item"
+				}
+				{
+					id: "574A99BCCE8EE722"
+					item: "artifacts:flame_pendant"
+					type: "item"
+				}
+				{
+					id: "6C6C3AD5713206D0"
+					item: "artifacts:thorn_pendant"
+					type: "item"
+				}
+				{
+					id: "6654B633FDB08990"
+					item: "artifacts:cloud_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "303DF62584AEC423"
+					item: "artifacts:obsidian_skull"
+					type: "item"
+				}
+				{
+					id: "5868EBC385938618"
+					item: "artifacts:antidote_vessel"
+					type: "item"
+				}
+				{
+					id: "528F4A864C4F6AF9"
+					item: "artifacts:chorus_totem"
+					type: "item"
+				}
+				{
+					id: "78C51067A18E7652"
+					item: "artifacts:feral_claws"
+					type: "item"
+				}
+				{
+					id: "2EDDF53B8964787D"
+					item: "artifacts:fire_gauntlet"
+					type: "item"
+				}
+				{
+					id: "4FB86EDBBF60CAF1"
+					item: "artifacts:pocket_piston"
+					type: "item"
+				}
+				{
+					id: "7E4602596C70A0C3"
+					item: "artifacts:vampiric_glove"
+					type: "item"
+				}
+				{
+					id: "74C91E57471144A7"
+					item: "artifacts:onion_ring"
+					type: "item"
+				}
+				{
+					id: "6738BBE87F8CBB72"
+					item: "artifacts:pickaxe_heater"
+					type: "item"
+				}
+				{
+					id: "131DC886E2E84E66"
+					item: "artifacts:bunny_hoppers"
+					type: "item"
+				}
+				{
+					id: "6C989B6BB9AADF4D"
+					item: "artifacts:running_shoes"
+					type: "item"
+				}
+				{
+					id: "750EEFB9E5708B15"
+					item: "artifacts:snowshoes"
+					type: "item"
+				}
+			]
+			title: "Artifacts Collection"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "71FB835D6C3751ED"
+			tasks: [
+				{
+					id: "61E2CF4133A95BBF"
+					item: "croptopia:apple_juice"
+					type: "item"
+				}
+				{
+					id: "628682C3FF41FC27"
+					item: "croptopia:cranberry_juice"
+					type: "item"
+				}
+				{
+					id: "3DD541D8D146BD49"
+					item: "croptopia:grape_juice"
+					type: "item"
+				}
+				{
+					id: "157C7EE2382454FC"
+					item: "croptopia:melon_juice"
+					type: "item"
+				}
+				{
+					id: "1057A800C72B14FA"
+					item: "croptopia:orange_juice"
+					type: "item"
+				}
+				{
+					id: "5EF1E06C5C44A47D"
+					item: "croptopia:pineapple_juice"
+					type: "item"
+				}
+				{
+					id: "050890DBE0D1A458"
+					item: "croptopia:saguaro_juice"
+					type: "item"
+				}
+				{
+					id: "7A2A4898160C90D4"
+					item: "bushes_update:miners_berries_juice"
+					type: "item"
+				}
+				{
+					id: "35125D1FED02AD47"
+					item: "bushes_update:golden_berries_juice"
+					type: "item"
+				}
+				{
+					id: "62C05B745C15C501"
+					item: "bushes_update:chorus_berries_juice"
+					type: "item"
+				}
+				{
+					id: "48F3CE32C411F2FF"
+					item: "bushes_update:shulker_berries_juice"
+					type: "item"
+				}
+				{
+					id: "78FCF7D40BE358FF"
+					item: "bushes_update:lava_berries_juice"
+					type: "item"
+				}
+				{
+					id: "5E41B58A36DC1A30"
+					item: "bushes_update:blue_berries_juice"
+					type: "item"
+				}
+				{
+					id: "62AA543AFAB0D35E"
+					item: "croptopia:tomato_juice"
+					type: "item"
+				}
+				{
+					id: "7C1F6CE96CACC84A"
+					item: "bushes_update:glowstone_berries_juice"
+					type: "item"
+				}
+			]
+			title: "Juices Collection"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "52A27C8132D4A3DE"
+			tasks: [
+				{
+					id: "7412FC58DAFC198F"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:backpack"
+						tag: {
+							contentsUuid: [I;
+								1080176332
+								-1231795329
+								-1270043641
+								1577844757
+							]
+							inventorySlots: 27
+							renderInfo: {
+								upgradeItems: [{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										glide: 0b
+										struck: 0b
+									}
+								}]
+							}
+							upgradeSlots: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "368DB6820F56F317"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:copper_backpack"
+						tag: {
+							contentsUuid: [I;
+								1213782206
+								-172013087
+								-2034799277
+								1478803594
+							]
+							inventorySlots: 45
+							renderInfo: {
+								upgradeItems: [{
+									Count: 1b
+									id: "minecraft:air"
+									tag: {
+										glide: 0b
+										struck: 0b
+									}
+								}]
+							}
+							upgradeSlots: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "033F8D58BE3FE493"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:iron_backpack"
+						tag: {
+							contentsUuid: [I;
+								571956067
+								1522683836
+								-1090401017
+								-954537360
+							]
+							inventorySlots: 54
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+								]
+							}
+							upgradeSlots: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "422F7E7D4F8C64C7"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:gold_backpack"
+						tag: {
+							contentsUuid: [I;
+								773516093
+								-510439719
+								-1465508185
+								2076520792
+							]
+							inventorySlots: 81
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+								]
+							}
+							upgradeSlots: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "706DB7CD64A1E809"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+						tag: {
+							contentsUuid: [I;
+								-2088721517
+								-1765587047
+								-1621907935
+								-1755570880
+							]
+							inventorySlots: 108
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+								]
+							}
+							upgradeSlots: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A3AFAB72BF9D406"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:netherite_backpack"
+						tag: {
+							contentsUuid: [I;
+								-1930878520
+								-969718585
+								-1688137932
+								-1422229445
+							]
+							inventorySlots: 120
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: {
+											glide: 0b
+											struck: 0b
+										}
+									}
+								]
+							}
+							upgradeSlots: 7
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Backpacks Collection"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "58EB8AA7304A53D6"
+			tasks: [
+				{
+					id: "4B8D518172808BDC"
+					item: "tconstruct:cobalt_nugget"
+					type: "item"
+				}
+				{
+					id: "04B3A0E4DAE15B00"
+					item: "tconstruct:slimesteel_nugget"
+					type: "item"
+				}
+				{
+					id: "0B9D62D68AB292DA"
+					item: "tconstruct:amethyst_bronze_nugget"
+					type: "item"
+				}
+				{
+					id: "7F0DFE9CE831228B"
+					item: "tconstruct:rose_gold_nugget"
+					type: "item"
+				}
+				{
+					id: "4E70C649C62D57EE"
+					item: "tconstruct:pig_iron_nugget"
+					type: "item"
+				}
+				{
+					id: "6B5E4916316DB52D"
+					item: "tconstruct:queens_slime_nugget"
+					type: "item"
+				}
+				{
+					id: "6A7260A2FC715B3D"
+					item: "tconstruct:manyullyn_nugget"
+					type: "item"
+				}
+				{
+					id: "3573A1DA4E523E05"
+					item: "tconstruct:hepatizon_nugget"
+					type: "item"
+				}
+				{
+					id: "78A57302BDD1755C"
+					item: "spelunkery:raw_zinc_nugget"
+					type: "item"
+				}
+				{
+					id: "417C8C03142C49A2"
+					item: "spelunkery:stone_pebble"
+					type: "item"
+				}
+				{
+					id: "515ABDBB06EF8864"
+					item: "spelunkery:deepslate_pebble"
+					type: "item"
+				}
+				{
+					id: "16E624871AD58D75"
+					item: "spelunkery:netherrack_pebble"
+					type: "item"
+				}
+				{
+					id: "21921C31D981E7BE"
+					item: "spelunkery:magma_pebble"
+					type: "item"
+				}
+				{
+					id: "6A1A13B586F6447F"
+					item: "spelunkery:blackstone_pebble"
+					type: "item"
+				}
+				{
+					id: "044A036955313B76"
+					item: "spelunkery:basalt_pebble"
+					type: "item"
+				}
+				{
+					id: "01CB6C527A250071"
+					item: "spelunkery:end_stone_pebble"
+					type: "item"
+				}
+				{
+					id: "1188AE0C09DFCFA2"
+					item: "spelunkery:coal_lump"
+					type: "item"
+				}
+				{
+					id: "4A8260C5E74060E3"
+					item: "spelunkery:charcoal_lump"
+					type: "item"
+				}
+				{
+					id: "3119432B8AF19747"
+					item: "spelunkery:raw_iron_nugget"
+					type: "item"
+				}
+				{
+					id: "6FB338E264A30377"
+					item: "spelunkery:raw_copper_nugget"
+					type: "item"
+				}
+				{
+					id: "5800FD0E659BC1B1"
+					item: "spelunkery:raw_gold_nugget"
+					type: "item"
+				}
+				{
+					id: "79331DEDCCE1AF2B"
+					item: "spelunkery:raw_magnetite_nugget"
+					type: "item"
+				}
+				{
+					id: "42DF3A6DFC93C3FB"
+					item: "spelunkery:rough_cinnabar_shard"
+					type: "item"
+				}
+				{
+					id: "3F6C45822FE22CCF"
+					item: "spelunkery:rough_emerald_shard"
+					type: "item"
+				}
+				{
+					id: "2EAA0310C5F0EEB4"
+					item: "spelunkery:rough_lazurite_shard"
+					type: "item"
+				}
+				{
+					id: "3E88E7A80D12DCEA"
+					item: "spelunkery:rough_diamond_shard"
+					type: "item"
+				}
+				{
+					id: "0972A50DC7C9AEA2"
+					item: "spelunkery:rough_quartz_shard"
+					type: "item"
+				}
+				{
+					id: "335096D240508CE6"
+					item: "spelunkery:copper_nugget"
+					type: "item"
+				}
+				{
+					id: "7225B0C4123A4228"
+					item: "spelunkery:cinnabar_shard"
+					type: "item"
+				}
+				{
+					id: "2C349A26CADD1C49"
+					item: "spelunkery:emerald_shard"
+					type: "item"
+				}
+				{
+					id: "4C06CC00BEEFB471"
+					item: "spelunkery:lapis_lazuli_shard"
+					type: "item"
+				}
+				{
+					id: "40C24299DA5BDE94"
+					item: "spelunkery:diamond_shard"
+					type: "item"
+				}
+			]
+			title: "All the little stones"
+			x: 7.0d
+			y: 2.0d
+		}
+	]
+	title: "&9⭐ Collections&r"
+}

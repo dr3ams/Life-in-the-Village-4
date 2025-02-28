@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "frequency": 0.35,
+    "offset": 23,
+    "salt": 1423483068,
+    "spacing": 29,
+    "structure": "dungeons_enhanced:desert_tomb"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_enhanced:desert_tomb",
+      "weight": 1
+    }
+  ]
+}

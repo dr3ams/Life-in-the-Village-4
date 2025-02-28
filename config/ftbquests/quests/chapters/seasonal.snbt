@@ -1,0 +1,595 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "seasonal"
+	group: "31B2D4582F8C8AC3"
+	icon: "mcwholidays:candy_cane"
+	id: "453CDD203129AFF2"
+	images: [
+		{
+			height: 3.0d
+			image: "litv3:textures/misc/halloween-2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "litv3:textures/misc/halloween-1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.6666666666666665d
+			image: "litv3:textures/misc/halloween-3.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.32569558101473d
+			image: "litv3:textures/misc/christmas-1.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			height: 4.0d
+			image: "litv3:textures/misc/christmas-2.png"
+			rotation: 0.0d
+			width: 2.563106796116505d
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			height: 0.8d
+			image: "snowyspirit:block/lights_rainbow"
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "snowyspirit:item/snow_globe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "snowyspirit:block/lights_rainbow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "snowyspirit:block/lights_rainbow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 2.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"• To carve a Pumpkin simply use a Shear on the top of a normal one. After this simply interact with it either through its GUI or using a Sword/Knife to carve it in world."
+				""
+				"• Once you are happy with your design you can wax your Pumpkin to prevent further edit or craft it/click on it with a Torch to create a Jack'o'Lantern. Default carved Pumpkins can still be accessed by carving one on its side instead."
+				""
+				"• Just like any other Pumpkin you can wear it and give it to Snow Golems."
+			]
+			id: "54D5F8E18B280504"
+			rewards: [
+				{
+					id: "57E13B7825A89EEE"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05DA7412FAB1D2C6"
+					item: "simplehats:hatscraps_halloween"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4DEE67E5F17402DE"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "Pumpkin Carving"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• Baby villagers will now wear a mask at night. They can have 8 possible masks: creeper, pumpkin, zombie, illager, piglin, skeleton, enderman, spider and paper bag."
+				" "
+				"• Baby villagers will go door to door once night sets and will start trick or treating. Once a villager interacts with an adult one of 3 things can happen:"
+				""
+				"1. The adult will give the kid a random Candy (which also includes some from other mods like Supplementaries) and the kid will then visit another villager."
+				"2. The adult might not have any Candy and give the kid some Coal."
+				"3. The kid's spooky costume might scare off the adult."
+				"4. If a kid doesn't receive any Candy from an adult for whatever reason, he will take out some Eggs... You know what's next…"
+			]
+			id: "3AFD216300520673"
+			rewards: [{
+				id: "6B6B85225E5AAFE6"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "73809D03D80E0286"
+				item: "hauntedharvest:candy_corn"
+				type: "item"
+			}]
+			title: "Trick or Treating"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• If a baby villager is unfortunate enough to encounter a Witch during its night walk he will try to interact with her and ask her for Candy. Here 3 things can happen:"
+				""
+				"1. The Witch will spook and scare off the children."
+				"2. The Witch will give the kid a Rotten Apple."
+				"3. More rarely the Witch will give out a special Grim Apple to the unlucky trick or treater."
+			]
+			id: "087DCE43EB54F424"
+			rewards: [{
+				id: "0A8350FF1D7FAE3B"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3B53F83023ACC390"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			title: "Witch Interactions"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• During the day (and their play time so from 3000 ingame time) kids will actually start eating all the Candies that they have collected. Doing so will decrease their age a little and heal them. This means that they will be able to trick or treat for more nights in a row!"
+				""
+				"• Rotten Apples are a new food that has been added. It's similar to Rotten Flesh and can rarely drop from Oak and Dark Oak Leaves. It can be combined with many other nasty ingredients to make a Grim Apple."
+				""
+				"• Grim Apples are a more evil version of Rotten Apples and can be seen as the opposite of a Golden Apple. They will give all sorts of negative effects when consumed. If a kid has a Grim Apple in its inventory he will consume as with any other food it receives but doing so will actually start converting it into a Witch so be careful!"
+				""
+				"• Corn is a new 3 blocks tall rare crop that can be rarely found in abandoned farms, a mysterious new structure that the mod adds. It can be crafted into various items like Popcorn, Candy Corn or put in a Paper Bag next to a Campfire to pop it! Also has full integration with Farmer’s Delight."
+				""
+				"• Splattered Egg can be placed by throwing Eggs at any block."
+			]
+			id: "15F1F7D582CA496D"
+			rewards: [{
+				id: "28E86B77F304D1BB"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "592EB24DEB1D1250"
+				item: "hauntedharvest:corn_on_the_cob"
+				type: "item"
+			}]
+			title: "Food"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"During Halloween season (from the 20th of October to 10th of November, adult villagers will begin placing 1 Pumpkin each around the village. "
+				""
+				"&oNote that they cannot do so in their work time and in suitable location, that is on grass or sand and above y=64.&r "
+				""
+				"Baby villagers can take out some Shears and carve any Pumpkin they see. This again happens during their play time so for example at time 3000. At night baby villagers will try to light up the last Pumpkin they carved. At the end of season (after the 10th of November or whatever is set in the configs) adult villagers will try to remove all the Pumpkins they have placed down. "
+				""
+				"&oAlso note that all of this is supposed to occur rarely so to gradually fill up a village.&r"
+			]
+			id: "0496C63A47D195ED"
+			rewards: [{
+				id: "5F0FCE4202C82E7D"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4E031E0A32052C6E"
+				item: "mcwholidays:lit_evil_pumpkin"
+				type: "item"
+			}]
+			title: "Village Decorations"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["Search @holiday in JEI for more decorations"]
+			id: "1F9E6B31AB222E47"
+			rewards: [{
+				id: "4F94B80949E68435"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "1724A9253FE76968"
+					item: "mcwholidays:small_pumpkin"
+					type: "item"
+				}
+				{
+					id: "287BF6835B1BF422"
+					item: "mcwholidays:pair_of_pumpkins"
+					type: "item"
+				}
+				{
+					id: "6A3A4F113E05B306"
+					item: "mcwholidays:ghost_doormat"
+					type: "item"
+				}
+				{
+					id: "6998AB2329289561"
+					item: "mcwholidays:scarecrow"
+					type: "item"
+				}
+				{
+					id: "7F9FC617300BAD7B"
+					item: "mcwholidays:witch_cauldron"
+					type: "item"
+				}
+				{
+					id: "06AE7354DEA6D95C"
+					item: "mcwholidays:bat_sleeping"
+					type: "item"
+				}
+				{
+					id: "0A12399D94D383CB"
+					item: "mcwholidays:witch_hat"
+					type: "item"
+				}
+				{
+					id: "1DF33858B6F64220"
+					item: "mcwholidays:ghost_balloon"
+					type: "item"
+				}
+				{
+					id: "74FEABA575E065B5"
+					item: "mcwholidays:ghost"
+					type: "item"
+				}
+				{
+					id: "3DB70DC270083C9D"
+					item: "mcwholidays:sitting_skeleton"
+					type: "item"
+				}
+				{
+					id: "2D1C22C8E0FCE1B0"
+					item: "mcwholidays:hay_wheelbarrow"
+					type: "item"
+				}
+				{
+					id: "2653E3A76B7CA343"
+					item: "mcwholidays:bat_wall_deco_1"
+					type: "item"
+				}
+				{
+					id: "77F330E73A03B3EE"
+					item: "mcwholidays:orange_balloon"
+					type: "item"
+				}
+				{
+					id: "4DB321BC079BCB3B"
+					item: "mcwholidays:triangle_cobweb"
+					type: "item"
+				}
+			]
+			title: "Home Decoration"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"• Sleds are new way to get around Snow. Differently from Boats they curve around the terrain they encounter making them able to smoothly climb up and down slopes."
+				"• When going downhill they will also accelerate further making ski courses possible."
+				"• Sleds have improved mobility on Ice and while being able to slide on Snow are still able to steer and you can even bring them to a full stop by rotating the sled by 90 degrees, as you would in real life!"
+				"• Chests can be placed on them to give some inventory space. Also works with Shulker Boxes and Sacks from Supplementaries."
+				"• You can also attach a tamed Wolf with a Lead to it. When Sleds are pulled by Wolves they will have increase mobility, speed and will be able to climb up with minimal deceleration."
+				"• Igloos can now spawn with an additional Sled with Chest in front that can contain some sweet winter loot."
+				"• Sleds can be further customized by placing Carpets on top of them. Doing so will additionally prevent freezing when sledding on top of frigid Powdered Snow."
+			]
+			id: "3BB63C651D9294AA"
+			rewards: [{
+				id: "594789E49AB2879C"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "36C9A5D8D687DD29"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "snowyspirit:sleds"
+					}
+				}
+				title: "Any #snowyspirit:sleds"
+				type: "item"
+			}]
+			title: "Sleds"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"• During winter time villagers will occasionally place down Wreaths on their house doors. They can only place one each and don't worry, they will clean them up when winter is over. Wreath placing can happen during idle time so at around 0 for example."
+				"• Villagers will also place down Present blocks containing some cool items. They will only be able to place one Present each and will do so during their meet time (after 9000) around their meeting point."
+				"• Baby villagers from Taiga and Tundra will throw Snowballs at any entity they see during their play time."
+				"• \"Winter Time\" is a period of time which can be configured with the provided configs and by default goes from the 20th of December to the 30th of January."
+			]
+			icon: "simplehats:villagernose"
+			id: "1322190A2278D071"
+			rewards: [{
+				id: "1D99E1CEB36DB692"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "56E777F04E42C9B8"
+				title: "Villagers AI"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• Ginger: a new crop that can be crafted into Gingerbread Blocks, a new decorative block. Wild Ginger can be found in Sparse Jungle biomes."
+				"• Wreaths: can be placed on doors to bring some Christmasy joy to your house. Works with all modded doors as well."
+				"• Glow Lights: an item that can be placed on any Leaves to give it some glow in the dark action. Can be removed with Shears or broken."
+				"• Snow Globe: a block that will change to its snowy state when placed in places where it can snow."
+			]
+			icon: "snowyspirit:wreath"
+			id: "05E75063B2E7B696"
+			rewards: [{
+				id: "2F3A42D9741B70C6"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "2141D63D972D0291"
+					item: "snowyspirit:ginger"
+					type: "item"
+				}
+				{
+					id: "2533335956C83BB0"
+					item: "snowyspirit:wreath"
+					type: "item"
+				}
+				{
+					id: "5F3522AAF8A32899"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "snowyspirit:glow_lights"
+						}
+					}
+					title: "Any #snowyspirit:glow_lights"
+					type: "item"
+				}
+				{
+					id: "4ED7ED52BC053C97"
+					item: "snowyspirit:snow_globe"
+					type: "item"
+				}
+				{
+					id: "2EAEFD4A7CC7C3FA"
+					item: "snowyspirit:candy_cane_block"
+					type: "item"
+				}
+			]
+			title: "Winter themed blocks"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• Candy Cane: a sweet looking item, literally. Can be crafted in decorative Candy Cane Blocks."
+				"• New music disc: a new winter themed music disc has been added and can be rarely found in Presents and Igloo Sled Chests."
+			]
+			icon: "snowyspirit:candy_cane"
+			id: "66117ED38DB8CC2B"
+			rewards: [{
+				id: "50D64B7605E01E97"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "60ECCE7695DEA326"
+					item: "snowyspirit:gingerbread_cookie"
+					type: "item"
+				}
+				{
+					id: "17C2E149CFDBF6D4"
+					item: "snowyspirit:eggnog"
+					type: "item"
+				}
+				{
+					id: "63391862D19B58E0"
+					item: "snowyspirit:candy_cane"
+					type: "item"
+				}
+			]
+			title: "Winter themed items"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "3EC939DCDF1C3B52"
+			rewards: [{
+				id: "6578833E96AD0386"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "5E925E0052367718"
+					item: "mcwholidays:colorful_decorated_christmas_tree_base"
+					type: "item"
+				}
+				{
+					id: "4383EF3BDA5E0266"
+					item: "mcwholidays:colorful_decorated_christmas_tree_bottom"
+					type: "item"
+				}
+				{
+					id: "7F5E55C6A44DC087"
+					item: "mcwholidays:colorful_decorated_christmas_tree_middle"
+					type: "item"
+				}
+				{
+					id: "607BFBB94C588563"
+					item: "mcwholidays:colorful_decorated_christmas_tree_top"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			icon: "mcwholidays:horizontal_garland_wall_deco"
+			id: "69273F730ABA4C40"
+			rewards: [{
+				id: "16C40257B61D0C73"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "0B95BA43A05DAE88"
+					item: "mcwholidays:colorful_cube_string_lights"
+					type: "item"
+				}
+				{
+					id: "29E3AFA9B3CFEAB7"
+					item: "mcwholidays:wavy_garland_colorful_lights"
+					type: "item"
+				}
+				{
+					id: "47B024C0A5EA9E4A"
+					item: "mcwholidays:couple_green_presents"
+					type: "item"
+				}
+				{
+					id: "211C75E7BBBA0310"
+					item: "mcwholidays:red_present"
+					type: "item"
+				}
+				{
+					id: "1CAB719F97C58E6E"
+					item: "mcwholidays:cyan_present"
+					type: "item"
+				}
+				{
+					id: "76A30FBC3D8DF7D7"
+					item: "mcwholidays:snowman_with_santa_hat"
+					type: "item"
+				}
+				{
+					id: "1CA65A75CBCCE9FF"
+					item: "mcwholidays:wreath_wall_deco_1"
+					type: "item"
+				}
+				{
+					id: "77F4187C505B3274"
+					item: "mcwholidays:horizontal_garland_wall_deco"
+					type: "item"
+				}
+				{
+					id: "02F8C69D55A50C20"
+					item: "mcwholidays:blue_garland_wall_deco_2"
+					type: "item"
+				}
+				{
+					id: "00692DB71F589E60"
+					item: "mcwholidays:mistletoe"
+					type: "item"
+				}
+				{
+					id: "1B5BDD35EBB66A7A"
+					item: "mcwholidays:wooden_sled"
+					type: "item"
+				}
+				{
+					id: "667466B817909497"
+					item: "mcwholidays:stars_wall_deco"
+					type: "item"
+				}
+				{
+					id: "6FD73EC818354C95"
+					item: "mcwholidays:santa_hat_wall_deco"
+					type: "item"
+				}
+				{
+					id: "4571DFFBC994F4E2"
+					item: "mcwholidays:present_wall_deco"
+					type: "item"
+				}
+				{
+					id: "44836ABB2E34C0C1"
+					item: "mcwholidays:bell_wall_deco_4"
+					type: "item"
+				}
+				{
+					id: "5B65D4B36D2152F4"
+					item: "mcwholidays:reindeer_doormat"
+					type: "item"
+				}
+				{
+					id: "3EFFDFBBAAB07AE7"
+					item: "mcwholidays:snowman_with_pan"
+					type: "item"
+				}
+				{
+					id: "14C8E0312EFA67E6"
+					item: "mcwholidays:snowman_with_top_hat"
+					type: "item"
+				}
+			]
+			title: "Search @holiday in JEI for more decorations"
+			x: 11.0d
+			y: 1.0d
+		}
+	]
+	title: "Seasonal"
+}
