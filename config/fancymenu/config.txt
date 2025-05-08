@@ -17,7 +17,7 @@ I:defaultguiscale = '4';
 ##[customization]
 
 B:advancedmode = 'false';
-B:showcustomizationbuttons = 'false';
+B:showcustomizationbuttons = 'true';
 
 
 ##[loading]

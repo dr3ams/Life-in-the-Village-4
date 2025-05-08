@@ -1,0 +1,214 @@
+{
+	id: "356F8CD89C555238"
+	loot_size: 1
+	order_index: 45
+	rewards: [
+		{ item: "the_bumblezone:royal_jelly_bottle" }
+		{ item: "minecraft:honeycomb" }
+		{ count: 3, item: "the_bumblezone:honey_crystal_shards" }
+		{ count: 16, item: "minecraft:amethyst_shard" }
+		{ count: 3, item: "minecraft:honey_bottle" }
+		{ item: "the_bumblezone:variant_bee_spawn_egg" }
+		{ item: "the_bumblezone:bee_soup" }
+		{ count: 6, item: "minecraft:golden_carrot" }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:experience_bottle" }
+		{ count: 5, item: "minecraft:glow_berries" }
+		{ count: 3, item: "minecraft:honey_bottle" }
+		{ count: 4, item: "player_companions:tame_honeycomb" }
+		{ count: 6, item: "minecraft:dead_bubble_coral_block", random_bonus: 10 }
+		{ item: "minecraft:magma_cream" }
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:spore_blossom" }
+		{ item: "minecraft:redstone_block" }
+		{ item: "the_bumblezone:honey_slime_spawn_egg" }
+		{ count: 3, item: "farmersdelight:honey_cookie" }
+		{ count: 16, item: "minecraft:sugar" }
+		{ count: 4, item: "minecraft:flowering_azalea_leaves" }
+		{ count: 8, item: "minecraft:cherry_leaves" }
+		{ count: 4, item: "minecraft:flowering_azalea" }
+		{ item: "rusticdelight:honey_coffee" }
+		{ item: "productivebees:sugarbag_honeycomb" }
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:silky"
+					}
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:copper"
+					}
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:pig_iron"
+					}
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ender_slimy"
+					}
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:amethyst"
+					}
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:zinc"
+					}
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:brass"
+					}
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:slimesteel"
+					}
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ichor_slimy"
+					}
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:gold"
+					}
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:sculk"
+					}
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:lapis"
+					}
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:crystalline"
+					}
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:manyullyn"
+					}
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:chocolate"
+					}
+				}
+			}
+		}
+	]
+	title: "Bumblezone Loot Crate"
+}

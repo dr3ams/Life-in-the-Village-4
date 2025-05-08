@@ -30,9 +30,16 @@
 				""
 				"This is your guide/quest book. Here you can find some sort of guided progression with rewards and some explanations."
 				""
-				"To collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+				"To collect any reward simply click on in it in the above &6Rewards&r box, as you can above, to get a &nsimple starter house&r as you get going."
 				""
 				"To move onto the next quest you can click the view dependants button &6▶&r below the close &c&lX&r button to see the next available quest(s), or just click a lit up quest linked to a completed gold outlined quest."
+				""
+				"Some quests also have &nmultiple pages&r. You can switch to the next page with scroll-wheel or a button in the lower right corner."
+				""
+				""
+				"{@pagebreak}"
+				"Starter Houses:"
+				"{image:litv3:textures/misc/start_houses.png width:200 height:350 align:center}"
 			]
 			id: "0000000000000117"
 			rewards: [{

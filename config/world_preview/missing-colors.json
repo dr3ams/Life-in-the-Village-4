@@ -1,6 +1,7 @@
 [
   "blueprint:original_source_marker",
   "feur_dimensional_skyland:skyland",
+  "mining_dimension:lush_caverns",
   "mining_dimension:mining",
   "quark:glimmering_weald",
   "regions_unexplored:alpha_grove",

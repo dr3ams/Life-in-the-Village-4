@@ -15,6 +15,9 @@ event.create('diamond_coin').displayName('Diamond Coin').rarity('Epic')
 event.create('monster_coin').displayName('Dungeon Coin').rarity('Rare')
 event.create('proofofwork').displayName('Proof Of Work').rarity('Rare')
 
+event.create('coin_bumblezone').displayName('Bumblezone Coin').rarity('Rare')
+event.create('coin_nether').displayName('Nether Coin').rarity('Uncommon')
+
 event.create('diamond_nugget').displayName('Diamond Nugget')
 event.create('diamond_dust').displayName('Diamond Dust')
 event.create('emerald_nugget').displayName('Emerald Nugget')

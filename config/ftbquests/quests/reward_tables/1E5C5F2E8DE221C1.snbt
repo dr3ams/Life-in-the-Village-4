@@ -1,0 +1,18 @@
+{
+	icon: "minecraft:chest"
+	id: "1E5C5F2E8DE221C1"
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+	]
+	title: "test"
+}

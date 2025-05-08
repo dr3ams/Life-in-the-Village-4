@@ -109,7 +109,7 @@
 
 [building]
 	"Celebratory Lamps" = true
-	"Compressed Blocks" = true
+	"Compressed Blocks" = false
 	"Duskbound Blocks" = true
 	"Framed Glass" = true
 	"Glass Item Frame" = true
@@ -126,10 +126,10 @@
 	"More Potted Plants" = true
 	"Nether Brick Fence Gate" = true
 	"Rainbow Lamps" = true
-	"Raw Metal Bricks" = true
+	"Raw Metal Bricks" = false
 	Rope = false
 	"Shear Vines" = true
-	Shingles = true
+	Shingles = false
 	"Soul Sandstone" = true
 	Stools = true
 	"Sturdy Stone" = true
@@ -197,8 +197,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -237,8 +237,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -246,8 +246,8 @@
 	[building.variant_bookshelves]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -266,8 +266,8 @@
 	[building.variant_ladders]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -427,7 +427,7 @@
 		# - <color> being a hex color (without the #) for the map to display. You can generate one here - https://htmlcolorcodes.com/
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:ice_mountains,2,8,14,7FE4FF
-		Customs = []
+		Customs = ["minecraft:lush_caves,2,8,14,6fea09", "minecraft:dripstone_caves,2,8,14,8e6118", "minecraft:deep_dark,2,8,14,000000", "regions_unexplored:maple_forest,2,8,14,dc5d0b", "regions_unexplored:boreal_taiga,2,8,14,603920", "regions_unexplored:deciduous_forest,2,8,14,327b02", "regions_unexplored:fen,2,8,14,97f459", "regions_unexplored:flower_fields,2,8,14,ee611b", "regions_unexplored:redwoods,2,8,14,921600", "regions_unexplored:orchard,2,8,14,479200", "regions_unexplored:grassland,2,8,14,87e330", "regions_unexplored:prairie,2,8,14,e3c230"]
 		#Set to false to make it so the default quark Pathfinder Map Built-In don't get added, and only the custom ones do
 		"Apply Default Trades" = true
 		#How many steps in the search should the Pathfinder's Quill do per tick? The higher this value, the faster it'll find a result, but the higher chance it'll lag the game while doing so
@@ -438,8 +438,8 @@
 		"Allow Retrying" = true
 		"Search Radius" = 6400
 		"Xp From Trade" = 5
-		"Add To Cartographer" = true
-		"Add To Wandering Trader Forced" = true
+		"Add To Cartographer" = false
+		"Add To Wandering Trader Forced" = false
 		"Add To Wandering Trader Generic" = false
 		"Add To Wandering Trader Rare" = false
 		"Draw Hud" = true

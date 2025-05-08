@@ -99,7 +99,7 @@
 		{ count: 4, item: "minecraft:jungle_log" }
 		{ count: 4, item: "minecraft:stone" }
 		{ count: 4, item: "minecraft:smooth_stone" }
-		{ count: 4, item: "minecraft:gravel" }
+		{ count: 8, item: "minecraft:gravel" }
 		{ count: 4, item: "minecraft:sand" }
 		{ count: 8, item: "minecraft:andesite" }
 		{ count: 8, item: "minecraft:stone_bricks" }

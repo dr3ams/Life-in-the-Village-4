@@ -124,6 +124,118 @@
       "xp_reward": 10,
       "weight": 1,
       "required": true
-    }
+    },
+    {
+"id": "spelunkery:rough_diamond",
+      "count": 1,
+      "xp_reward": 10,
+      "weight": 7,
+      "required": true
+    },	
+    {	
+"id": "productivebees:sugarbag_honeycomb",
+      "count": 1,
+      "xp_reward": 30,
+      "weight": 8,
+      "required": true
+    },
+    {	
+"id": "aquaculture:diamond_hook",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 8,
+      "required": true
+    },
+    {	
+"id": "simplehats:hatbag_uncommon",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 10,
+      "required": true
+    },	
+    {	
+"id": "simplehats:hatbag_common",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 10,
+      "required": true
+    },	
+    {	
+"id": "gag:sacred_salt",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 7,
+      "required": true
+    },	
+    {	
+"id": "collectorsalbum:rare_card_pack",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 5,
+      "required": true
+    },	
+    {	
+"id": "collectorsalbum:uncommon_card_pack",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 10,
+      "required": true
+    },	
+    {	
+"id": "collectorsalbum:common_card_pack",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 10,
+      "required": true
+    },	
+    {	
+"id": "tconstruct:manyullyn_ingot",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 3,
+      "required": true
+    },	
+    {	
+"id": "tconstruct:cobalt_ingot",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 5,
+      "required": true
+    },	
+    {	
+"id": "tconstruct:hepatizon_ingot",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 3,
+      "required": true
+    },	
+    {	
+"id": "tconstruct:jeweled_apple",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 5,
+      "required": true
+    },	
+    {	
+"id": "skilltree:fisherman_necklace",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 7,
+      "required": true
+    },	
+    {	
+"id": "skilltree:amnesia_scroll",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 6,
+      "required": true
+    },	
+    {	
+"id": "create:experience_nugget",
+      "count": 10,
+      "xp_reward": 10,
+      "weight": 10,
+      "required": true
+    }		
   ]
 }

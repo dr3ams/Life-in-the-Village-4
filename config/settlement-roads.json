@@ -1,0 +1,11 @@
+{
+  "maxLocatingCount": 100,
+  "structureToLocate": "village",
+  "initialLocatingCount": 7,
+  "loadRoadChunks": false,
+  "distanceBetweenBuoys": 30,
+  "averagingRadius": 3,
+  "allowArtificial": true,
+  "allowNatural": true,
+  "placeWaypoints": false
+}

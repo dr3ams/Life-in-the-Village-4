@@ -1160,10 +1160,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"0000000000000117"
-				"041E748C4C48E67B"
-			]
+			dependencies: ["041E748C4C48E67B"]
 			description: [
 				"The Mechanic’s Hut is where the Mechanic will craft redstone items, rails, minecarts, clocks, compasses, sea lanterns, torches, lanterns, jack-o-lanterns, storage blocks (like blocks of iron, coal, quartz, etc), dried kelp blocks, blue ice, packed ice, enchantment tables, ender chests, tripwire hooks, sticky pistons, gates, multi-pistons, glowstone blocks, anything made with blaze rods, and many other items that no other crafter can make. For the Mechanic to work, they must receive a request from another worker and have the necessary materials. "
 				""
@@ -1331,10 +1328,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"0000000000000117"
-				"041E748C4C48E67B"
-			]
+			dependencies: ["041E748C4C48E67B"]
 			description: [
 				"The Stonemason’s Hut is where the Stonemason will craft 3x3 recipes made entirely out of cobblestone, stone, andesite, diorite, granite, quartz, purpur, nether bricks, prismarine, sandstones, blackstone, basalt, and/or ores (no ingots or redstone items). They can also craft end stone from cobblestone and an ender pearl, but only if you have completed the Know the End research in the University. "
 				""

@@ -1,0 +1,11 @@
+
+#Options that affect the added Wooden Hopper.
+["Wooden Hopper Settings"]
+	#Whether or not the wooden hopper can pull item entities lying above it. (default: enabled)
+	woodenHopperPullItemsFromWorldEnabled = true
+	#Time (ticks) that passes between two wooden hopper operations. (default: 16 ticks) (vanilla hopper: 8 ticks)
+	#Range: 1 ~ 1000
+	woodenHopperCooldown = 16
+	#Whether or not the wooden hopper can pull items from inventories above it. (default: enabled)
+	woodenHopperPullItemsFromInventoriesEnabled = true
+

@@ -762,6 +762,52 @@
 			x: 4.0d
 			y: 6.5d
 		}
+		{
+			can_repeat: true
+			description: [""]
+			id: "52006CC781FD0A87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D20F2202EA8739A"
+				table_id: 3850451068388725304L
+				type: "random"
+			}]
+			shape: "octagon_important"
+			size: 2.0d
+			subtitle: "Can be found in Bumblezone Dimension"
+			tasks: [{
+				consume_items: true
+				id: "771D0163FC433626"
+				item: "kubejs:coin_bumblezone"
+				type: "item"
+			}]
+			title: "&6Bumblezone Coin&r"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			id: "62FB77578695FFA8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6320FF3C55AB426D"
+				table_id: 493550106172164909L
+				type: "random"
+			}]
+			shape: "octagon_important"
+			size: 2.0d
+			subtitle: "Can be found in Nether dimension"
+			tasks: [{
+				consume_items: true
+				id: "0DDE510F90142B66"
+				item: "kubejs:coin_nether"
+				type: "item"
+			}]
+			title: "&4Nether Coin&r"
+			x: 9.0d
+			y: 2.0d
+		}
 	]
 	title: "&l&f⭐ Coins Exchange&r&r"
 }

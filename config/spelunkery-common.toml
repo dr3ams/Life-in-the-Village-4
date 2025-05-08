@@ -40,7 +40,7 @@
 	echo_glow_duration = 1200
 
 [worldgen]
-	stone_stripe_features = true
+	stone_stripe_features = false
 	dark_forest_portabellas = true
 	sporophytes_in_lush_caves = true
 

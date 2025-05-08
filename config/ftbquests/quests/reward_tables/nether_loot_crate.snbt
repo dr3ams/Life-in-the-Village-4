@@ -1,0 +1,79 @@
+{
+	id: "06D97134E53F8B2D"
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{ item: "minecraft:golden_apple" }
+		{ count: 2, item: "minecraft:obsidian" }
+		{ count: 16, item: "minecraft:experience_bottle" }
+		{ count: 64, item: "minecraft:netherrack" }
+		{ count: 32, item: "minecraft:nether_bricks" }
+		{ count: 16, item: "minecraft:quartz" }
+		{ count: 32, item: "minecraft:soul_sand" }
+		{ item: "minecraft:nether_wart" }
+		{ count: 32, item: "quark:blue_nether_bricks" }
+		{ count: 64, item: "quark:netherrack_bricks" }
+		{ count: 32, item: "minecraft:soul_soil" }
+		{ count: 32, item: "quark:soul_sandstone" }
+		{ count: 32, item: "minecraft:crimson_stem" }
+		{ count: 32, item: "minecraft:warped_stem" }
+		{ count: 32, item: "minecraft:red_nether_bricks" }
+		{ count: 32, item: "minecraft:blackstone" }
+		{ count: 16, item: "minecraft:glowstone_dust" }
+		{ count: 16, item: "minecraft:gold_nugget" }
+		{ count: 2, item: "minecraft:blaze_rod" }
+		{ count: 4, item: "minecraft:magma_cream" }
+		{ count: 2, item: "minecraft:ghast_tear" }
+		{ count: 32, item: "minecraft:magma_block" }
+		{ count: 32, item: "minecraft:basalt" }
+		{ item: "minecraft:gold_block" }
+		{ item: "minecraft:ender_pearl" }
+		{ count: 8, item: "minecraft:crimson_fungus" }
+		{ count: 16, item: "minecraft:crimson_stem" }
+		{ count: 16, item: "minecraft:warped_stem" }
+		{ count: 8, item: "minecraft:warped_fungus" }
+		{ count: 10, item: "nethersdelight:hoglin_sirloin" }
+		{ count: 6, item: "minecraft:bone_block" }
+		{ item: "minecraft:hoglin_spawn_egg" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+		}
+		{ item: "minecraft:wither_skeleton_skull", weight: 0.5f }
+		{ count: 2, item: "spelunkery:dust_bun" }
+		{ count: 2, item: "supplementaries:sconce", random_bonus: 4 }
+		{ count: 2, item: "spelunkery:cinnabar", random_bonus: 3 }
+		{ item: "spelunkery:rough_cinnabar", random_bonus: 2 }
+		{ count: 2, item: "spelunkery:red_glowstick", random_bonus: 2 }
+		{ count: 2, item: "nethersdelight:hoglin_sirloin", random_bonus: 3 }
+		{ item: "aquaculture:box", random_bonus: 3 }
+		{ item: "aquaculture:lockbox" }
+		{ item: "aquaculture:treasure_chest" }
+		{ item: "tconstruct:cobalt_nugget" }
+		{ item: "tconstruct:quartz_shuriken" }
+		{ item: "tconstruct:necrotic_bone" }
+		{ item: "tconstruct:ichor_slime_ball" }
+		{ item: "tconstruct:scorched_brick" }
+		{ item: "tconstruct:blood_slime_grass_seeds" }
+		{ item: "create:experience_nugget" }
+		{ item: "create:raw_zinc" }
+		{ item: "create_central_kitchen:chocolate_cake_slice" }
+		{ item: "tconstruct:ichor_slime_crystal_cluster" }
+		{ item: "create:brass_nugget" }
+	]
+	title: "Nether loot crate"
+}

@@ -6,10 +6,6 @@
     "minecraft:tall_grass",
     "minecraft:grass_block",
     "minecraft:stone",
-    "minecraft:diorite",
-    "minecraft:granite",
-    "minecraft:andesite",
-    "minecraft:gravel",
     "minecraft:sand",
     "minecraft:sandstone",
     "minecraft:red_sand",
@@ -45,6 +41,7 @@
     "minecraft:kelp_plant",
     "minecraft:deepslate",
     "minecraft:tuff",
-    "minecraft:glow_lichen"
+    "minecraft:glow_lichen",
+	"minecraft:basalt"
   ]
 }

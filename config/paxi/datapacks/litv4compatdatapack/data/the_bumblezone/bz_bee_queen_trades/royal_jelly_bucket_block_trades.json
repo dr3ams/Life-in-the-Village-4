@@ -86,6 +86,90 @@
       "xp_reward": 50,
       "weight": 1,
       "required": true
+    },
+	{	
+"id":"tconstruct:ender_slime",
+      "count": 1,
+      "xp_reward": 30,
+      "weight": 120,
+      "required": true
+    },
+	{
+"id":"tconstruct:manyullyn_block",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 40,
+      "required": true
+    },
+	{
+"id":"tconstruct:cinderslime_block",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 80,
+      "required": true
+    },
+	{
+"id":"tconstruct:slimesteel_block",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 80,
+      "required": true
+    },
+	{
+"id":"gag:sacred_salve",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 40,
+      "required": true
+    },
+	{
+"id":"simplehats:hatbag_rare",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 40,
+      "required": true
+    },
+	{
+"id":"tconstruct:ender_congealed_slime",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 80,
+      "required": true
+    },
+	{
+"id":"aquaculture:neptunium_ingot",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 100,
+      "required": true
+    },
+	{
+"id":"collectorsalbum:epic_card_pack",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 8,
+      "required": true
+    },
+	{
+"id":"collectorsalbum:mythical_card_pack",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 1,
+      "required": true
+    },
+	{
+"id":"collectorsalbum:legendary_card_pack",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 10,
+      "required": true
+    },
+	{
+"id":"simplehats:hatbag_epic",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 30,
+      "required": true
     }
   ]
 }

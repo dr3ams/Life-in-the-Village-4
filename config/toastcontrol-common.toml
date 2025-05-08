@@ -40,7 +40,7 @@
 		#If toasts automatically pop into the screen without animations.
 		no_slide = false
 		#If toasts show on the left of the screen.
-		start_left = true
+		start_left = false
 		#If toasts will come in from the top of the screen, rather than the side.
 		top_down = false
 

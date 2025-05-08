@@ -314,35 +314,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2019084A1923AA05"]
-			id: "164E80ABD60DA4B4"
-			rewards: [
-				{
-					id: "0F8BFBCE15C133EE"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "6DA1CFA51210C685"
-					item: "aquaculture:box"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "221E11285D8D7A6F"
-				item: {
-					Count: 1b
-					id: "tconstruct:round_plate"
-					tag: {
-						Material: "tconstruct:rock#stone"
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["027FA7B5FE499C6A"]
 			id: "41259A249544DFA6"
 			rewards: [{
@@ -1536,14 +1507,15 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["669C12775ABE80B4"]
 			id: "6E0E6E31AB2FAC9A"
 			tasks: [{
 				id: "05814FE6C5AB47E3"
 				item: "tconstruct:modifier_worktable"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: 13.0d
+			y: -1.5d
 		}
 		{
 			id: "7516B5922067E18C"
