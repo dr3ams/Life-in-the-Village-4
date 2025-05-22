@@ -70,9 +70,6 @@
 	#Defines experience lost when storing experience in a Scroll of Knowledge
 	#Range: 0 ~ 90
 	scroll_of_knowledge_loss = 0
-	#Maximum uses of a tablet [1..10|default:3]
-	#Range: 1 ~ 10
-	tablet_max_use = 1
 	#Cooldown in second after using a tablet [60..1200|default:300]
 	#Range: 60 ~ 1200
 	tablet_cooldown = 300
@@ -248,4 +245,9 @@
 	#The cooldown in minutes to reset the perks with the ankh of Prayer [20..1440|default:120]
 	#Range: 20 ~ 1440
 	cooldown_reset_perk = 120
+	#Allows the perk Priest [false/true|default:true]
+	allow_priest = true
+	#Defines the level max of the perk Priest [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_priest = 5
 

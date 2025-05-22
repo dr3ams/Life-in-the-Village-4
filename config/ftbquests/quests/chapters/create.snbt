@@ -1920,8 +1920,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1E49651B7B6B4CF3"
-				item: "vintageimprovements:belt_grinder"
+				id: "42FF82EF429B0E06"
+				item: "vintage:belt_grinder"
 				type: "item"
 			}]
 			x: 13.0d
@@ -1936,8 +1936,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6377D2C39A45F3C4"
-				item: "vintageimprovements:spring_coiling_machine"
+				id: "06EA12C3BB4163AB"
+				item: "vintage:spring_coiling_machine"
 				type: "item"
 			}]
 			x: 5.0d
@@ -1957,8 +1957,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "464B3518B80A593F"
-				item: "vintageimprovements:vacuum_chamber"
+				id: "3145E6494B7D1932"
+				item: "vintage:vacuum_chamber"
 				type: "item"
 			}]
 			x: 12.5d
@@ -1974,8 +1974,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5D85B57AD300AA42"
-				item: "vintageimprovements:vibrating_table"
+				id: "7D1D530CB7477DEE"
+				item: "vintage:vibrating_table"
 				type: "item"
 			}]
 			x: 4.0d
@@ -1991,8 +1991,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0BB3BB0CD6C128FF"
-				item: "vintageimprovements:centrifuge"
+				id: "7BB699BA079FA5BE"
+				item: "vintage:centrifuge"
 				type: "item"
 			}]
 			x: 6.0d
@@ -2663,8 +2663,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "220449C57B5CF040"
-				item: "vintageimprovements:helve_hammer"
+				id: "412588DF1372F8CD"
+				item: "vintage:helve_hammer"
 				type: "item"
 			}]
 			x: 14.0d

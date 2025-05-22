@@ -19,7 +19,7 @@ fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:false
+darkMojangStudiosBackground:true
 hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.425
@@ -31,10 +31,10 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:64
+renderDistance:20
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:4
+guiScale:0
 particles:0
 maxFps:120
 graphicsMode:1
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","litv4-rp","file/FreshAnimations_v1.9.2.zip","file/FA+Details-v1.1.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/Create Simple Storage 2.1.zip","file/FreshCompats_v1.6.zip","file/Moonsu Better Create GUI Tom\u0027s Simple Storage 1.3.zip","file/§1Drodi\u0027s Illagers FA [V4.9.1].zip","file/§2Drodi\u0027s Villagers FA [V2.8].zip","file/golems-refreshed-v2.zip","file/elysiapresents_lootr.zip","file/CreateSophisticatedBackpacks.zip","file/Fancy Crops v1.1.zip","file/Minecolonies Refreshed 3.2.0-1.20.1.zip","file/[Moonsu] Better GUI for Sophisticated Backpacks 2.0 1.20-1.zip","file/[Moonsu][Dark Background] Better GUI for Villagers!.zip","file/[Moonsu] Hotbar 1.0.zip"]
-incompatibleResourcePacks:["file/Create Simple Storage 2.1.zip","file/§1Drodi\u0027s Illagers FA [V4.9.1].zip","file/§2Drodi\u0027s Villagers FA [V2.8].zip","file/golems-refreshed-v2.zip","file/elysiapresents_lootr.zip","file/CreateSophisticatedBackpacks.zip","file/Fancy Crops v1.1.zip"]
+resourcePacks:["builtin/towntalk","vanilla","mod_resources","file/FreshAnimations_v1.9.2.zip","file/FA+Details-v1.1.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/Create Simple Storage 2.1.zip","file/FreshCompats_v1.6.zip","file/CreateSophisticatedBackpacks.zip","file/Minecolonies Refreshed 3.2.0-1.20.1.zip","file/Moonsu Better Create GUI Tom\u0027s Simple Storage 1.3.zip","file/§1Drodi\u0027s Illagers FA [V4.9.1].zip","file/golems-refreshed-v2.zip","file/elysiapresents_lootr.zip","file/[Moonsu] Better GUI for Sophisticated Backpacks 2.0 1.20-1.zip","file/[Moonsu][Dark Background] Better GUI for Villagers!.zip","file/[Moonsu] Hotbar 1.0.zip","file/Fancy Crops v1.1.zip","Moonlight Mods Dynamic Assets","litv4-rp","file/§2Drodi\u0027s Villagers FA [V2.8].zip","file/Connected Texture+ V4.2.zip","file/§bEnchanting§8-§bReimagined§0_§8[v1.2]§0.zip"]
+incompatibleResourcePacks:["builtin/towntalk","file/Create Simple Storage 2.1.zip","file/CreateSophisticatedBackpacks.zip","file/§1Drodi\u0027s Illagers FA [V4.9.1].zip","file/golems-refreshed-v2.zip","file/elysiapresents_lootr.zip","file/Fancy Crops v1.1.zip","file/§2Drodi\u0027s Villagers FA [V2.8].zip","file/Connected Texture+ V4.2.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -63,7 +63,7 @@ chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
 notificationDisplayTime:1.0
-mipmapLevels:1
+mipmapLevels:0
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1

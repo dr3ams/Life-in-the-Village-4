@@ -54,6 +54,16 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
   "tombstone": {
     "graves": true
   },
@@ -71,9 +81,6 @@
     "brewing_stand": true,
     "block": true,
     "note_block": true
-  },
-  "lootr": {
-    "info": true
   },
   "balm": {
     "jade": true
@@ -98,19 +105,11 @@
     "player_companion_collector_entity_provider": true,
     "player_companion_guard_entity_provider": true
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "supplementaries": {
     "hat_stand": true
-  },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
   },
   "waystones": {
     "waystone": true

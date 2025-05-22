@@ -1,0 +1,52 @@
+
+["Geode Drop Chance"]
+	#the percentage chance of getting a geode for each broken block : need an integer number from 0 to 100
+	GeodeDropChanceFromStone = 1.0
+	GeodeDropChanceFromDeepslate = 2.0
+	GeodeDropChanceFromNetherrack = 1.0
+	GeodeDropChanceFromEndstone = 3.0
+
+["Geode Drop"]
+	#whether a geode drop should be enabled
+	MineralGeodeDropEnabled = true
+	OceanicGeodeDropEnabled = true
+	OrganicGeodeDropEnabled = true
+	FireGeodeDropEnabled = true
+	VoidGeodeDropEnabled = true
+	EggGeodeDropEnabled = true
+
+["Geode Drop From Block"]
+	#whether a geode should drop from a block
+	MineralGeodeDropFromStone = true
+	MineralGeodeDropFromDeepslate = true
+	MineralGeodeDropFromNetherrack = true
+	MineralGeodeDropFromEndstone = true
+	OceanicGeodeDropFromStone = true
+	OceanicGeodeDropFromDeepslate = true
+	OceanicGeodeDropFromNetherrack = true
+	OceanicGeodeDropFromEndstone = true
+	OrganicGeodeDropFromStone = true
+	OrganicGeodeDropFromDeepslate = true
+	OrganicGeodeDropFromNetherrack = true
+	OrganicGeodeDropFromEndstone = true
+	FireGeodeDropFromStone = true
+	FireGeodeDropFromDeepslate = true
+	FireGeodeDropFromNetherrack = true
+	FireGeodeDropFromEndstone = true
+	VoidGeodeDropFromStone = true
+	VoidGeodeDropFromDeepslate = true
+	VoidGeodeDropFromNetherrack = true
+	VoidGeodeDropFromEndstone = true
+	EggGeodeDropFromStone = true
+	EggGeodeDropFromDeepslate = true
+	EggGeodeDropFromNetherrack = true
+	EggGeodeDropFromEndstone = true
+
+["Custom Despawn Time"]
+	#Should the geodes use a custom despawn.
+	CustomDespawnTimeEnabled = false
+	#How long it take for the geodes to despawn in tick (1 seconde -> 20 ticks).
+	DespawnTime = 6000.0
+	#How far the custom despawn time should apply (centered around player, in block lenght).
+	DespawnDistance = 32.0
+

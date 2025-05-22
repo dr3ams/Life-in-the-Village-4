@@ -1,0 +1,6 @@
+{
+	// Default size of the underground structure (from 1 to 30)
+	"structureSize": 19,
+	// Maximum distance the structure pieces can be from the center (1 to 128)
+	"maxDistanceFromCenter": 116
+}
