@@ -20,7 +20,7 @@
 	maxcitizenpercolony = 250
 	#Delay after each block placement (increasing it increases the delay). [Default: 15, min: 1, max: 500]
 	#Range: 1 ~ 500
-	builderbuildblockdelay = 15
+	builderbuildblockdelay = 10
 	#Delay modifier to mine a block (decreasing it decreases the delay). [Default: 500, min: 1, max: 10000]
 	#Range: 1 ~ 10000
 	blockminingdelaymodifier = 500
@@ -29,7 +29,7 @@
 	#Should citizen name tags be rendered? [Default: true]
 	alwaysrendernametag = true
 	#Should workers work during the rain? [Default: false]
-	workersalwaysworkinrain = false
+	workersalwaysworkinrain = true
 	#Should players be sent entering/leaving colony notifications? [Default: true]
 	sendenteringleavingmessages = true
 	#Should players be allowed to change citizen names? -1 for false, 0 for certain players only, 1 for true. (To set which players can change the names, see "Special Permissions Group" below.) [Default: 1, min: -1, max: 1]
@@ -42,7 +42,7 @@
 	dirtfromcompost = 1
 	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see "List of Lucky Ores".) [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
-	luckyblockchance = 1
+	luckyblockchance = 2
 	#The minimum level a Town Hall has to be to allow teleportation to allied colonies. [Default: 3, min: 0, max: 5]
 	#Range: 0 ~ 5
 	minthleveltoteleport = 3
@@ -53,18 +53,18 @@
 	foodmodifier = 1.0
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5, min: 1, max: 100]
 	#Range: 1 ~ 100
-	diseasemodifier = 5
+	diseasemodifier = 70
 	#If part of the colony is loaded by an owner/officer, should the colony be kept loaded? (Set how many chunks are loaded with the "Colony Chunk Loading Strictness" option.) [Default: false]
 	forceloadcolony = false
 	#Set how long chunks stay loaded after player leaves, does not persist through restarts. Default: 10min [Default: 10, min: 1, max: 1440]
 	#Range: 1 ~ 1440
-	loadtime = 10
+	loadtime = 15
 	#This controls how many chunks are loaded with the "Chunk Load Colony" option. The higher this value, the fewer chunks will be loaded. (The innermost chunks will be loaded first.) 1 = load all claimed chunks. [Default: 3, min: 1, max: 15]
 	#Range: 1 ~ 15
 	colonyloadstrictness = 3
 	#Chance to get an evil Tavern visitor that will run off with the resources you give them. This is a %. [Default: 2, min: 1, max: 100]
 	#Range: 1 ~ 100
-	badvisitorchance = 2
+	badvisitorchance = 1
 	#Max log count in one tree for the Forester to check during their tree search. [Default: 400, min: 1, max: 1000]
 	#Range: 1 ~ 1000
 	maxtreesize = 400
@@ -108,7 +108,7 @@
 [claims]
 	#Maximum claim range for a colony. This is the radius, measured in chunks. [Default: 20, min: 1, max: 250]
 	#Range: 1 ~ 150
-	maxColonySize = 20
+	maxColonySize = 30
 	#The minimum distance (in chunks) between colonies. [Default: 8, min: 1, max: 200]
 	#Range: 1 ~ 200
 	minColonyDistance = 8
@@ -119,10 +119,10 @@
 	restrictcolonyplacement = false
 	#Max distance (in blocks) from world spawn for a colony. [Default: 8000, min: 1000, max: 100000]
 	#Range: 1000 ~ 100000
-	maxdistancefromworldspawn = 15000
+	maxdistancefromworldspawn = 50000
 	#Min distance (in blocks) from world spawn for a colony. [Default: 512, min: 1, max: 1000]
 	#Range: 1 ~ 1000
-	mindistancefromworldspawn = 256
+	mindistancefromworldspawn = 100
 	#Should officers of a colony receive advancements from that colony? [Default: true]
 	officersreceiveadvancements = true
 
@@ -132,15 +132,15 @@
 	dobarbariansspawn = true
 	#The difficulty setting for raiders. [Default: 5, min: 0, max: 10]
 	#Range: 0 ~ 10
-	barbarianhordedifficulty = 6
+	barbarianhordedifficulty = 3
 	#The max size of a raider horde. [Default: 80, min: 6, max: 400]
 	#Range: 6 ~ 400
-	maxBarbarianSize = 80
+	maxBarbarianSize = 30
 	#Whether or not raiders can break through obstacles [Default: true]
 	dobarbariansbreakthroughwalls = true
 	#The average number of nights between raids. [Default: 14, min: 1, max: 50]
 	#Range: 1 ~ 50
-	averagenumberofnightsbetweenraids = 14
+	averagenumberofnightsbetweenraids = 20
 	#The minimum number of nights between raids. [Default: 10, min: 1, max: 30]
 	#Range: 1 ~ 30
 	minimumnumberofnightsbetweenraids = 10
@@ -155,7 +155,7 @@
 	rangerdamagemult = 1.0
 	#Attack damage multiplier for Knight Guards. [Default: 1,000000, min: 0,100000, max: 5,000000]
 	#Range: 0.1 ~ 5.0
-	knightdamagemult = 1.0
+	knightdamagemult = 1.2
 	#Health multiplier for all Guards. [Default: 1,000000, min: 0,100000, max: 5,000000]
 	#Range: 0.1 ~ 5.0
 	guardhealthmult = 1.0
@@ -193,7 +193,7 @@
 	#Items requested by Tavern visitors. 
 	configlistrecruitmentitems = ["minecraft:hay_block;3", "minecraft:book;2", "minecraft:enchanted_book;9", "minecraft:diamond;9", "minecraft:emerald;8", "minecraft:baked_potato;1", "minecraft:gold_ingot;2", "minecraft:redstone;2", "minecraft:lapis_lazuli;2", "minecraft:cake;11", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;3"]
 	#List of ore blocks rarely found magically by Miners (see "Ore Chance"). Includes the block and its chance, separated by exclamation marks. 
-	luckyores = ["minecraft:coal_ore!64", "minecraft:copper_ore!48", "minecraft:iron_ore!32", "minecraft:gold_ore!16", "minecraft:redstone_ore!8", "minecraft:lapis_ore!4", "minecraft:diamond_ore!2", "minecraft:emerald_ore!1", "kubejs:proofofwork!2"]
+	luckyores = ["minecraft:coal_ore!64", "minecraft:copper_ore!48", "minecraft:iron_ore!32", "minecraft:gold_ore!16", "minecraft:redstone_ore!8", "minecraft:lapis_ore!4", "minecraft:diamond_ore!2", "minecraft:emerald_ore!1", "kubejs:proofofwork!2", "create:zinc_ore!32", "tconstruct:earth_slime_dirt!6", "tconstruct:sky_slime_dirt!5", "minecraft:sand!64", "minecraft:clay!64"]
 	#Forester harvest trunk size for dynamic trees: 1-8. [Default: 5, min: 1, max: 8]
 	#Range: 1 ~ 8
 	dynamictreeharvestsize = 5
