@@ -84,6 +84,7 @@
 				}
 			}
 		}
+		{ count: 2, item: "tconstruct:ichor_slime_ball", random_bonus: 4 }
 	]
 	title: "Gold coin reward"
 }

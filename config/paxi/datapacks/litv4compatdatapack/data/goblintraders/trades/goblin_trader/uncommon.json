@@ -132,7 +132,7 @@
         "item": "minecraft:emerald"
       },
       "payment_item": {
-        "count": 2,
+        "count": 20,
         "item": "minecraft:amethyst_shard"
       },
       "price_multiplier": 0.0

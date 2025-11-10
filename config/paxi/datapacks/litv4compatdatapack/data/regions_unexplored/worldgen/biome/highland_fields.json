@@ -77,14 +77,12 @@
       "minecraft:ore_infested"
     ],
     [
-      "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
       "regions_unexplored:medium_grass",
       "minecraft:patch_tall_grass_2",
-      "regions_unexplored:noise_bush",
       "regions_unexplored:daisies",
       "regions_unexplored:grass"
     ],

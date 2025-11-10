@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "result": {
+    "amount": 1000,
+    "fluid": "kubejs:molten_stone"
+  },
+  "temperature": 450,
+  "time": 40
+}

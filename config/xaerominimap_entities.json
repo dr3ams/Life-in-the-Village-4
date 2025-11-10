@@ -18,12 +18,12 @@
     "displayNameWhenIconFails": true,
     "entityNumber": 1000.0,
     "alwaysDisplayNametags": false,
-    "startFadingAt": 0.0,
     "dotSize": 2.0,
+    "startFadingAt": 0.0,
     "renderOverMinimapFrame": 1.0,
     "icons": 1.0,
-    "heightLimit": 20.0,
     "names": 0.0,
+    "heightLimit": 20.0,
     "iconScale": 1.0
   },
   "subCategories": [
@@ -38,8 +38,8 @@
       "name": "gui.xaero_entity_category_living",
       "protection": true,
       "settingOverrides": {
-        "renderOrder": 2.0,
-        "color": 14.0
+        "displayed": false,
+        "renderOrder": 2.0
       },
       "subCategories": [
         {
@@ -141,7 +141,9 @@
           "excludeList": [],
           "name": "gui.xaero_entity_category_friendly",
           "protection": true,
-          "settingOverrides": {},
+          "settingOverrides": {
+            "displayed": false
+          },
           "subCategories": [
             {
               "hardInclude": "tamed",
@@ -176,13 +178,16 @@
     },
     {
       "hardInclude": "anything",
-      "includeList": [],
+      "includeList": [
+        "minecolonies:citizen"
+      ],
       "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
       "excludeList": [],
       "name": "gui.xaero_entity_category_other_entities",
       "protection": true,
       "settingOverrides": {
+        "displayed": true,
         "color": 5.0
       },
       "subCategories": []

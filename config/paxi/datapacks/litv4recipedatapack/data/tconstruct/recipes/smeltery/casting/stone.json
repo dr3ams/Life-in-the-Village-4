@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cooling_time": 20,
+  "fluid": {
+    "amount": 1000,
+    "tag": "kubejs:molten_stone"
+  },
+  "result": "minecraft:stone"
+}

@@ -358,7 +358,7 @@
 				""
 				"You can path to other classes later if you think it is worth it."
 				""
-				"&nMaximum number of skill points is 85&r so choose wisely. (you can respec later with a special item)"
+				"&nMaximum number of skill points is 55&r so choose wisely. (you can respec later with a special item)"
 			]
 			icon: "create:experience_nugget"
 			id: "1A6295743A494017"
@@ -582,11 +582,18 @@
 			dependencies: ["62E81CB0EB2A6987"]
 			icon: "farmersdelight:cooking_pot"
 			id: "390B8F10562FF1CB"
-			rewards: [{
-				id: "1AA583C874AB749C"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1AA583C874AB749C"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "3ABD132DA78FC4C1"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "1E99039B9CF36091"
@@ -600,11 +607,18 @@
 			dependencies: ["0000000000000067"]
 			icon: "minecraft:wheat"
 			id: "38DAB94E5134F3C0"
-			rewards: [{
-				id: "0EB3B8BB5881F0FA"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0EB3B8BB5881F0FA"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "0B47DCBE4AF70FEB"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "37C7FBD32916E432"
@@ -691,11 +705,18 @@
 			dependencies: ["0000000000000004"]
 			icon: "minecraft:honeycomb"
 			id: "7383A9B79FCC0698"
-			rewards: [{
-				id: "7DBD210CE91651AC"
-				item: "kubejs:diamond_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7DBD210CE91651AC"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "3A494D221CFC1485"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "16F90A30DB94CFF0"

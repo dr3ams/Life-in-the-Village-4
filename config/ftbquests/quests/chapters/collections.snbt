@@ -3,9 +3,9 @@
 	default_quest_shape: "hexagon_important"
 	default_quest_size: 2.0d
 	filename: "collections"
-	group: "6454BAEA71CB61DD"
+	group: ""
 	id: "7F5EF3CC187F7DAE"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -340,15 +340,6 @@
 					item: {
 						Count: 1
 						id: "alekiships:music_disc_pirate_crafting"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "68EA0C2B2ECFD498"
-					item: {
-						Count: 1
-						id: "caverns_and_chasms:music_disc_epilogue"
 						tag: { }
 					}
 					type: "item"
@@ -1101,6 +1092,11 @@
 		}
 		{
 			id: "71FB835D6C3751ED"
+			rewards: [{
+				id: "0FDB899E096FDC44"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "61E2CF4133A95BBF"
@@ -1184,6 +1180,18 @@
 		}
 		{
 			id: "52A27C8132D4A3DE"
+			rewards: [
+				{
+					id: "75862F37DCB8AF41"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "193A92DBD70FA72D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "7412FC58DAFC198F"

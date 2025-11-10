@@ -46,7 +46,7 @@
 
 [nether_portals_and_portal_fluid]
 	flint_and_steel_portal_lighting = true
-	portal_destruction_crying_obsidian = true
+	portal_destruction_crying_obsidian = false
 	portal_creation_sound = true
 	portal_destruction_sound = true
 	portal_fluid_drinking = true

@@ -82,9 +82,23 @@ ServerEvents.recipes(event => {
 	})
 	event.blasting('create:andesite_alloy', 'kubejs:dust_andesite_alloy').cookingTime(100)
 		
+	event.shaped('minecraft:diamond', [
+    'DDD',
+    'DDD',
+    'DDD'
+	], {
+    D: 'kubejs:diamond_nugget'
+	})
+	
+	event.shaped('minecraft:emerald', [
+    'EEE',
+    'EEE',
+    'EEE'
+	], {
+    E: 'kubejs:emerald_nugget'
+	})	
 		
 	event.remove({id: 'minecraft:bread'})
-	event.remove({id: 'vintagedelight:oat_bread'})
 	
 	event.replaceInput({}, 'immersive_aircraft:propeller', 'create:propeller');
 	

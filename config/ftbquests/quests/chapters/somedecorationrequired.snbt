@@ -267,102 +267,6 @@
 			y: 0.5d
 		}
 		{
-			description: ["Framed Blocks will allow you to create various shaped blocks that you can use to decorate your base with complex shapes. The texture of the frame blocks can then be changed by right clicking them with a block of your choosing, which is held until the block is broken."]
-			id: "289133175EA692FE"
-			rewards: [{
-				id: "290BDC3817CC2ABA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "30B831BE27F8291F"
-				item: "framedblocks:framed_cube"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["289133175EA692FE"]
-			id: "3ABED164FB5F10A7"
-			rewards: [{
-				id: "125612A76167AEDA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "0F9587FE8CD50573"
-				item: "framedblocks:framed_slab"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["3ABED164FB5F10A7"]
-			id: "740840E49E2980F9"
-			rewards: [{
-				id: "008D1DD9669C1473"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "75121A01B4A3066E"
-				item: "framedblocks:framed_stairs"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["740840E49E2980F9"]
-			id: "0C3BE5BF82B61343"
-			rewards: [{
-				id: "1A592A825C17DCD1"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "21C2DDEE620EF63A"
-				item: "framedblocks:framed_door"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["0C3BE5BF82B61343"]
-			id: "794B1ABA2BB7B28D"
-			rewards: [{
-				id: "4720B6D06CA79594"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "3EB7EE8CEB096E84"
-				item: "framedblocks:framed_fence"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["794B1ABA2BB7B28D"]
-			id: "7C14B09E107AD7DF"
-			rewards: [{
-				id: "5306BBA54820891B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "3443FF1A7E94DD8A"
-				item: "framedblocks:framed_chest"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.0d
-		}
-		{
 			id: "15028D7F77DB219B"
 			rewards: [{
 				id: "682FA6CDD657A92A"
@@ -472,144 +376,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["794B1ABA2BB7B28D"]
-			id: "776F023D5D6EB3BA"
-			rewards: [
-				{
-					id: "4C82D446D89EB82F"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "3DB43358E4E0E8D3"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "12314DBDDE9EF312"
-				item: "framedblocks:framed_wall"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["794B1ABA2BB7B28D"]
-			id: "3163CAF215ED9B75"
-			rewards: [
-				{
-					id: "1366D62D6F71E2C4"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "5BC8A0B50ED89641"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "28CCF41E46110611"
-				item: "framedblocks:framed_fence_gate"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["740840E49E2980F9"]
-			id: "1FB568F87CE151F2"
-			rewards: [
-				{
-					id: "703FE62DBDFA0237"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "269F34E4FCD2AE9A"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "784DB012B6124197"
-				item: "framedblocks:framed_slope"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["740840E49E2980F9"]
-			id: "6FB3D411B4C574BC"
-			rewards: [
-				{
-					id: "29A5076BBC4BDB80"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "0CFD14BA23DC4493"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "31837F2434F4628F"
-				item: "framedblocks:framed_slope_panel"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["289133175EA692FE"]
-			id: "7F598F4B7F1A5CCA"
-			rewards: [
-				{
-					id: "733B946182CFED7F"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "02496B5F610D87CB"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "79318D63A29519C1"
-				item: "framedblocks:framed_trapdoor"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["289133175EA692FE"]
-			id: "2B4B0DD0B2CB11FE"
-			rewards: [
-				{
-					id: "5D405A23C99325EF"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "7178865522B50491"
-					item: "aquaculture:lockbox"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0E2E71DAB0352DD9"
-				item: "framedblocks:framed_ladder"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
-		}
-		{
 			id: "4DF96CD512DB7BD8"
 			rewards: [
 				{
@@ -658,7 +424,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.5d
+			y: 5.5d
 		}
 		{
 			id: "25B8295046FE77CC"
@@ -687,7 +453,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 8.5d
+			y: 5.5d
 		}
 		{
 			id: "63DB1A272ECD2834"
@@ -738,7 +504,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "759611EF4C630500"
@@ -761,7 +527,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "51ACAA08E63A5513"
@@ -784,7 +550,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "0248667600229372"
@@ -812,7 +578,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 9.5d
+			y: 6.5d
 		}
 		{
 			id: "68768467E406286B"
@@ -875,7 +641,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 9.5d
+			y: 6.5d
 		}
 		{
 			id: "4B71EED4C8CED6A7"
@@ -904,7 +670,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 8.5d
+			y: 5.5d
 		}
 		{
 			id: "557A1A0C8ACA0F84"
@@ -933,7 +699,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "471DEA28C5611763"
@@ -956,7 +722,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.5d
+			y: 5.5d
 		}
 		{
 			id: "63E52B03C479A110"
@@ -1009,7 +775,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "27FC12A44AAE5AD0"
@@ -1031,7 +797,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 9.5d
+			y: 6.5d
 		}
 		{
 			id: "007AF41A705DEAD4"
@@ -1054,7 +820,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 8.5d
+			y: 5.5d
 		}
 		{
 			id: "2233FF7F821687E3"
@@ -1083,7 +849,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "4C14E37EE844102B"
@@ -1143,7 +909,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 9.5d
+			y: 6.5d
 		}
 		{
 			id: "180B282D563A927A"
@@ -1158,7 +924,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "373704C7DF2D9ABA"
@@ -1173,7 +939,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 9.5d
+			y: 6.5d
 		}
 		{
 			id: "27D91462FF4B45D6"
@@ -1487,7 +1253,7 @@
 			]
 			title: "Cupboards and Cabinets"
 			x: 0.5d
-			y: 8.5d
+			y: 5.5d
 		}
 		{
 			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."]
@@ -1512,7 +1278,7 @@
 			]
 			title: "Bookshelves"
 			x: 1.5d
-			y: 9.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["00000000000000BE"]
@@ -1594,7 +1360,7 @@
 			]
 			title: "The Librarian"
 			x: 2.5d
-			y: 9.5d
+			y: 6.5d
 		}
 		{
 			description: ["Macaw's Fences will give you a variety of new fence types to divide up and protect your lands. These fences are just a taste, check JEI for the full range of types."]
@@ -1720,7 +1486,7 @@
 			}]
 			title: "Cabinets and Counters"
 			x: -1.5d
-			y: 8.5d
+			y: 5.5d
 		}
 		{
 			description: ["Build Guide will help help you in your builds by giving you ghost layouts of common shapes to guide your building. Pressing B will bring up its menu, I would recommend changing this so it doesn't conflict with the backpack key, where you can change the shape being projected, central location, and color of the projection."]
@@ -2028,7 +1794,7 @@
 			}]
 			title: "Cabinets for your kitchen"
 			x: -3.5d
-			y: 8.5d
+			y: 5.5d
 		}
 		{
 			id: "6B367A20A23DCA7A"
@@ -2044,7 +1810,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 7.5d
+			y: 4.5d
 		}
 	]
 	title: "Decorations"

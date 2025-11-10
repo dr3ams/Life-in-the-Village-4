@@ -1,0 +1,9 @@
+
+[necklace]
+	#Range: 0.0 ~ 1.0
+	swim_sped = 0.20000000298023224
+	#Range: 0.0 ~ 1.0
+	drowned_range_debuff = 0.10000000149011612
+	#Range: 0.0 ~ 1.0
+	guardian_range_debuff = 0.10000000149011612
+

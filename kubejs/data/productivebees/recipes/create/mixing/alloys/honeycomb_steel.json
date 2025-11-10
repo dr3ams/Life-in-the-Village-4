@@ -13,8 +13,8 @@
   ],
   "results": [
     {
-      "item": "mekanism:dust_steel",
-      "chance": 0.40
+      "item": "tconstruct:steel_nugget",
+		"amount": 2
     },
     {
       "item": "productivebees:wax"
@@ -32,7 +32,7 @@
     },
     {
       "type": "forge:mod_loaded",
-      "modid": "mekanism"
+      "modid": "tconstruct"
     }
   ]
 }

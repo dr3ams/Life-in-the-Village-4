@@ -74,7 +74,6 @@
     ],
     [],
     [
-      "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
@@ -88,8 +87,7 @@
       "regions_unexplored:apple_oak_tree",
       "regions_unexplored:big_oak_tree_sparse",
       "regions_unexplored:tassel_sparse",
-      "regions_unexplored:grass",
-      "regions_unexplored:oak_shrub"
+      "regions_unexplored:grass"
     ],
     [
       "minecraft:freeze_top_layer"

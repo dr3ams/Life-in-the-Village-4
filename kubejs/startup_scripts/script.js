@@ -80,4 +80,16 @@ ItemEvents.modification(event => {
 
 })
 
+StartupEvents.registry('fluid', event => {
+
+	event.create('molten_stone')
+		.thickTexture(0x808080)
+		.bucketColor(0x808080)
+		.displayName('Molten Stone')
+		.noBlock()
+        .tag('kubejs:molten_stone');
+		
+  /// END
+})
+
 StartupEvents.postInit(event => { Platform.mods.kubejs.name = 'LITV 4'; });

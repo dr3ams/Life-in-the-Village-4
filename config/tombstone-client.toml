@@ -44,7 +44,7 @@
 	#Decimal value of the fog color [0..16777215|default:125656]
 	#Range: 0 ~ 16777215
 	fog_color = 16777215
-	#Fog density around the graves [NONE/LOW/NORMAL/HIGH|default:LOW]
+	#Fog density around the graves [NONE/LOW/NORMAL/HIGH|default:NORMAL]
 	#Allowed Values: NONE, LOW, NORMAL, HIGH
 	fog_density = "LOW"
 	#Favorite grave
@@ -54,7 +54,7 @@
 	#Allowed Values: DARK, WHITE, BLUE, GREEN, CARMIN
 	favorite_grave_marble = "DARK"
 	#Defines the rule to use for grave's skin [DEFAULT/FORCE_NORMAL/FORCE_HALLOWEEN|default:DEFAULT]
-	#Allowed Values: DEFAULT, FORCE_NORMAL, FORCE_HALLOWEEN, FORCE_CHRISTMAS
+	#Allowed Values: DEFAULT, FORCE_NORMAL, FORCE_HALLOWEEN, FORCE_CHRISTMAS, FORCE_SPRING_BLOOM
 	grave_skin_rule = "DEFAULT"
 	#Defines when to automatically equip your items [NEVER/GRAVE_RECOVERY/DEATH_RESPAWN/ALWAYS|default:ALWAYS]
 	#Allowed Values: NEVER, GRAVE_RECOVERY, DEATH_RESPAWN, ALWAYS
@@ -75,4 +75,6 @@
 	equip_shield_in_priority = false
 	#Sorts the inventory by filling the last slots first [false/true|default:false]
 	reverse_inventory_sorting = false
+	#Scales Tombstone guiscreens to be larger as possible [false/true|default:true]
+	scale_guiscreens = true
 

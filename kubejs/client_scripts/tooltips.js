@@ -127,7 +127,26 @@ ItemEvents.tooltip(event =>{
   })
   
   
-  
+    event.addAdvanced(['tconstruct:sky_slime_ball', 'tconstruct:ichor_slime_ball', 'tconstruct:ender_slime_ball'], (item, advanced, text) => {	
+    if (!event.isShift()) {
+      text.add(1, [
+        Text.of('Hold ').gray(),
+        Text.of('[Shift] ').gold(),
+        Text.of('to see more info.').gray()
+      ])
+    } else {
+      text.add(1, [
+        Text.of('Can be bought in ').gray(),
+        Text.of('⭐The Market ').blue(),
+        Text.of('quest chapter, acquired as ').gray(),
+        Text.of('quest rewards, ').darkPurple(),
+        Text.of('traded with ').gray(),
+        Text.of('Bee Queen ').yellow(),
+        Text.of('and found in ').gray(),
+        Text.of('Ribbits villages.').green()
+      ])
+    }
+  }) 
   
   
     event.addAdvanced(['waystones:waystone', 'waystones:mossy_waystone', 'waystones:sandy_waystone'], (item, advanced, text) => {

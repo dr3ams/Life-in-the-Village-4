@@ -18,13 +18,13 @@
         "type": "minecraft:weighted_state_provider",
         "entries": [
           {
-            "weight": 4,
+            "weight": 2,
             "data": {
               "Name": "minecraft:ancient_debris"
             }
           },
           {
-            "weight": 12,
+            "weight": 10,
             "data": {
               "Name": "minecraft:nether_quartz_ore"
             }

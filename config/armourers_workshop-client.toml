@@ -51,6 +51,12 @@
 	#The maximum number of threads that will be used to build model vertexes. 
 	#Range: 1 ~ 16
 	vertexCompileThreadCount = 2
+	#Determines how luminance of dynamic lighting when the skin contains growing channels.
+	#-1 = auto (based skin cubes)
+	#0 = disabled
+	#1 ~ 15 = fixed luminance
+	#Range: -1 ~ 15
+	skinDynamicLight = -1
 
 #Change (memory use/IO access) ratio by changing setting in this category.
 [cache]

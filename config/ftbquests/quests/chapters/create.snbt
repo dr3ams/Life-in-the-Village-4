@@ -1907,98 +1907,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1DAAC3F3FF329157"]
-			description: [
-				"The &6Grinder&r provides grinder polishing recipes with speed limits (any, low, medium and high). "
-				""
-				"For example: Polished Rose Quartz recipe requires low speed (16 RPM or less, can be configured), otherwise recipe won't work."
-			]
-			id: "090871BE01B83A87"
-			rewards: [{
-				id: "214F7FAA6DA56F9A"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "42FF82EF429B0E06"
-				item: "vintage:belt_grinder"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["540B55BEFF0879E3"]
-			id: "075FE0A1FBA3351B"
-			rewards: [{
-				id: "0AFBB06A5C468B16"
-				item: "minecraft:experience_bottle"
-				type: "item"
-			}]
-			tasks: [{
-				id: "06EA12C3BB4163AB"
-				item: "vintage:spring_coiling_machine"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7DB111AFF620FC85"]
-			description: [
-				"&6Compressor&r works with Basin and have two operating modes: vacuumizing and pressurizing"
-				""
-				"Modes can be switched via right click with Wrench. Recipes may require fluids inside the Compressor internal tank, or may produce fluids into the Compressor internal tank"
-			]
-			id: "076F9FF33AB48476"
-			rewards: [{
-				id: "696FDD6E9A0979AB"
-				item: "minecraft:experience_bottle"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3145E6494B7D1932"
-				item: "vintage:vacuum_chamber"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["075FE0A1FBA3351B"]
-			description: ["&6Vibrating Table&r provides vibrating and unpacking recipes"]
-			id: "227FF7D3B4159AB4"
-			rewards: [{
-				id: "437EF1F86A75E947"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7D1D530CB7477DEE"
-				item: "vintage:vibrating_table"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["075FE0A1FBA3351B"]
-			description: ["&6Centrifuge&r needs 4 Basins intsalled to work and provides centrifugation recipes."]
-			id: "78865715BD6D693D"
-			rewards: [{
-				id: "1388DACD0EE49DE0"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7BB699BA079FA5BE"
-				item: "vintage:centrifuge"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 7.5d
-		}
-		{
 			dependencies: ["3770B7298AFF38A4"]
 			description: [
 				"&6&nClutch&r&r"
@@ -2648,27 +2556,6 @@
 			}]
 			x: 14.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["239CA302D0E9B38F"]
-			description: [
-				"&6Helve Hammer&r works with Smithing Table or Anvil. With Anvil Helve Hammer provides hammering recipes"
-				""
-				"With Smithing Table Helve Hammer provides auto smithing recipes"
-			]
-			id: "048AC3503DC41C03"
-			rewards: [{
-				id: "61C6761C338CFD86"
-				item: "kubejs:iron_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "412588DF1372F8CD"
-				item: "vintage:helve_hammer"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 9.0d
 		}
 		{
 			dependencies: ["6D677805996BDA93"]

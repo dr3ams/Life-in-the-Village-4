@@ -1,0 +1,22 @@
+
+[Curses]
+	#How much damage the player takes as a percent.
+	#Range: > 100
+	Damage = 200
+	#How much knockback the player takes as a percent.
+	#Range: > 100
+	Knockback = 200
+	#Should fire last forever on the player until doused manually?
+	Burns = true
+	#Should neutral mobs be hostile to the player?
+	Angry = true
+	#Should the player be unable go to sleep?
+	Insomnia = true
+
+[Benefits]
+	#How much experience the player gains from slain mobs as a percent
+	#Range: > 100
+	Experience = 300
+	#Should the player get unique drops from slain mobs?
+	"Unique Drops" = true
+

@@ -1,0 +1,17 @@
+
+[Client]
+	#Should coats, markings, speed, jump strength and health show up on certain O-Mount GUIs?
+	"Mount GUI Extras" = true
+	#Should the sprint timer render on equines? *Note that this does not disable the mechanic itself, just the visual timer.
+	"Visual Horse Sprint Timer" = false
+	#Should the sprint HUD render on equines? *Note that this does not disable the mechanic itself, just the visual bar.
+	"Visual Horse Sprint HUD" = true
+	#Should Brand Tags render on animals that have been tagged?
+	"Render Brand Tags" = true
+	#X location value for the Sprint HUD. Default is 92.
+	"Horse Sprint HUD X Location" = 92
+	#Y location value for the Sprint HUD. Default is 52.
+	"Horse Sprint HUD Y Location" = 52
+	#Should text that states the gender of an O-Mount render along with the colored dot?
+	"Visual Accessibility Gender Text" = false
+

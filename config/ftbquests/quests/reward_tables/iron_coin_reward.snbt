@@ -108,6 +108,7 @@
 		{ count: 64, item: "regions_unexplored:blackwood_log" }
 		{ count: 64, item: "regions_unexplored:mauve_log" }
 		{ item: "titles:title_scroll_common" }
+		{ count: 3, item: "tconstruct:sky_slime_ball", random_bonus: 2 }
 	]
 	title: "Iron coin reward"
 }

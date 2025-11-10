@@ -1,0 +1,23 @@
+
+["Dusty Decor Mob Drops"]
+	#Enable or Disable Guardians dropping Sea Glass Shards (True by default)
+	"Guardians Drop Seaglass" = true
+	#Enable or Disable Animals dropping skulls (True by default)
+	"Drop Animal Skulls" = true
+	#Enable or Disable Fish dropping fish bones (True by default)
+	"Drop Fish Bones" = true
+	#Chance of cow dropping skull ( 0.025 by default)
+	"% Drop Cow Skull" = 0.025
+	#Chance of fox or wolf dropping skull ( 0.025 by default)
+	"% Drop Canine Skull" = 0.025
+	#Chance of donkeys, horses and mules dropping skull ( 0.05 by default)
+	"% Drop Equine Skull" = 0.05
+
+["Client Settings"]
+	#Enable or Disable the spark particles emitted from shoddy copper lamps (True by default)
+	"Do Copper Lamp Particles" = true
+	#Enable or Disable the sounds of copper lamps emit by themselves (True by default)
+	"Do Copper Lamp Sounds" = true
+	#Enable or Disable the sounds Film Cameras make ambiently (True by default) doesn't include the start up and end sounds
+	"Do Film Camera Sounds" = true
+

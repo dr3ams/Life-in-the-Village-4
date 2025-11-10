@@ -82,4 +82,6 @@ modid_dimension_whitelist = []
 trapped_custom = false
 #disables styling of breaking, decaying and refreshing messages sent to players
 disable_message_styles = false
+#if true, all block entities will be checked before being added to the ticker for an eligible loot table. enable this if a huge quantity of containers are clogging the conversion system; note that aggressive mode may prevent certain chests from properly converted even though eligible
+aggressive_mode = false
 

@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "feur_dimensional_skyland:skyland",
-  "features": "tconstruct:earth_geode",
-  "step": "local_modifications"
-}

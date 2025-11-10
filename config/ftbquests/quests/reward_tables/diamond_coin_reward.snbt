@@ -64,6 +64,7 @@
 		{ count: 3, item: "spelunkery:mineomite" }
 		{ count: 3, item: "spelunkery:glowstick" }
 		{ item: "waystones:bound_scroll" }
+		{ count: 2, item: "tconstruct:ender_slime_ball", random_bonus: 3 }
 	]
 	title: "Diamond coin reward"
 }

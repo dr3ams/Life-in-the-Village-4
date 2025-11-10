@@ -1,15 +1,12 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -54,6 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "splendid_slimes": {
+    "splendid_slime": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -65,7 +65,8 @@
     "placard": true
   },
   "tombstone": {
-    "graves": true
+    "decorative_graves": true,
+    "player_graves": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -81,6 +82,14 @@
     "brewing_stand": true,
     "block": true,
     "note_block": true
+  },
+  "dragnlivestock": {
+    "age_time": true,
+    "dry_time": true,
+    "o_tooltips": true
+  },
+  "functionalstorage": {
+    "armory": true
   },
   "balm": {
     "jade": true
@@ -100,13 +109,13 @@
     "jade_plugin3": true,
     "jade_plugin1": true
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "player_companions": {
     "player_companion_entity_provider": true,
     "player_companion_collector_entity_provider": true,
     "player_companion_guard_entity_provider": true
-  },
-  "jadeaddons.lootr": {
-    "info": true
   },
   "supplementaries": {
     "hat_stand": true

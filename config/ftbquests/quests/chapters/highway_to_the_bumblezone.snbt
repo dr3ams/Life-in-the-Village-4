@@ -1383,6 +1383,13 @@
 					type: "xp"
 					xp: 500
 				}
+				{
+					count: 3
+					id: "692632C52B905DAE"
+					item: "tconstruct:sky_slime_ball"
+					random_bonus: 3
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "5B89487D41FCD0E6"
@@ -1412,6 +1419,12 @@
 					id: "0F9C27E7BFC2F5BF"
 					type: "xp"
 					xp: 500
+				}
+				{
+					id: "74C7D99F169B5531"
+					item: "tconstruct:ender_slime_ball"
+					random_bonus: 3
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1443,6 +1456,12 @@
 					type: "xp"
 					xp: 500
 				}
+				{
+					id: "39DAB24DF7A2269F"
+					item: "tconstruct:ender_slime_ball"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "336C59C452039F2C"
@@ -1472,6 +1491,13 @@
 					id: "0994173D4EFA92B5"
 					type: "xp"
 					xp: 500
+				}
+				{
+					count: 3
+					id: "6803FFCE94458832"
+					item: "tconstruct:sky_slime_ball"
+					random_bonus: 4
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1503,6 +1529,13 @@
 					type: "xp"
 					xp: 500
 				}
+				{
+					count: 2
+					id: "7BC67E2ED36D802C"
+					item: "tconstruct:ichor_slime_ball"
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "25F90470D3737BB7"
@@ -1532,6 +1565,13 @@
 					id: "1BB3DD396F61A49E"
 					type: "xp"
 					xp: 500
+				}
+				{
+					count: 2
+					id: "57D974B0159DC2C7"
+					item: "tconstruct:ichor_slime_ball"
+					random_bonus: 3
+					type: "item"
 				}
 			]
 			tasks: [{

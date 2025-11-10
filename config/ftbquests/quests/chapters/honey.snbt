@@ -173,8 +173,8 @@
 				item: "productivebees:honey_treat"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 11.5d
+			x: 9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5539E11BB40EAA84"]
@@ -445,14 +445,14 @@
 				xp: 100
 			}]
 			shape: "octagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "0566954C03488463"
 				item: "productivebees:upgrade_base"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 14.25d
+			x: 9.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7460627B5B3872CB"]
@@ -467,8 +467,8 @@
 				item: "productivebees:upgrade_breeding"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 15.5d
+			x: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7460627B5B3872CB"]
@@ -483,8 +483,8 @@
 				item: "productivebees:upgrade_not_babee"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 14.5d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7460627B5B3872CB"]
@@ -499,8 +499,8 @@
 				item: "productivebees:upgrade_anti_teleport"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 13.5d
+			x: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7460627B5B3872CB"]
@@ -515,8 +515,8 @@
 				item: "productivebees:upgrade_range"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 12.5d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7460627B5B3872CB"]
@@ -531,8 +531,8 @@
 				item: "productivebees:upgrade_filter"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 12.0d
+			x: 10.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7460627B5B3872CB"]
@@ -547,8 +547,8 @@
 				item: "productivebees:upgrade_simulator"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 12.0d
+			x: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7460627B5B3872CB"]
@@ -563,8 +563,8 @@
 				item: "productivebees:upgrade_bee_sampler"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 16.0d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["000000000000030F"]
@@ -606,8 +606,8 @@
 				id: "6B9E846906BD3182"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 11.5d
+			x: 10.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["000000000000030D"]
@@ -637,8 +637,8 @@
 				id: "7FD98D5FA5346CDA"
 				type: "advancement"
 			}]
-			x: 9.5d
-			y: 13.0d
+			x: 10.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["585F9DC5CAA5C99B"]
@@ -700,8 +700,8 @@
 				item: "productivebees:wax"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.0d
+			x: 0.5d
+			y: 11.5d
 		}
 		{
 			description: [
@@ -748,6 +748,18 @@
 		}
 		{
 			id: "7EB705E59E9BCDE2"
+			rewards: [
+				{
+					id: "3E0D15CF0CAE8E2C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5366D5584B02C043"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1A821C64605F99B4"
 				item: {
@@ -766,6 +778,18 @@
 		}
 		{
 			id: "7325F91279E09901"
+			rewards: [
+				{
+					id: "09ECA55EB810D22F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "31C951B1B4548F3F"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6B9AAFD97E450044"
 				item: {
@@ -784,6 +808,18 @@
 		}
 		{
 			id: "76757D8773D44BD1"
+			rewards: [
+				{
+					id: "37535F655F77DC66"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "034AA7D0E2141C45"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4D9C3B38FFA97741"
 				item: {
@@ -802,6 +838,18 @@
 		}
 		{
 			id: "315AA5985CAE194A"
+			rewards: [
+				{
+					id: "5694987253BCF107"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "6ED5FD0441A098D0"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2CBD559BE1DEAB35"
 				item: {
@@ -820,6 +868,18 @@
 		}
 		{
 			id: "383F61E503C7497F"
+			rewards: [
+				{
+					id: "79BBF16D20A0FE2D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "51600C194600EDDC"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "75EE910450FFF3B8"
 				item: {
@@ -838,6 +898,18 @@
 		}
 		{
 			id: "743511D8F03E66E8"
+			rewards: [
+				{
+					id: "364D1F58CE9D9535"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "702ED1AB06A5CAF5"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "415A5975CF2B8819"
 				item: {
@@ -856,6 +928,18 @@
 		}
 		{
 			id: "37AA90E268E6D709"
+			rewards: [
+				{
+					id: "6CA3828970939CA1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5F8C874E155DB9F5"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "449E8952A9BECD6A"
 				item: {
@@ -874,6 +958,18 @@
 		}
 		{
 			id: "2D2D40ED3AF7D93B"
+			rewards: [
+				{
+					id: "2B67D7C83416105E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5B1FE909266D785A"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4F2EC5A20932D600"
 				item: {
@@ -892,6 +988,18 @@
 		}
 		{
 			id: "46D1C16DAC18A392"
+			rewards: [
+				{
+					id: "662F8B5AA52D5E52"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0FB47CA517E01A9D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "04A180877A88775A"
 				item: {
@@ -910,6 +1018,18 @@
 		}
 		{
 			id: "68DB4921F0F19808"
+			rewards: [
+				{
+					id: "54AD98CBA9C406B7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0F2C22A1F58B87C3"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2AB5561E343EB91A"
 				item: {
@@ -928,6 +1048,18 @@
 		}
 		{
 			id: "6A0B6D7C0130BAD6"
+			rewards: [
+				{
+					id: "49E50F77F313B032"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "4E5B113C799CB25D"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "13FC563E613D44FA"
 				item: {
@@ -946,6 +1078,18 @@
 		}
 		{
 			id: "683A2830BF1C5B89"
+			rewards: [
+				{
+					id: "1D92923EFBB5DCC4"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "2D15828931903190"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "096CDC1117E92E44"
 				item: {
@@ -964,6 +1108,18 @@
 		}
 		{
 			id: "53994C6398D84150"
+			rewards: [
+				{
+					id: "757F8C757B9F55FD"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3A0080BFD5C09903"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "650F5905439BF72B"
 				item: {
@@ -982,6 +1138,18 @@
 		}
 		{
 			id: "74CCAF1F66882368"
+			rewards: [
+				{
+					id: "0514B96F38E78FB3"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3D94E422F9B3F304"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "00B345700DD3F928"
 				item: {
@@ -995,21 +1163,45 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 3.0d
 			y: 8.0d
 		}
 		{
 			id: "273AF8269C45CD4D"
+			rewards: [
+				{
+					id: "66976E8BBA57C49C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "29AE971FE78C9728"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2CF25664E9F3095C"
 				item: "productivebees:honeycomb_powdery"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 2.5d
 			y: 9.0d
 		}
 		{
 			id: "377A052D52D280C8"
+			rewards: [
+				{
+					id: "62E4D95A702F64CC"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "36BE0DD9691E072D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6E0394DE3913B34E"
 				item: {
@@ -1023,11 +1215,23 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
+			x: 2.5d
 			y: 7.0d
 		}
 		{
 			id: "2012A4EA8A239A0A"
+			rewards: [
+				{
+					id: "050CC0550F21D74B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "669B6D6ACB50569C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "28F16128B84BE334"
 				item: {
@@ -1041,11 +1245,23 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 3.5d
 			y: 7.0d
 		}
 		{
 			id: "2E857617E596752C"
+			rewards: [
+				{
+					id: "7D35AEEECDDBBCC1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "2771C0A7389E6907"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "52C186AE86BD749A"
 				item: {
@@ -1059,11 +1275,23 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 2.0d
 			y: 8.0d
 		}
 		{
 			id: "7E060DAF49C79D14"
+			rewards: [
+				{
+					id: "5598931B24A71AE7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "25D255927AFBAF02"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3347B0C5D3698DDC"
 				item: {
@@ -1077,11 +1305,23 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 3.5d
 			y: 9.0d
 		}
 		{
 			id: "6E7785E8DECE78CE"
+			rewards: [
+				{
+					id: "26466BEB7265B312"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0E9EC3C5E26C8C16"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5114D17ABA1DDE57"
 				item: {
@@ -1095,21 +1335,45 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
 			id: "460ED2414AE3613D"
+			rewards: [
+				{
+					id: "1CBE163005B8CF00"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "52B7ACE7FC633EF9"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1000BDA62CBAC5EE"
 				item: "productivebees:honeycomb_milky"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
 			id: "599FD353EEDD58D6"
+			rewards: [
+				{
+					id: "5B65F7D77FB18F51"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "237C938F156D71A1"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "159D718E146387C5"
 				item: {
@@ -1128,6 +1392,18 @@
 		}
 		{
 			id: "7146E1494CB4CE43"
+			rewards: [
+				{
+					id: "4EDF8BDE33988AFB"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "779507FE647D8A6C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5CD1AEDFBAEC78D5"
 				item: {
@@ -1146,6 +1422,18 @@
 		}
 		{
 			id: "14D8ECB06DB412B0"
+			rewards: [
+				{
+					id: "57998F0A92B4A1FB"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "6C60811367C12CCC"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3161302AC3F16EC4"
 				item: {
@@ -1164,6 +1452,18 @@
 		}
 		{
 			id: "569B9B470CE72522"
+			rewards: [
+				{
+					id: "6B49A19ADC623463"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7F56F568C7B47DE2"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "69FD798299AF423A"
 				item: {
@@ -1182,6 +1482,18 @@
 		}
 		{
 			id: "1DEA570831E12F45"
+			rewards: [
+				{
+					id: "02D0D8734FDD7777"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "6D1F89A37406A26A"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "453EAC371E9E83B9"
 				item: {
@@ -1200,6 +1512,18 @@
 		}
 		{
 			id: "0F843AE9A678A3B4"
+			rewards: [
+				{
+					id: "5ABD99A95E246068"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5C9B2462C6F36058"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "25CA1338697CE77F"
 				item: {
@@ -1218,6 +1542,18 @@
 		}
 		{
 			id: "2E925FF64FC2F33E"
+			rewards: [
+				{
+					id: "204E3CC5BAF9E5E3"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "43494C41BBDE0528"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "65D0D847229896E0"
 				item: {
@@ -1236,6 +1572,18 @@
 		}
 		{
 			id: "47CAEFF327AB7D02"
+			rewards: [
+				{
+					id: "66F371FDB2E1513F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "46C0FDF9FF085D90"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0D5A2A1101E1A196"
 				item: {

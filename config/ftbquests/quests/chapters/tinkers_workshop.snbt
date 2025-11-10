@@ -1470,6 +1470,12 @@
 		{
 			dependencies: ["669C12775ABE80B4"]
 			id: "32CC971AC151F4A3"
+			rewards: [{
+				id: "38AC2AC0ADA71AD4"
+				item: "tconstruct:sky_slime_ball"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "40317D0D8454A9B4"
 				item: {
@@ -1516,16 +1522,6 @@
 			}]
 			x: 13.0d
 			y: -1.5d
-		}
-		{
-			id: "7516B5922067E18C"
-			tasks: [{
-				id: "02CE06225A58A48F"
-				item: "tconstruct:tinkers_chest"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 4.5d
 		}
 	]
 	title: "Tinkers Workshop"

@@ -1,0 +1,143 @@
+
+[Spawning]
+	#Welcome to Livestock Overhaul! You can turn off any O-Animal from spawning in this config, among other things.
+	#Please note that LO *DOES NOT CHANGE SPAWN RATES* because O-Animals simply replace existing vanilla ones. If you have an issue with too many O-Animals spawning, check your other mods. LO does not have it's own spawn rates, you'll have to change vanilla animal spawn rates to see differences in spawning.
+	#Should vanilla animals spawned via Spawn Egg be replaced with O-Animals?
+	#Note that if this is turned on, all previously-spawned vanilla animals will be converted regardless of spawn type.
+	"Replace Spawn Egg Vanilla Animals" = false
+	#Percent of O-Animals that should be removed on-spawn. Higher the number = more O-Animals removed. Default is 0.3 (30%)
+	#This may help lower-end servers or computers run LO a little better if set to a higher value, since not as many animals will spawn. Only affects common farm animals (since they spawn most often) and does not affect anything vanilla or from other mods.
+	"Spawn Rate Prevention Percent" = 0.3
+	#Should horses be replaced by O-Horses?
+	"Replace Horses" = true
+	#Should mules be replaced by O-Mules?
+	"Replace Mules" = true
+	#Should donkeys be replaced by O-Donkeys?
+	"Replace Donkeys" = true
+	#Should cows be replaced by O-Cows?
+	"Replace Cows" = true
+	#Should chickens be replaced by O-Chickens?
+	"Replace Chickens" = true
+	#Should sheep be replaced by O-Sheep?
+	"Replace Sheep" = true
+	#Should pigs be replaced by O-Pigs?
+	"Replace Pigs" = true
+	#Should llamas be replaced by O-Llamas?
+	"Replace Llamas" = true
+	#Should rabbits be replaced by O-Rabbits?
+	"Replace Rabbits" = true
+	#Should  be replaced by O-Salmon?
+	"Replace Salmon" = true
+	#Should cod be replaced by O-Cod?
+	"Replace Cod" = true
+	#Should bees be replaced by O-Bees?
+	"Replace Bees" = true
+	#Should camels be replaced by O-Camels?
+	"Replace Camels" = true
+	#Should goats be replaced by O-Goats?
+	"Replace Goats" = true
+	#Should frogs be replaced by O-Frogs?
+	"Replace Frogs" = true
+	#Should undead horses be replaced by O-Undead Horses?
+	"Replace Undead Horses" = true
+	#Should Mooblooms have a chance to spawn alongside O-Cows?
+	"Spawn Mooblooms" = true
+	#Should Unicorns have a chance to spawn in unique situations?
+	"Spawn Unicorns" = true
+
+[Husbandry]
+	#Should an animal's gender affect the ability to get byproducts from it?
+	"Genders Affect Byproducts" = true
+	#Should an animal's gender affect how it breeds?
+	"Genders Affect Breeding" = true
+	#Minimum amount of time, in ticks, that an O-Chicken can lay an unfertilized egg. Default is 12000 ticks, or 10 minutes. Vanilla is 6000 ticks, or 5 minutes.
+	"Chicken Egg Lay Cooldown" = 12000
+	#Amount of time, in ticks, that you must wait to milk a non-dairy-breed animal. Default is 48000 ticks, or 40 minutes.
+	"Average Milking Cooldown" = 48000
+	#Amount of time, in ticks, that you must wait to milk a dairy-breed animal. Default is 12000 ticks, or 10 minutes.
+	"Dairy Breed Milking Cooldown" = 12000
+	#Amount of time, in ticks, that you must wait to shear an O-Sheep, Goat or Llama. Default is 24000 ticks, or 20 minutes.
+	"Wool Regrowth Time" = 24000
+	#Amount of Fertilized Eggs a hen should lay after mating. Default is 3.
+	"Max Fertilized Chicken Eggs" = 3
+	#Maximum amount of piglets a pig can have at once. Default is 3.
+	"Max Pig Babies" = 3
+	#Maximum amount of kits a rabbit can have at once. Default is 3.
+	"Max Rabbit Babies" = 3
+
+[Herding]
+	#Should animals, like cows, herd together?
+	"Animals Herd Together" = true
+	#Maximum amount of O-Cows that can herd together. Default is 8.
+	"Cow Herd Maximum" = 8
+	#Maximum amount of O-Horses that can herd together. Default is 3.
+	"Horse Herd Maximum" = 3
+	#Maximum amount of O-Sheep that can herd together. Default is 8.
+	"Sheep Herd Maximum" = 8
+	#Maximum amount of O-Llamas that can herd together. Default is 3.
+	"Llama Herd Maximum" = 3
+
+[QoL]
+	#Should O-Animals use vanilla loot instead of the loot included in the mod?
+	"Use Vanilla Animal Loot" = false
+	#Should O-Horses be able to spawn with any breed naturally? Default is Mustangs only.
+	"Naturally Spawning O-Horse Breeds" = false
+	#Base time an O-Horse can run for at full speed, in seconds. Default is 45s.
+	"Base Horse Sprint Time" = 45
+	#Should players be able to train their O-Horse's stats by riding them over an extended period of time?
+	"Allow Horse Training" = true
+	#Time it takes (whilst riding), in ticks, to train an O-Horse up one level of it's stats. Default is 48000 (40 minutes of riding).
+	"Stat Training Time" = 48000
+	#Amount of times a player can level up their O-Horse's stats. Default is 5.
+	"Stat Training Max" = 5
+	#Should O-Horses's manes and tails be able to grow over time?
+	"Horse Hair Growth Progression" = true
+	#Amount of time, in ticks, it takes for a horse's mane or tail to grow to the next stage. Default is 72000 (3 ingame days).
+	"Horse Hair Growth Time" = 72000
+	#Should O-Animals' colors, markings, and other genetic attributes depend on their breed and gender, along with their breed depending on the biome?
+	"Spawn By Breed & Biome" = true
+	#Should O-Animals' eye colors, if applicable, depend on their coat/ coloring?
+	"Eye Colors By Coat Color/ Markings" = true
+	#Should O-Horses and other mounts turn their heads similarly to old 1.12 horses when ridden?
+	#Turning this off will make mounts use the post-1.12 turning, which is simply just pivoting in place.
+	"Advanced Horse Turning" = true
+	#Should cow bells make noise/ ding?
+	"Cow Bell Ding" = true
+	#Should O-Cows, O-Sheep, and wild O-Horses herd/ run away from mounted horses?
+	"Horses Scare Herd Animals" = true
+	#Should O-Mounts "ground tie", or stop moving around, when saddled & dismounted?
+	"Ground Tie When Dismounted" = true
+	#Should only those in Creative Mode be able to 'Mustang Brand' horses?
+	"Creative-Only Mustang Branding" = false
+	#Should only those in Creative Mode be able to snip (geld or spay) mounts?
+	"Creative-Only Snipping" = false
+	#Should debug logs run? This will spam the console with logs, so it's best turned off unless you're a dev or testing on your server temporarily.
+	"Debug Logs On [DEV]" = false
+
+[Miscellaneous]
+	#Should Unicorns be able to breed?
+	"Allow Unicorn Breeding" = false
+	#Should O-Horses have a small chance to turn Undead upon death?
+	"Occasional Horse Turns Undead" = true
+	#Chance of an O-Horse turning undead after dying to a natural cause. Default is 0.03 (3%).
+	"Undead Horse Chance" = 0.03
+	#Amount of time, in ticks, it takes for an Undead Horse to decompose to the next stage. Default is 72000 (3 ingame days).
+	"Undead Decomp Stage Time" = 72000
+	#Should players be able to craft special event blankets? If this is false, servers can give out blankets as free event rewards instead (cannot be a real currency payment).
+	"Allow Special Event Blanket Crafting" = true
+
+[Wagons]
+	"Covered Wagon Speed Multiplier" = 0.1
+	"Dog Sled Speed Multiplier" = 0.42
+	"Goods Cart Speed Multiplier" = 0.25
+	"Livestock Wagon Speed Multiplier" = 0.1
+	"Lumber Wagon Speed Multiplier" = 0.1
+	"Mining Cart Speed Multiplier" = 0.12
+	"Transport Cart Speed Multiplier" = 0.3
+	"Plow Speed Multiplier" = 0.1
+
+[Uninstalling]
+	#Should all O-Animals be converted back into a vanilla counterpart? Make sure all replacers are turned to false before running. 
+	#WARNING: This should be used *sparingly*, and only when needed/ if this mod is about to be removed.
+	"Failsafe O-Animal -> Vanilla Animal Converter" = false
+

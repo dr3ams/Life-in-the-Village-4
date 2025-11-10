@@ -1,5 +1,6 @@
 {
-  "config_version": "1.0.11",
+  "config_version": "1.0.21",
+  "config_datetime": "2025-09-30_12-55-06",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -7,5 +8,38 @@
     "global_spacing_and_separation_modifier": 1.0
   },
   "structures": [],
-  "structure_sets": []
+  "structure_sets": [
+    {
+      "name": "create_rustic_structures:rustic_barn",
+      "salt": 1218093568,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 50,
+      "separation": 26
+    },
+    {
+      "name": "create_rustic_structures:rustic_smithy",
+      "salt": 703989288,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 43,
+      "separation": 26
+    },
+    {
+      "name": "create_rustic_structures:rustic_well",
+      "salt": 1221516354,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 25,
+      "separation": 19
+    },
+    {
+      "name": "create_rustic_structures:rustic_windmill",
+      "salt": 1297317345,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 50,
+      "separation": 28
+    }
+  ]
 }

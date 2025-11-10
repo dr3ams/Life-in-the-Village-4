@@ -160,3 +160,151 @@
 		"origins-classes:stealth" = true
 		"origins-classes:stealth_core" = true
 
+	[origins."origins_backgrounds_two:greenwitch"]
+		enabled = true
+		"origins_backgrounds_two:bonemeal_dry" = true
+		"origins_backgrounds_two:bonemeal_wet" = true
+		"origins_backgrounds_two:bonecool" = true
+
+	[origins."origins_backgrounds:athlete"]
+		enabled = true
+		"origins_backgrounds:faster_speed" = true
+
+	[origins."origins_backgrounds:scribe"]
+		enabled = true
+		"origins_backgrounds:paperbacks" = true
+
+	[origins."origins_backgrounds_two:disenchanter"]
+		enabled = true
+		"origins_backgrounds_two:remove_curse" = true
+
+	[origins."origins_backgrounds:novice_mage"]
+		enabled = true
+		"origins_backgrounds:potion_food" = true
+
+	[origins."origins_backgrounds:fresh_face"]
+		enabled = true
+
+	[origins."origins_backgrounds_two:miner"]
+		enabled = true
+		"origins_backgrounds_two:mining_skill" = true
+
+	[origins."origins_backgrounds_two:butcher"]
+		enabled = true
+		"origins_backgrounds_two:careful_cuts" = true
+
+	[origins."origins_backgrounds:sailor"]
+		enabled = true
+		"origins_backgrounds:attack_in_ocean" = true
+
+	[origins."origins_backgrounds_two:blacksmith"]
+		enabled = true
+		"origins_backgrounds_two:presmelted" = true
+		"origins_backgrounds_two:better_armor" = true
+
+	[origins."origins_backgrounds:coalminer"]
+		enabled = true
+		"origins_backgrounds:ore_harvesting" = true
+
+	[origins."origins_backgrounds_two:bounty_hunter"]
+		enabled = true
+		"origins_backgrounds_two:dead_or_alive" = true
+		"origins_backgrounds_two:heads_will_roll" = true
+		"origins_backgrounds_two:heads_will_roll_p" = true
+		"origins_backgrounds_two:heads_will_roll_s" = true
+		"origins_backgrounds_two:heads_will_roll_z" = true
+
+	[origins."origins_backgrounds_two:woodsman"]
+		enabled = true
+		"origins_backgrounds_two:axemanship" = true
+		"origins_backgrounds_two:tin_miner" = true
+
+	[origins."origins_backgrounds_two:pickpocket"]
+		enabled = true
+		"origins_backgrounds_two:swipe" = true
+		"origins_backgrounds_two:suspicion" = true
+
+	[origins."origins_backgrounds:cultist"]
+		enabled = true
+		"origins_backgrounds:sacrifice" = true
+
+	[origins."origins_backgrounds_two:sentry"]
+		enabled = true
+		"origins_backgrounds_two:stout_heart" = true
+		"origins_backgrounds_two:slow_step" = true
+
+	[origins."origins_backgrounds_two:hunter"]
+		enabled = true
+		"origins_backgrounds_two:bowmanship" = true
+
+	[origins."origins_backgrounds_two:alchemist"]
+		enabled = true
+		"origins_backgrounds_two:sommelier" = true
+
+	[origins."origins_backgrounds:guard"]
+		enabled = true
+		"origins_backgrounds:shield_prowess" = true
+
+	[origins."origins_backgrounds_two:trader"]
+		enabled = true
+		"origins_backgrounds_two:starting_money" = true
+		"origins_backgrounds_two:money_pouch" = true
+
+	[origins."origins_backgrounds:farmhand"]
+		enabled = true
+		"origins_backgrounds:trusty_hoe" = true
+
+	[origins."origins_backgrounds:soldier"]
+		enabled = true
+		"origins_backgrounds:swordsmanship" = true
+
+	[origins."origins_backgrounds:fisher"]
+		enabled = true
+		"origins_backgrounds:cooked_fishes" = true
+
+	[origins."origins_backgrounds:haunted"]
+		enabled = true
+		"origins_backgrounds:hello_darkness" = true
+
+	[origins."origins_backgrounds:pirate"]
+		enabled = true
+		"origins_backgrounds:eyepatch" = true
+
+	[origins."origins_backgrounds_two:street_rat"]
+		enabled = true
+		"origins_backgrounds_two:safe_flesh" = true
+		"origins_backgrounds_two:safe_potate" = true
+
+	[origins."origins_backgrounds:acolyte"]
+		enabled = true
+		"origins_backgrounds:improved_healing" = true
+
+	[origins."origins_backgrounds_two:swashbuckler"]
+		enabled = true
+		"origins_backgrounds_two:passado" = true
+
+	[origins."origins_backgrounds_two:cook"]
+		enabled = true
+		"origins_backgrounds_two:sous_chef" = true
+
+	[origins."origins_backgrounds_two:angler"]
+		enabled = true
+		"origins_backgrounds_two:lucky" = true
+
+	[origins."origins_backgrounds:cryptkeeper"]
+		enabled = true
+		"origins_backgrounds:graves" = true
+
+	[origins."origins_backgrounds_two:deep_miner"]
+		enabled = true
+		"origins_backgrounds_two:in_the_depths" = true
+
+	[origins."origins_backgrounds:retainer"]
+		enabled = true
+		"origins_backgrounds:legacy_sword" = true
+
+	[origins."origins_backgrounds_two:acrobat"]
+		enabled = true
+		"origins_backgrounds_two:spring_step" = true
+		"origins_backgrounds_two:fence_hop" = true
+

@@ -17,10 +17,6 @@
       "weight": 5
     },
     {
-      "structure": "towns_and_towers:village_forest",
-      "weight": 5
-    },
-    {
       "structure": "towns_and_towers:village_snowy_slopes",
       "weight": 5
     },
@@ -103,11 +99,11 @@
   ],
   "placement": {
     "salt": 10587309,
-    "spacing": 88,
+    "spacing": 70,
     "separation": 40,
     "type": "minecraft:random_spread",
     "exclusion_zone": {
-      "chunk_count": 30,
+      "chunk_count": 10,
       "other_set": "minecraft:villages"
     }
   }

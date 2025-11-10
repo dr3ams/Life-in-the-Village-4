@@ -236,6 +236,62 @@
       "xp_reward": 10,
       "weight": 10,
       "required": true
-    }		
+    },
+    {	
+"id": "tconstruct:ichor_slime_crystal",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 4,
+      "required": true
+    },	
+	{	
+"id": "tconstruct:ichor_slime_ball",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 5,
+      "required": true
+    },	
+    {	
+"id": "tconstruct:ender_slime_ball",
+      "count": 1,
+      "xp_reward": 20,
+      "weight": 6,
+      "required": true
+    },	
+	{	
+"id": "tconstruct:ender_slime_crystal",
+      "count": 1,
+      "xp_reward": 50,
+      "weight": 6,
+      "required": true
+    },
+    {	
+"id": "tconstruct:sky_slime_ball",
+      "count": 3,
+      "xp_reward": 10,
+      "weight": 15,
+      "required": true
+    },	
+	{	
+"id": "tconstruct:earth_slime_crystal",
+      "count": 2,
+      "xp_reward": 10,
+      "weight": 10,
+      "required": true
+    },	
+    {	
+"id": "tconstruct:sky_slime_crystal",
+      "count": 4,
+      "xp_reward": 10,
+      "weight": 10,
+      "required": true
+    },	
+	{	
+"id": "tombstone:essence_of_undeath",
+      "count": 5,
+      "xp_reward": 50,
+      "weight": 8,
+      "required": true
+    }	
   ]
 }

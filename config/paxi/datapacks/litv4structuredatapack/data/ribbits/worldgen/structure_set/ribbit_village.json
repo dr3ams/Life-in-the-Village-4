@@ -12,7 +12,7 @@
     "separation": 18,
     "enhanced_exclusion_zone": {
       "other_set": "#ribbits:village_avoid",
-      "chunk_count": 6
+      "chunk_count": 10
     }
   }
 }

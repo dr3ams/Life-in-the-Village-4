@@ -119,10 +119,10 @@
 	restrictcolonyplacement = false
 	#Max distance (in blocks) from world spawn for a colony. [Default: 8000, min: 1000, max: 100000]
 	#Range: 1000 ~ 100000
-	maxdistancefromworldspawn = 8000
+	maxdistancefromworldspawn = 15000
 	#Min distance (in blocks) from world spawn for a colony. [Default: 512, min: 1, max: 1000]
 	#Range: 1 ~ 1000
-	mindistancefromworldspawn = 512
+	mindistancefromworldspawn = 256
 	#Should officers of a colony receive advancements from that colony? [Default: true]
 	officersreceiveadvancements = true
 
