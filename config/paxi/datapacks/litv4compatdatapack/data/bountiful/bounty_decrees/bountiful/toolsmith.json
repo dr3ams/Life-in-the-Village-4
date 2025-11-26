@@ -1,7 +1,6 @@
 {
 	"objectives": [
-		"toolsmith_objs",
-		"_all_objs",
+		"toolsmith_objs"
 		"_metal_objs"
 	],
 	"rewards": [

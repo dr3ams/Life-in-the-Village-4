@@ -1,7 +1,6 @@
 {
 	"objectives": [
-		"fletcher_objs",
-		"_all_objs"
+		"fletcher_objs"
 	],
 	"rewards": [
 		"fletcher_rews",

@@ -1,7 +1,6 @@
 {
 	"objectives": [
-		"librarian_objs",
-		"_all_objs"
+		"librarian_objs"
 	],
 	"rewards": [
 		"librarian_rews",

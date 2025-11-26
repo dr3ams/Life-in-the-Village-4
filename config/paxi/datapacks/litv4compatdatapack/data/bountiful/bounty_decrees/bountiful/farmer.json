@@ -1,7 +1,7 @@
 {
 	"objectives": [
 		"farmer_objs",
-		"_all_objs"
+		"croptopia_objs"
 	],
 	"rewards": [
 		"farmer_rews",

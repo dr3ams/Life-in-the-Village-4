@@ -7,9 +7,9 @@
             "content": "minecraft:lava_bucket",
             "amount": {
                 "min": 1,
-                "max": 2
+                "max": 10
             },
-            "unitWorth": 1800
+            "unitWorth": 100
         },
 
         "armorer_obj_leather_helm": {
@@ -19,7 +19,7 @@
                 "min": 1,
                 "max": 3
             },
-            "unitWorth": 1000,
+            "unitWorth": 100,
             "nbt": "{Damage:0}"
         },
 
@@ -30,7 +30,7 @@
                 "min": 1,
                 "max": 4
             },
-            "unitWorth": 1600,
+            "unitWorth": 160,
             "nbt": "{Damage:0}"
         },
 
@@ -41,7 +41,7 @@
                 "min": 1,
                 "max": 3
             },
-            "unitWorth": 1400,
+            "unitWorth": 140,
             "nbt": "{Damage:0}"
         },
 
@@ -52,7 +52,7 @@
                 "min": 1,
                 "max": 3
             },
-            "unitWorth": 800,
+            "unitWorth": 80,
             "nbt": "{Damage:0}"
         },
 
@@ -63,7 +63,7 @@
                 "min": 1,
                 "max": 4
             },
-            "unitWorth": 5000
+            "unitWorth": 500
         },
 
         "armorer_obj_lava_bucket_2": {
@@ -73,7 +73,7 @@
                 "min": 1,
                 "max": 1
             },
-            "unitWorth": 1000
+            "unitWorth": 200
         }
 
 	}

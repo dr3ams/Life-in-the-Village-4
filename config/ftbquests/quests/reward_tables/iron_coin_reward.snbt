@@ -109,6 +109,15 @@
 		{ count: 64, item: "regions_unexplored:mauve_log" }
 		{ item: "titles:title_scroll_common" }
 		{ count: 3, item: "tconstruct:sky_slime_ball", random_bonus: 2 }
+		{ item: "regions_unexplored:apple_oak_sapling" }
+		{ item: "regions_unexplored:willow_sapling" }
+		{ item: "regions_unexplored:socotra_sapling" }
+		{ item: "regions_unexplored:small_oak_sapling" }
+		{ item: "regions_unexplored:white_magnolia_sapling" }
+		{ item: "regions_unexplored:pink_magnolia_sapling" }
+		{ item: "regions_unexplored:blue_magnolia_sapling" }
+		{ item: "regions_unexplored:magnolia_sapling" }
+		{ count: 2, item: "minecraft:phantom_membrane", random_bonus: 5 }
 	]
 	title: "Iron coin reward"
 }

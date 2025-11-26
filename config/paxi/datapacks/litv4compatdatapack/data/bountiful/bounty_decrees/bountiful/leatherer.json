@@ -1,7 +1,6 @@
 {
 	"objectives": [
-		"leatherer_objs",
-		"_all_objs"
+		"leatherer_objs"
 	],
 	"rewards": [
 		"leatherer_rews",

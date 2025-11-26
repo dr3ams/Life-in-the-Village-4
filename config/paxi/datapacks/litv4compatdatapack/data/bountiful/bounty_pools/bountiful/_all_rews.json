@@ -113,7 +113,41 @@
 				"max": 1
 			},
 			"unitWorth": 4000
-		}
+		},
+		
+		
+		"all_rew-prismarine_shard": {"type": "item","content": "minecraft:prismarine_shard","amount": {"min": 1,"max": 10},"unitWorth": 500},
+		"all_rew-golden_apple": {"type": "item","content": "minecraft:golden_apple","amount": {"min": 1,"max": 2},"unitWorth": 1500},
+		"all_rew-amethyst_shard": {"type": "item","content": "minecraft:amethyst_shard","amount": {"min": 1,"max": 20},"unitWorth": 100},
+		"all_rew-leather": {"type": "item","content": "minecraft:leather","amount": {"min": 1,"max": 10},"unitWorth": 100},
+		"all_rew-rabbit_hide": {"type": "item","content": "minecraft:rabbit_hide","amount": {"min": 1,"max": 10},"unitWorth": 50},
+		"all_rew-honeycomb": {"type": "item","content": "minecraft:honeycomb","amount": {"min": 1,"max": 10},"unitWorth": 50},
+		"all_rew-ink_sac": {"type": "item","content": "minecraft:ink_sac","amount": {"min": 1,"max": 10},"unitWorth": 50},
+		"all_rew-glow_ink_sac": {"type": "item","content": "minecraft:glow_ink_sac","amount": {"min": 1,"max": 10},"unitWorth": 100},
+		"all_rew-slime_ball": {"type": "item","content": "minecraft:slime_ball","amount": {"min": 1,"max": 32},"unitWorth": 25},
+		"all_rew-amnesia_scroll": {"type": "item","content": "skilltree:amnesia_scroll","amount": {"min": 1,"max": 1},"unitWorth": 1000},
+		"all_rew-silky_cloth": {"type": "item","content": "tconstruct:silky_cloth","amount": {"min": 1,"max": 2},"unitWorth": 800},
+		"all_rew-sky_slime_ball": {"type": "item","content": "tconstruct:sky_slime_ball","amount": {"min": 1,"max": 2},"unitWorth": 1500},
+		"all_rew-bomb": {"type": "item","content": "supplementaries:bomb","amount": {"min": 1,"max": 10},"unitWorth": 100},
+		"all_rew-saltpeter": {"type": "item","content": "spelunkery:saltpeter","amount": {"min": 1,"max": 10},"unitWorth": 20},
+		"all_rew-salt": {"type": "item","content": "spelunkery:salt","amount": {"min": 1,"max": 16},"unitWorth": 20},
+		"all_rew-hatscraps_rare": {"type": "item","content": "simplehats:hatscraps_rare","amount": {"min": 1,"max": 1},"unitWorth": 1500},
+		"all_rew-hatscraps_uncommon": {"type": "item","content": "simplehats:hatscraps_uncommon","amount": {"min": 1,"max": 1},"unitWorth": 1000},
+		"all_rew-hatscraps_common": {"type": "item","content": "simplehats:hatscraps_common","amount": {"min": 1,"max": 2},"unitWorth": 500},
+		"all_rew-sugarbag_honeycomb": {"type": "item","content": "productivebees:sugarbag_honeycomb","amount": {"min": 1,"max": 1},"unitWorth": 2000},
+		"all_rew-mining_dynamite": {"type": "item","content": "gag:mining_dynamite","amount": {"min": 1,"max": 10},"unitWorth": 100},
+		"all_rew-experience_nugget": {"type": "item","content": "create:experience_nugget","amount": {"min": 1,"max": 10},"unitWorth": 100},
+		"all_rew-andesite_alloy": {"type": "item","content": "create:andesite_alloy","amount": {"min": 1,"max": 16},"unitWorth": 50},
+		"all_rew-rose_quartz": {"type": "item","content": "create:rose_quartz","amount": {"min": 1,"max": 10},"unitWorth": 100},
+		"all_rew-echo_shard": {"type": "item","content": "minecraft:echo_shard","amount": {"min": 1,"max": 3},"unitWorth": 500},
+		"all_rew-gunpowder": {"type": "item","content": "minecraft:gunpowder","amount": {"min": 1,"max": 10},"unitWorth": 100},
+		"all_rew-rabbit_foot": {"type": "item","content": "minecraft:rabbit_foot","amount": {"min": 1,"max": 10},"unitWorth": 100},
+		"all_rew-fermented_spider_eye": {"type": "item","content": "minecraft:fermented_spider_eye","amount": {"min": 1,"max": 10},"unitWorth": 100},
+		"all_rew-sugar": {"type": "item","content": "minecraft:sugar","amount": {"min": 5,"max": 20},"unitWorth": 20},
+		"all_rew-phantom_membrane": {"type": "item","content": "minecraft:phantom_membrane","amount": {"min": 1,"max": 10},"unitWorth": 400},
+		"all_rew-ghast_tear": {"type": "item","content": "minecraft:ghast_tear","amount": {"min": 1,"max": 10},"unitWorth": 500},
+		"all_rew-common_card_pack": {"type": "item","content": "collectorsalbum:common_card_pack","amount": {"min": 1,"max": 1},"unitWorth": 500},
+		"all_rew-uncommon_card_pack": {"type": "item","content": "collectorsalbum:uncommon_card_pack","amount": {"min": 1,"max": 1},"unitWorth": 1500}
 
 
 	}

@@ -11,10 +11,6 @@ JEIEvents.hideItems(event => {
 	event.hide('productivebees:configurable_comb')
 
 
-
-
-event.hide(Item.of('productivebees:configurable_honeycomb','{EntityTag: {type: "productivebees:glowing"}}').weakNBT())
-event.hide(Item.of('productivebees:spawn_egg_configurable_bee','{EntityTag: {type: "productivebees:glowing"}}').weakNBT())
 event.hide(Item.of('productivebees:configurable_honeycomb','{EntityTag: {type: "productivebees:hyper_experience"}}').weakNBT())
 event.hide(Item.of('productivebees:spawn_egg_configurable_bee','{EntityTag: {type: "productivebees:hyper_experience"}}').weakNBT())
 event.hide(Item.of('productivebees:configurable_honeycomb','{EntityTag: {type: "productivebees:netherite"}}').weakNBT())
@@ -93,7 +89,6 @@ event.hide(Item.of('productivebees:spawn_egg_configurable_bee','{EntityTag: {typ
 //nope
 //event.hide('EntityTag: {type: "productivebees:glowing"}')
 
-event.hide({EntityTag: {type: 'productivebees:glowing'}})
 
 	event.hide('sophisticatedbackpacks:compacting_upgrade')
 	event.hide('sophisticatedbackpacks:advanced_compacting_upgrade')

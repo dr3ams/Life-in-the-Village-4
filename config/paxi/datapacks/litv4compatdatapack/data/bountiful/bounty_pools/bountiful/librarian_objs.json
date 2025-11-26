@@ -17,9 +17,9 @@
             "content": "minecraft:bookshelf",
             "amount": {
                 "min": 1,
-                "max": 6
+                "max": 10
             },
-            "unitWorth": 1500
+            "unitWorth": 500
         },
 
         "librarian_obj_sugar_cane": {

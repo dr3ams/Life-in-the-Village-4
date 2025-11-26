@@ -69,19 +69,7 @@ ServerEvents.recipes(event => {
 	'minecraft:andesite',
 	'#litv4:mortars'
 	]).damageIngredient('#litv4:mortars')
-	
-	event.remove({id: 'create:crafting/materials/andesite_alloy'})
-	event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
-	event.shaped('2x kubejs:dust_andesite_alloy', [
-	'ZA ',
-	'AZ ',
-	'   '
-	], {
-	Z: 'kubejs:dust_zinc',
-	A: 'kubejs:dust_andesite'
-	})
-	event.blasting('create:andesite_alloy', 'kubejs:dust_andesite_alloy').cookingTime(100)
-		
+			
 	event.shaped('minecraft:diamond', [
     'DDD',
     'DDD',

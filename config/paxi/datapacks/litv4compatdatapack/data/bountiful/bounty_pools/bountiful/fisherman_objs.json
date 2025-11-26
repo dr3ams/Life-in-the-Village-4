@@ -1,7 +1,45 @@
 
 {
 	"content": {
-
+		
+		"fisherman_fishing": {
+            "type": "criteria",
+            "rarity": "COMMON",
+            "name": "Fish up anything",
+            "content": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "type_specific": {
+                    "fishing_hook": {
+                        "in_open_water": true
+                    }
+                }
+            },
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 85,
+            "timeMult": 3
+        },
+		"fisherman_fishing_2": {
+            "type": "criteria",
+            "rarity": "COMMON",
+            "name": "Fish up anything",
+            "content": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "type_specific": {
+                    "fishing_hook": {
+                        "in_open_water": true
+                    }
+                }
+            },
+            "amount": {
+                "min": 16,
+                "max": 64
+            },
+            "unitWorth": 100,
+            "timeMult": 3
+        },
         "fisherman_obj_string": {
             "type": "item",
             "content": "minecraft:string",
@@ -10,16 +48,6 @@
                 "max": 32
             },
             "unitWorth": 50
-        },
-
-        "fisherman_obj_coal": {
-            "type": "item",
-            "content": "minecraft:coal",
-            "amount": {
-                "min": 3,
-                "max": 16
-            },
-            "unitWorth": 100
         },
 
         "fisherman_obj_cod": {
@@ -76,17 +104,6 @@
             "weightMult": 1.5
         },
 
-        "fisherman_obj_oak_boat": {
-            "type": "item",
-            "rarity": "EPIC",
-            "content": "minecraft:oak_boat",
-            "amount": {
-                "min": 1,
-                "max": 2
-            },
-            "unitWorth": 800.0
-        },
-
         "fisherman_obj_naut_shell": {
             "type": "item",
             "rarity": "EPIC",
@@ -98,15 +115,6 @@
             "unitWorth": 1100.0
         },
 
-        "fisherman_obj_any_boat": {
-            "type": "item_tag",
-            "content": "minecraft:boats",
-            "amount": {
-                "min": 1,
-                "max": 4
-            },
-            "unitWorth": 450
-        },
 
         "fisherman_obj_catch_ench_book": {
             "type": "criteria",
@@ -122,8 +130,28 @@
                 "min": 1,
                 "max": 3
             },
-            "unitWorth": 350,
-            "timeMult": 2
+            "unitWorth": 4500,
+            "timeMult": 6
+        },
+		
+        "fisherman_obj_crab_leg": {
+            "type": "item",
+            "content": "quark:crab_leg",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 159
+        },
+		
+        "fisherman_obj_crab_shell": {
+            "type": "item",
+            "content": "quark:crab_shell",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 320
         }
 
 	}

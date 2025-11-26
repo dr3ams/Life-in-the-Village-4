@@ -1,7 +1,6 @@
 {
 	"objectives": [
-		"cleric_objs",
-		"_all_objs"
+		"cleric_objs"
 	],
 	"rewards": [
 		"cleric_rews",

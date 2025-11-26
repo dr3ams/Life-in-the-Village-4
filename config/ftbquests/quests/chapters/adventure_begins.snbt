@@ -4126,29 +4126,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["366659E50333BC5A"]
-			description: ["To add arrows place it together in a crafting grid"]
-			id: "20C3F195B33F1D45"
-			rewards: [{
-				id: "7C814CFD0AE5702B"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1C3A59816EEDE06A"
-				item: {
-					Count: 1
-					id: "skilltree:quiver"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: -7.5d
-		}
-		{
 			dependencies: ["43EFBBF0712C67B9"]
 			description: [
 				"You will need to &4change the hotkey&r (or unnasign everything else from the button) for toolbelt in Controls. (&nsearch 'toolbelt'&r)"

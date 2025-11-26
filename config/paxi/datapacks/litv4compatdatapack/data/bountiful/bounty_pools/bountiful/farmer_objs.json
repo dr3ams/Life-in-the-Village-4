@@ -19,7 +19,7 @@
 				"min": 4,
 				"max": 36
 			},
-			"unitWorth": 150
+			"unitWorth": 100
 		},
 
 		"farmer_obj_oak_sapling": {
@@ -39,7 +39,7 @@
 				"min": 3,
 				"max": 36
 			},
-			"unitWorth": 40
+			"unitWorth": 30
 		},
 
 		"farmer_obj_melon_seeds": {
@@ -143,7 +143,7 @@
 				"min": 2,
 				"max": 8
 			},
-			"unitWorth": 250
+			"unitWorth": 150
 		},
 
 		"farmer_obj_melon_slice": {

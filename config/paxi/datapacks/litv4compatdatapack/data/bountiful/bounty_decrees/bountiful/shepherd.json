@@ -1,7 +1,6 @@
 {
 	"objectives": [
-		"shepherd_objs",
-		"_all_objs"
+		"shepherd_objs"
 	],
 	"rewards": [
 		"shepherd_rews",

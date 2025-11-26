@@ -1,7 +1,6 @@
 {
 	"objectives": [
-		"inventor_objs",
-		"_all_objs"
+		"inventor_objs"
 	],
 	"rewards": [
 		"inventor_rews",

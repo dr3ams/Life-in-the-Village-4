@@ -54,6 +54,8 @@ drowningBubbleAlpha = 1.0
 forceDrowningBubblesToColumn = false
 potionRingsDisplayType = "DEFAULT"
 potionRingsParticleType = "BOTH"
+potionRingsScale = 1.0
+potionRingsAlpha = 1.0
 NPCsHavePotionRings = true
 
 [humanoids.frostyBreath]
@@ -104,6 +106,7 @@ splashEffects = true
 splashRipples = true
 splashDroplets = true
 splashBubbles = true
+explosionsCauseSplashes = true
 splashOverlayTint = 0.2
 splashOverlayAlpha = 0.8
 splashVelocityThreshold = 0.35

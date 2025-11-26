@@ -1,7 +1,6 @@
 {
 	"objectives": [
-		"butcher_objs",
-		"_all_objs"
+		"butcher_objs"
 	],
 	"rewards": [
 		"butcher_rews",

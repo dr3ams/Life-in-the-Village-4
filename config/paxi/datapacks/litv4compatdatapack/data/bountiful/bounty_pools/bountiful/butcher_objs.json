@@ -29,7 +29,7 @@
 				"min": 2,
 				"max": 16
 			},
-			"unitWorth": 145
+			"unitWorth": 100
 		},
 
 		"butcher_obj_rabbit": {
@@ -39,7 +39,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"unitWorth": 250
+			"unitWorth": 200
 		},
 
 		"butcher_obj_coal": {
@@ -60,7 +60,7 @@
 				"min": 1,
 				"max": 4
 			},
-			"unitWorth": 650
+			"unitWorth": 60
 		},
 
 		"butcher_obj_mutton": {

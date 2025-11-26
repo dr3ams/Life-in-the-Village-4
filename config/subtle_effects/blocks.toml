@@ -73,6 +73,7 @@ openingChestsSpawnsBubbles = true
 chestsOpenRandomlyUnderwater = true
 randomChestOpeningNeedsSoulSand = false
 dispenseItemBubbles = true
+rainIncreasesLeavesSpawningParticles = true
 
 [sparks]
 removeVanillaCampfireSparks = true
