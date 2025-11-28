@@ -57,7 +57,6 @@ event.hide(Item.of('productivebees:spawn_egg_configurable_bee','{EntityTag: {typ
 	event.hide('productivebees:upgrade_time')
 
 	event.hide('waystones:sharestone')
-	event.hide('waystones:warp_plate')
 	event.hide('waystones:portstone')
 	event.hide('waystones:warp_stone')
 	event.hide('waystones:white_sharestone')

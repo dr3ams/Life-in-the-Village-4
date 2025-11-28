@@ -729,56 +729,6 @@
 		}
 		{
 			description: [
-				"&4&nGems&r&r"
-				""
-				"{image:litv3:textures/misc/sockets.png width:100 height:40 align:center}"
-				"You can find &4gems&r in any ore."
-				""
-				"Can be inserted into equipment on a &5smithing table.&r"
-				""
-				"To remove &4gems&r from equipment, you need to insert &9Vacucite&r gem into it. It will &nconsume all&r the gems."
-				""
-				"&9Vacucite&r have a smaller drop chance."
-				""
-				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
-			]
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "skilltree:item/gems/vacucite_3"
-				}
-			}
-			id: "4C3FFE363D391BA4"
-			rewards: [{
-				id: "79C22DEF4BA0EA45"
-				item: {
-					Count: 1
-					id: "skilltree:gem"
-					tag: {
-						type: "skilltree:vacucite_3"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7CA3F519E2ACC5A5"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "skilltree:gems"
-					}
-				}
-				title: "Any #skilltree:gems"
-				type: "item"
-			}]
-			title: "Sockets and gems"
-			x: -1.0d
-			y: -1.0d
-		}
-		{
-			description: [
 				"&6Chests in natural structures can be looted by multiple players and help indicate which structures you have already looted."
 				""
 				"These chests are &6Lootr&r chests, which provide individual loot for every player that comes across it."

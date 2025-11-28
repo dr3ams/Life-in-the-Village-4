@@ -72,6 +72,30 @@ ItemEvents.tooltip(event =>{
         ]) 
   })
   
+  
+        event.addAdvanced('minecraft:phantom_membrane', (item, advanced, text) => {
+		text.add(1, [
+        Text.of('Can be bought in ').white(),
+        Text.of('⭐The Market ').blue(),
+        Text.of('quest chapter, ').white()
+		])
+		text.add(2, [
+		Text.of('(Copper or Dungeon coins) ').white()
+		])    
+	    text.add(3, [
+        Text.of('acquired as ').white(),
+        Text.of('quest rewards, ').darkPurple(),
+		Text.of('or ').white(),
+		Text.of('Bounties ').gold(),
+		Text.of('rewards, ').white()
+		])      
+		text.add(4, [
+        Text.of('or traded with ').white(),
+		Text.of('Goblin Traders').green()
+		])    
+  })
+  
+  
   	event.addAdvanced(['kubejs:copper_coin', 'kubejs:iron_coin', 'kubejs:gold_coin', 'kubejs:diamond_coin'], (item, advanced, text) => {
 	text.add(1, [
         Text.of('Quest coin').gold()
@@ -136,13 +160,25 @@ ItemEvents.tooltip(event =>{
       ])
     } else {
       text.add(1, [
-        Text.of('Can be bought in ').gray(),
+        Text.of('Can be bought in ').white(),
         Text.of('⭐The Market ').blue(),
-        Text.of('quest chapter, acquired as ').gray(),
+        Text.of('quest chapter, ').white()
+      ])
+	    text.add(2, [
+        Text.of('acquired as ').white(),
         Text.of('quest rewards, ').darkPurple(),
-        Text.of('traded with ').gray(),
+		Text.of('or ').white(),
+		Text.of('Bounties ').gold(),
+		Text.of('rewards, ').white()
+      ])      
+	  text.add(3, [
+        Text.of('traded with ').white(),
         Text.of('Bee Queen ').yellow(),
-        Text.of('and found in ').gray(),
+		Text.of('or ').white(),
+		Text.of('Goblin Traders, ').green()
+	   ])    
+		text.add(4, [
+        Text.of('and found in ').white(),
         Text.of('Ribbits villages.').green()
       ])
     }

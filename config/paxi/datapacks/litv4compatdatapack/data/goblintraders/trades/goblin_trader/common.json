@@ -3,20 +3,6 @@
   "trades": [
     {
       "type": "goblintraders:basic",
-      "experience": 4,
-      "max_trades": 24,
-      "offer_item": {
-        "count": 1,
-        "item": "minecraft:emerald"
-      },
-      "payment_item": {
-        "count": 8,
-        "item": "minecraft:apple"
-      },
-      "price_multiplier": 0.0
-    },
-    {
-      "type": "goblintraders:basic",
       "experience": 6,
       "max_trades": 10,
       "offer_item": {

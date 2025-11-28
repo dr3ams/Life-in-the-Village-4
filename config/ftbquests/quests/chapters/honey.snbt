@@ -1600,6 +1600,36 @@
 			x: 9.0d
 			y: 6.0d
 		}
+		{
+			id: "600094FE24FD828B"
+			rewards: [
+				{
+					id: "73489C65AFFB8C7D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "681F7D9591A289F0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29428F754EE9F9BF"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:glowing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
 	]
 	title: "Busy Bees"
 }

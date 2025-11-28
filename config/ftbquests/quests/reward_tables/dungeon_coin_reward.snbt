@@ -124,13 +124,13 @@
 		{ count: 4, item: "minecraft:redstone" }
 		{ count: 4, item: "minecraft:torch" }
 		{ count: 4, item: "minecraft:lapis_lazuli" }
-		{ count: 8, item: "minecraft:stick" }
 		{ count: 4, item: "minecraft:leather" }
 		{ count: 3, item: "spelunkery:mineomite" }
 		{ count: 2, item: "spelunkery:glowstick" }
 		{ item: "villagertools:bribe" }
 		{ item: "villagertools:cure" }
 		{ item: "waystones:warp_scroll" }
+		{ count: 2, item: "minecraft:phantom_membrane", random_bonus: 6 }
 	]
 	title: "Dungeon coin reward"
 }

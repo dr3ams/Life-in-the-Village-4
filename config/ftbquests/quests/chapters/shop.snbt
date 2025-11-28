@@ -808,6 +808,26 @@
 			x: 9.0d
 			y: 2.0d
 		}
+		{
+			can_repeat: true
+			icon: "waystones:warp_plate"
+			id: "71EE587C589DE2B0"
+			rewards: [{
+				count: 2
+				id: "4AA4FE5CACB490B7"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "529912E5615EDA84"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "Warp Plate"
+			x: 0.0d
+			y: 5.0d
+		}
 	]
 	title: "&l&f⭐ The Market&r&r"
 }

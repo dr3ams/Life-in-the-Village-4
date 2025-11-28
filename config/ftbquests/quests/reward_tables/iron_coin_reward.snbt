@@ -117,7 +117,7 @@
 		{ item: "regions_unexplored:pink_magnolia_sapling" }
 		{ item: "regions_unexplored:blue_magnolia_sapling" }
 		{ item: "regions_unexplored:magnolia_sapling" }
-		{ count: 2, item: "minecraft:phantom_membrane", random_bonus: 5 }
+		{ count: 3, item: "minecraft:phantom_membrane", random_bonus: 7 }
 	]
 	title: "Iron coin reward"
 }

@@ -133,13 +133,16 @@
       "mining_dim:ore_redstone_lower",
       "mining_dim:geode_amethyst",
       "mining_dim:geode_nether",
-      "mining_dim:geode_nephrite",
-	  "mining_dim:corpse_flower",
-      "mining_dim:dusktrap",
       "mining_dim:dropleaf",
       "mining_dim:blue_bioshroom",
       "mining_dim:green_bioshroom",
-      "mining_dim:pink_bioshroom"
+      "mining_dim:pink_bioshroom",
+	  "create:striated_ores_overworld",
+	  "create:zinc_ore",
+	  "spelunkery:sulfur_patch",
+	  "oreganized:lead_ore",
+	  "oreganized:silver_ore",
+	  "mining_dim:hanging_prismarite_cluster"
     ]
   ]
 }
