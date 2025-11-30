@@ -1033,52 +1033,7 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["18AC39AD9539D884"]
-			id: "1F988A67F250159F"
-			rewards: [{
-				id: "543C2CA2D0B16249"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "336A43E20C6C69BD"
-				item: "minecraft:blast_furnace"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -4.5d
-		}
-		{
 			dependencies: ["3A7C49FC5AA2927F"]
-			id: "18AC39AD9539D884"
-			rewards: [{
-				id: "5E707E6A1FB0638D"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "492E4F21FA247D83"
-					item: {
-						Count: 1
-						id: "kubejs:hammer_iron"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "64E420126C019B04"
-					item: "create:iron_sheet"
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["0B4EF2A3F8D71088"]
 			icon: "create:andesite_alloy"
 			id: "53BF868730713984"
 			rewards: [{
@@ -1086,30 +1041,13 @@
 				item: "kubejs:copper_coin"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2457D4AD78C23A30"
-					item: "kubejs:dust_zinc"
-					type: "item"
-				}
-				{
-					id: "1C07922A747543A7"
-					item: "kubejs:dust_andesite"
-					type: "item"
-				}
-				{
-					id: "7F7CAD27DD44B48C"
-					item: "kubejs:dust_andesite_alloy"
-					type: "item"
-				}
-				{
-					id: "771A6F725186B81B"
-					item: "create:andesite_alloy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "771A6F725186B81B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			title: "Andesite Alloy"
-			x: 9.0d
+			x: 7.0d
 			y: -4.5d
 		}
 		{
@@ -1283,8 +1221,8 @@
 				}
 			]
 			title: "Iron Armor"
-			x: 5.0d
-			y: -4.0d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["149CB61732F787CF"]
@@ -1474,8 +1412,8 @@
 				id: "747B9E78636AABC1"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: -4.5d
+			x: -3.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["033105F673C5EF80"]
@@ -1509,56 +1447,6 @@
 			title: "It's dangerous to go alone"
 			x: 0.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["366659E50333BC5A"]
-			description: [
-				"There are different types of companions which unique abilities."
-				""
-				"&6- Collector&r"
-				"The collector collects automatic items in a specific radius in his own inventory. You can access the inventory like a normal chest."
-				""
-				"&6- Follower&r"
-				"Is more like a cosmetic mob which will follow you around the world."
-				""
-				"&6- Guard&r"
-				"The guard will protected you from hostile mobs and will attack any target you are attacking. Equip your guard with weapons and armor to deal more damage and to have a better protection."
-				""
-				"&6- Healer&r"
-				"The healer companion heals any player and your own companions in a specific radius. Additional healer will stack up the effect, so if you are traveling with your friends it good to have 1-2 healers in the group."
-				""
-				"&6- Supporter&r"
-				"The supporter companions gives buffs to any player and your own companions in a specific radius. Additional supporter will not stack up, but they will be able to buff the whole group."
-			]
-			icon: "minecraft:lead"
-			id: "02466D62F5A6CA5F"
-			rewards: [{
-				id: "00F01AD186E03151"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "player_companions:guide"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "This mod adds new companions that can help you on your journey."
-			tasks: [
-				{
-					id: "46BEC7D90A99E618"
-					item: "minecraft:lead"
-					type: "item"
-				}
-				{
-					id: "3A53A48BEC6D25BF"
-					item: "player_companions:tame_carrot"
-					type: "item"
-				}
-			]
-			title: "Player companions"
-			x: -3.0d
-			y: -7.0d
 		}
 		{
 			dependencies: ["733A59C038C65E4B"]
@@ -2331,7 +2219,7 @@
 				type: "advancement"
 			}]
 			x: -2.5d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["733A59C038C65E4B"]
@@ -2356,7 +2244,7 @@
 				type: "advancement"
 			}]
 			x: 6.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["733A59C038C65E4B"]
@@ -3923,29 +3811,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1F988A67F250159F"]
-			description: [
-				"&3Zinc ore&r must be mined with an &7Iron pickaxe&r or higher."
-				""
-				"It can generate in the &2Overworld&r in the form of Blobs."
-				""
-				"It can be found between Y levels &6&n-63 to 70&r&r."
-			]
-			id: "0B4EF2A3F8D71088"
-			rewards: [{
-				id: "55A5CFB708A8F498"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "109953A3A8856E67"
-				item: "create:raw_zinc"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.5d
-		}
-		{
 			dependencies: ["3A7C49FC5AA2927F"]
 			id: "55C87018D524A77E"
 			rewards: [{
@@ -4244,8 +4109,8 @@
 				type: "item"
 			}]
 			title: "Movement options"
-			x: -3.0d
-			y: 1.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3A7C49FC5AA2927F"]
@@ -4472,6 +4337,42 @@
 			}]
 			x: -5.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["1966320B37D990A0"]
+			description: ["Cooks clay, cobblestone, cobbled deepslate, bricks, terracotta, etc. at double speed"]
+			id: "45AE2514BC48A471"
+			tasks: [{
+				id: "11E8BA48CD28C5DB"
+				item: "workstations:kiln"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1966320B37D990A0"]
+			description: ["Cooks logs into charcoal at 2x speed."]
+			id: "216DA3064A4F4DC4"
+			tasks: [{
+				id: "5475A1C7884F8FA2"
+				item: "workstations:coking_oven"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1966320B37D990A0"]
+			description: ["Cooks sand into glass at double speed."]
+			id: "297CF0E003C36379"
+			tasks: [{
+				id: "54D960F951AE6AEB"
+				item: "workstations:glassblower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
 		}
 	]
 	title: "&2Adventure Begins&r"

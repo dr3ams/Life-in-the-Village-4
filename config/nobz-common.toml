@@ -6,4 +6,6 @@ spawnBabyHusks = false
 spawnBabyPigmen = false
 #Spawn baby drowned
 spawnBabyDrowned = false
+#Prevent all baby hostile mobs from spawning (for compatibility with modded mobs)
+preventHostileBabies = true
 

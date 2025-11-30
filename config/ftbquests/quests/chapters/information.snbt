@@ -17,12 +17,7 @@
 		y: 1.5d
 	}]
 	order_index: 0
-	quest_links: [{
-		id: "6130A183B08E47F5"
-		linked_quest: "02466D62F5A6CA5F"
-		x: -3.0d
-		y: 4.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			description: [
@@ -378,68 +373,6 @@
 			y: -3.0d
 		}
 		{
-			description: ["The Global Skin Library loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."]
-			id: "4DCD0744847F44B8"
-			rewards: [{
-				id: "7FBB9EAE677E1BB5"
-				type: "xp"
-				xp: 20
-			}]
-			subtitle: "Apply custom skins to anything: from equipment to blocks!"
-			tasks: [{
-				id: "483DFE0BA1E6149D"
-				item: "armourers_workshop:skin-library-global"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4DCD0744847F44B8"]
-			description: ["This is your local skin library"]
-			icon: "armourers_workshop:skin-library"
-			id: "789F5AA2E53CFE82"
-			rewards: [{
-				id: "5F170B5F24C8424D"
-				type: "xp"
-				xp: 20
-			}]
-			size: 1.0d
-			tasks: [
-				{
-					id: "6018EBA6E3FC1694"
-					item: "armourers_workshop:skin-library"
-					type: "item"
-				}
-				{
-					id: "48536602B54C6B4C"
-					item: "armourers_workshop:skin-template"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["789F5AA2E53CFE82"]
-			description: [""]
-			id: "7B0A6930B521088F"
-			rewards: [{
-				id: "30B0B51473AFD1DA"
-				type: "xp"
-				xp: 20
-			}]
-			size: 1.0d
-			subtitle: "For applying skins from your local skin library"
-			tasks: [{
-				id: "460571AA8E2DF4C7"
-				item: "armourers_workshop:skinning-table"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.5d
-		}
-		{
 			dependencies: ["444EE0B011D2925F"]
 			description: [""]
 			icon: "minecraft:crafting_table"
@@ -449,7 +382,7 @@
 					command: "/curios add ring @s 1"
 					elevate_perms: true
 					exclude_from_claim_all: true
-					icon: "skilltree:copper_ring"
+					icon: "artifacts:onion_ring"
 					id: "1AA44AF1304BA127"
 					silent: true
 					title: "+1 Ring Curio Slot"
@@ -841,8 +774,8 @@
 				title: "Cosmetic Armor Slots"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -868,7 +801,7 @@
 			}]
 			title: "More Movement Options"
 			x: 1.0d
-			y: -1.0d
+			y: -3.0d
 		}
 	]
 	title: "&l&f⭐ Information&r&r"

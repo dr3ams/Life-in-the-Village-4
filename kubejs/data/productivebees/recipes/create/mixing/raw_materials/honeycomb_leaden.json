@@ -13,7 +13,7 @@
   ],
   "results": [
     {
-      "item": "thermal:raw_lead",
+      "item": "oreganized:raw_lead",
       "chance": 0.4
     },
     {
@@ -29,10 +29,6 @@
     {
       "type": "forge:mod_loaded",
       "modid": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "modid": "thermal"
     }
   ]
 }
